@@ -1,1 +1,5 @@
 .venv
+/player_stats_90.csv
+/player_stats_all.csv
+/valorant_player_data.csv
+/valorant_team_data.csv
