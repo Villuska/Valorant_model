@@ -15,23 +15,23 @@ from selenium.webdriver.chrome.options import Options
 import re
 import datetime
 
-def add_players_to_csv(player_tuple):
+def add_players_to_csv(player_tuple, team):
     name = player_tuple[0]
     url = player_tuple[1]
     if not "?timespan=all" in url:
         url = url + "?timespan=all"
 
     url_90 = url + "/?timespan=90d"
-    columns = ['name', 'url', 'url_90d']
+    columns = ['name', 'team', 'url', 'url_90d']
     if os.path.exists("players.csv"):
         if url not in pd.read_csv("players.csv")['url']:
-            df = pd.DataFrame(columns=columns, data=[[name, url, url_90]])
+            df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90]])
             df.to_csv("players.csv", header=False, mode='a', index=False)
     else:
-        df = pd.DataFrame(columns=columns, data=[[name, url, url_90]])
+        df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90]])
         df.to_csv("players.csv", index=False)
 
-def get_players_from_soup(soup):
+def get_players_from_soup(soup, team):
     player_urls = []
     players = []
     elements = soup.find_all('div', class_="team-roster-item")
@@ -51,20 +51,77 @@ def get_players_from_soup(soup):
 
     combined_list = list(zip(players, player_urls))
     for i in combined_list:
-        add_players_to_csv(i)
+        add_players_to_csv(i, team)
     return players
 
 def get_team_data_from_soup(soup):
-    pass
+    abrrevation = None
+    name = None
+    try:
+        name = soup.find_all('h1', class_="wf-title")[0].text
+    except IndexError:
+        name = None
+    try:
+        abrrevation = soup.find_all('h2', class_="wf-title team-header-tag")[0].text
+    except IndexError:
+        abrrevation = None
+    return name, abrrevation
 
 def get_last_change(url):
-    pass
+    url = url.replace("/team/", "/team/transactions/")
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        table = soup.find_all('table', class_="wf-faux-table")[0]
+            # If you want to extract rows from the table
+        rows = table.find_all('tr')
+        trans_list = []
+        for row in rows:
+            # Extract cells (td or th) from the row
+            cells = row.find_all(['td', 'th'])
+            cell_data = [cell.text.strip().replace("\t", "") for cell in cells]
+            trans_list.append(cell_data)
+        data = trans_list[1:]
+        try:
+            first_date = data[0][0]
+            count = sum(1 for inner_list in data if inner_list[0] == first_date and inner_list[4] == 'Player')
+            first_date = first_date.replace("/", "-")
+        except IndexError:
+            first_date = "2024-06-06"
+            count = 0
+        return first_date, count
 
+    return "2024-06-06", 0
 
 def get_team_data_and_add_players(url):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
-        players = get_players_from_soup(soup)
-        
-get_team_data_and_add_players("https://www.vlr.gg/team/16898/trust-in-plug")
+        name, abbrevation = get_team_data_from_soup(soup)
+        players = get_players_from_soup(soup, name)
+        last_change, changes = get_last_change(url)
+        columns = ['team', 'abbrevation', 'players', 'last_change', 'changes', 'url']
+        if os.path.exists("teams.csv"):
+            if url not in pd.read_csv("teams.csv")['url']:
+                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, players, last_change, changes, url]])
+                print("")
+                df.to_csv("teams.csv", header=False, mode='a', index=False)
+                print(df)
+                print("")
+        else:
+            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, players, last_change, changes, url]])
+            df.to_csv("teams.csv", index=False)
+            print("")
+            print(df)
+            print("")
+
+def main():
+    urls = list(pd.read_csv("team_links.csv")['url'])
+    for url in urls:     
+        get_team_data_and_add_players(url)
+    print("")
+    print("Scraping done!")
+    print("")
+
+if __name__ == "__main__":
+    main()
