@@ -1,0 +1,600 @@
+Player,Team,Rating,ACS,KD,ADR,KAST,KPR,APR,FKPR,FDPR,Total_Rounds_Played,url,tier_m,region_m
+abu,esports team αD,0.811,149.542,0.754,98.834,0.689,0.542,0.342,0.06,0.058,292.0,https://www.vlr.gg/player/49679/abu?timespan=all/?timespan=90d,0.955,0.84
+niki,esports team αD,0.936,181.508,0.875,124.845,0.662,0.623,0.303,0.069,0.084,588.0,https://www.vlr.gg/player/43066/niki?timespan=all/?timespan=90d,0.955,0.84
+Han,esports team αD,1.067,205.041,1.064,139.253,0.715,0.737,0.241,0.068,0.044,588.0,https://www.vlr.gg/player/34825/han?timespan=all/?timespan=90d,0.955,0.84
+EscO,esports team αD,0.999,218.651,1.048,141.537,0.663,0.775,0.159,0.199,0.169,588.0,https://www.vlr.gg/player/27458/esco?timespan=all/?timespan=90d,0.955,0.84
+Kyuanyami,esports team αD,0.87,168.3,0.85,109.1,0.67,0.59,0.36,0.05,0.03,138.0,https://www.vlr.gg/player/49238/kyuanyami?timespan=all/?timespan=90d,,
+YuRelly,esports team αD,0.733,153.456,0.695,97.019,0.662,0.526,0.282,0.055,0.105,158.0,https://www.vlr.gg/player/12930/yurelly?timespan=all/?timespan=90d,0.978,0.92
+Brofeld,CREST GAMING Zst,0.79,154.6,0.76,103.4,0.66,0.54,0.22,0.07,0.08,207.0,https://www.vlr.gg/player/2400/brofeld?timespan=all/?timespan=90d,0.97,0.893
+bazz,CREST GAMING Zst,0.958,202.061,0.986,134.19,0.756,0.708,0.321,0.061,0.109,207.0,https://www.vlr.gg/player/6702/bazz?timespan=all/?timespan=90d,0.97,0.892
+KEN,CREST GAMING Zst,1.118,236.28,1.125,155.886,0.68,0.788,0.293,0.22,0.167,207.0,https://www.vlr.gg/player/45962/ken?timespan=all/?timespan=90d,0.978,0.926
+Kapi,CREST GAMING Zst,0.916,174.891,0.891,116.553,0.726,0.626,0.373,0.033,0.084,207.0,https://www.vlr.gg/player/40736/kapi?timespan=all/?timespan=90d,0.978,0.92
+sakurai,CREST GAMING Zst,1.122,212.414,1.065,136.313,0.713,0.753,0.413,0.092,0.096,207.0,https://www.vlr.gg/player/1009/sakurai?timespan=all/?timespan=90d,0.973,0.904
+BMV,LAZY,1.087,204.196,1.198,133.369,0.733,0.771,0.235,0.083,0.085,455.0,https://www.vlr.gg/player/2440/bmv?timespan=all/?timespan=90d,,
+moefcute,LAZY,1.237,278.759,1.312,176.377,0.727,0.97,0.206,0.231,0.165,641.0,https://www.vlr.gg/player/14228/moefcute?timespan=all/?timespan=90d,,
+Akashi,LAZY,0.924,165.536,0.872,113.269,0.732,0.578,0.345,0.048,0.072,641.0,https://www.vlr.gg/player/3908/akashi?timespan=all/?timespan=90d,,
+Louboutin,LAZY,1.09,218.454,1.115,142.566,0.748,0.767,0.325,0.095,0.068,641.0,https://www.vlr.gg/player/23041/louboutin?timespan=all/?timespan=90d,,
+Hyzee,LAZY,1.105,215.812,1.075,144.947,0.732,0.783,0.388,0.098,0.071,186.0,https://www.vlr.gg/player/1433/hyzee?timespan=all/?timespan=90d,0.955,0.825
+LeVi,RIVAL,1.029,186.195,1.047,121.444,0.733,0.661,0.342,0.052,0.069,625.0,https://www.vlr.gg/player/18704/levi?timespan=all/?timespan=90d,,
+azys,RIVAL,1.375,297.596,1.534,186.686,0.741,1.062,0.201,0.219,0.144,625.0,https://www.vlr.gg/player/13221/azys?timespan=all/?timespan=90d,1.0,1.0
+DEATHMAKER,RIVAL,1.026,196.378,1.063,132.994,0.715,0.691,0.23,0.084,0.096,625.0,https://www.vlr.gg/player/3628/deathmaker?timespan=all/?timespan=90d,1.0,1.0
+Antidote,RIVAL,0.938,168.93,0.955,109.94,0.721,0.59,0.349,0.056,0.067,625.0,https://www.vlr.gg/player/3269/antidote?timespan=all/?timespan=90d,1.0,1.0
+rawfiul,RIVAL,1.095,218.876,1.211,145.08,0.736,0.784,0.222,0.116,0.104,625.0,https://www.vlr.gg/player/12947/rawfiul?timespan=all/?timespan=90d,1.0,1.0
+mitch,Cloud9,0.855,158.179,0.805,108.758,0.633,0.538,0.385,0.075,0.095,106.0,https://www.vlr.gg/player/612/mitch?timespan=all/?timespan=90d,0.959,0.947
+Xeppaa,Cloud9,0.978,197.42,0.966,124.749,0.747,0.713,0.479,0.069,0.089,329.0,https://www.vlr.gg/player/7871/xeppaa?timespan=all/?timespan=90d,0.996,0.994
+v1c,Cloud9,0.99,175.976,0.944,114.328,0.761,0.611,0.493,0.069,0.072,502.0,https://www.vlr.gg/player/17433/v1c?timespan=all/?timespan=90d,0.848,0.97
+OXY,Cloud9,1.207,270.371,1.259,172.215,0.75,0.934,0.219,0.236,0.179,502.0,https://www.vlr.gg/player/18796/oxy?timespan=all/?timespan=90d,0.917,0.992
+moose,Cloud9,0.903,158.046,0.9,105.772,0.7,0.555,0.257,0.059,0.081,502.0,https://www.vlr.gg/player/7458/moose?timespan=all/?timespan=90d,0.887,0.995
+PatMen,ZOL Esports,1.194,265.41,1.251,174.829,0.77,0.948,0.255,0.235,0.186,468.0,https://www.vlr.gg/player/13744/patmen?timespan=all/?timespan=90d,0.955,0.825
+ZYND,ZOL Esports,1.0,201.735,1.04,131.94,0.683,0.722,0.198,0.102,0.106,503.0,https://www.vlr.gg/player/16953/zynd?timespan=all/?timespan=90d,0.955,0.825
+jEEE,ZOL Esports,0.966,183.719,0.947,122.4,0.764,0.653,0.358,0.055,0.059,503.0,https://www.vlr.gg/player/21677/jeee?timespan=all/?timespan=90d,0.955,0.825
+Kakarot,ZOL Esports,0.932,177.504,0.857,116.52,0.712,0.592,0.411,0.058,0.061,431.0,https://www.vlr.gg/player/9737/kakarot?timespan=all/?timespan=90d,0.955,0.825
+Kevzii,ZOL Esports,1.186,215.948,1.164,150.125,0.728,0.765,0.267,0.094,0.053,503.0,https://www.vlr.gg/player/7746/kevzii?timespan=all/?timespan=90d,0.955,0.802
+JCL,ZOL Esports,0.835,154.604,0.709,95.5,0.78,0.498,0.706,0.027,0.067,72.0,https://www.vlr.gg/player/42331/jcl?timespan=all/?timespan=90d,,
+Fixy,Unsigned5,1.006,249.781,1.109,159.649,0.684,0.865,0.164,0.199,0.201,396.0,https://www.vlr.gg/player/45876/fixy?timespan=all/?timespan=90d,0.955,0.825
+Riza,Unsigned5,1.213,237.777,1.302,154.57,0.78,0.857,0.284,0.107,0.08,396.0,https://www.vlr.gg/player/7443/riza?timespan=all/?timespan=90d,0.955,0.825
+Flaring,Unsigned5,1.078,190.695,1.163,124.385,0.759,0.692,0.4,0.051,0.051,396.0,https://www.vlr.gg/player/5886/flaring?timespan=all/?timespan=90d,0.955,0.825
+markL,Unsigned5,0.995,187.386,1.05,127.14,0.702,0.678,0.232,0.088,0.08,396.0,https://www.vlr.gg/player/7513/markl?timespan=all/?timespan=90d,0.955,0.802
+Iceyyy,Unsigned5,1.472,328.9,1.626,198.56,0.775,1.176,0.253,0.274,0.126,40.0,https://www.vlr.gg/player/46046/iceyyy?timespan=all/?timespan=90d,0.955,0.825
+JoXJo,RIDDLE ORDER,1.063,194.999,0.968,129.027,0.766,0.628,0.63,0.107,0.043,249.0,https://www.vlr.gg/player/4663/joxjo?timespan=all/?timespan=90d,0.968,0.884
+Minty,RIDDLE ORDER,1.092,198.608,1.182,128.928,0.772,0.709,0.346,0.099,0.075,249.0,https://www.vlr.gg/player/5476/minty?timespan=all/?timespan=90d,0.966,0.878
+Caedye,RIDDLE ORDER,1.231,260.839,1.396,168.045,0.749,0.9,0.215,0.156,0.092,249.0,https://www.vlr.gg/player/29841/caedye?timespan=all/?timespan=90d,0.978,0.916
+Seoldam,RIDDLE ORDER,1.279,283.906,1.584,167.437,0.746,1.046,0.141,0.2,0.119,249.0,https://www.vlr.gg/player/10584/seoldam?timespan=all/?timespan=90d,0.993,0.974
+yatsuka,RIDDLE ORDER,1.11,174.364,1.272,121.782,0.737,0.661,0.274,0.062,0.058,249.0,https://www.vlr.gg/player/29843/yatsuka?timespan=all/?timespan=90d,0.978,0.916
+keisu,BLUE BEES.ESP,0.916,214.998,0.953,137.589,0.634,0.739,0.17,0.155,0.243,288.0,https://www.vlr.gg/player/49681/keisu?timespan=all/?timespan=90d,0.955,0.84
+Lafura,BLUE BEES.ESP,1.016,217.642,1.04,147.419,0.66,0.768,0.193,0.105,0.084,288.0,https://www.vlr.gg/player/32823/lafura?timespan=all/?timespan=90d,0.955,0.84
+Zan,BLUE BEES.ESP,0.925,182.222,0.824,116.347,0.692,0.629,0.526,0.092,0.101,288.0,https://www.vlr.gg/player/17091/zan?timespan=all/?timespan=90d,0.955,0.84
+e9Lair,BLUE BEES.ESP,0.95,170.764,0.865,117.772,0.667,0.579,0.286,0.055,0.062,288.0,https://www.vlr.gg/player/34705/e9lair?timespan=all/?timespan=90d,0.955,0.84
+kenmohororo,BLUE BEES.ESP,1.027,190.842,0.936,120.962,0.703,0.66,0.435,0.068,0.043,288.0,https://www.vlr.gg/player/2508/kenmohororo?timespan=all/?timespan=90d,0.966,0.88
+GANGAZI,CNEsports,0.89,182.598,0.846,120.903,0.712,0.641,0.234,0.052,0.095,186.0,https://www.vlr.gg/player/4650/gangazi?timespan=all/?timespan=90d,,
+kobra,CNEsports,0.955,226.486,0.953,145.135,0.696,0.785,0.181,0.199,0.166,153.0,https://www.vlr.gg/player/4563/kobra?timespan=all/?timespan=90d,0.955,0.84
+Melser,KRÜ Esports,1.122,191.43,1.2,122.779,0.737,0.692,0.275,0.125,0.047,189.0,https://www.vlr.gg/player/1311/melser?timespan=all/?timespan=90d,1.0,0.998
+keznit,KRÜ Esports,1.188,229.751,1.213,153.878,0.725,0.812,0.196,0.21,0.129,189.0,https://www.vlr.gg/player/2462/keznit?timespan=all/?timespan=90d,1.0,0.998
+Mazino,KRÜ Esports,1.19,211.73,1.233,138.681,0.726,0.792,0.473,0.088,0.068,189.0,https://www.vlr.gg/player/7603/mazino?timespan=all/?timespan=90d,1.0,0.998
+adverso,KRÜ Esports,0.853,175.81,0.848,114.025,0.69,0.594,0.295,0.095,0.101,189.0,https://www.vlr.gg/player/3826/adverso?timespan=all/?timespan=90d,0.991,0.926
+Shyy,KRÜ Esports,0.95,176.2,0.95,116.0,0.76,0.61,0.26,0.06,0.07,189.0,https://www.vlr.gg/player/24007/shyy?timespan=all/?timespan=90d,1.0,0.998
+Ketzai,Unicorn Cyber Esports,0.808,180.6,0.817,116.951,0.641,0.608,0.243,0.1,0.142,672.0,https://www.vlr.gg/player/49584/ketzai?timespan=all/?timespan=90d,,
+QuinT,Unicorn Cyber Esports,0.98,169.645,0.898,117.429,0.703,0.607,0.397,0.044,0.059,707.0,https://www.vlr.gg/player/49565/quint?timespan=all/?timespan=90d,,
+X1nh,Unicorn Cyber Esports,0.935,215.004,0.946,139.393,0.665,0.75,0.225,0.16,0.157,707.0,https://www.vlr.gg/player/49566/x1nh?timespan=all/?timespan=90d,,
+prettyMy,Unicorn Cyber Esports,0.842,175.714,0.671,116.966,0.659,0.575,0.401,0.0,0.089,35.0,https://www.vlr.gg/player/49567/prettymy?timespan=all/?timespan=90d,,
+KeA,Unicorn Cyber Esports,1.073,200.725,1.049,131.197,0.726,0.719,0.324,0.057,0.045,707.0,https://www.vlr.gg/player/8165/kea?timespan=all/?timespan=90d,0.955,0.825
+Creamm,Unicorn Cyber Esports,0.969,222.076,0.979,145.473,0.653,0.746,0.195,0.123,0.13,707.0,https://www.vlr.gg/player/49564/creamm?timespan=all/?timespan=90d,,
+Sunshine,TYLOO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/14453/sunshine?timespan=all/?timespan=90d,0.0,0.0
+Curvezy,Randoms,0.585,134.343,0.617,88.891,0.539,0.46,0.257,0.0,0.117,35.0,https://www.vlr.gg/player/49878/curvezy?timespan=all/?timespan=90d,,
+Kakashiii,Randoms,0.999,221.32,1.002,152.365,0.697,0.75,0.278,0.109,0.126,369.0,https://www.vlr.gg/player/33039/kakashiii?timespan=all/?timespan=90d,0.955,0.76
+Planko,Randoms,0.863,187.633,0.865,122.379,0.645,0.664,0.202,0.065,0.103,369.0,https://www.vlr.gg/player/44958/planko?timespan=all/?timespan=90d,0.955,0.76
+Mythical,Randoms,0.835,188.13,0.847,124.671,0.638,0.666,0.182,0.116,0.154,369.0,https://www.vlr.gg/player/12965/mythical?timespan=all/?timespan=90d,0.955,0.76
+Monokuma,Randoms,0.993,209.832,1.034,139.987,0.659,0.726,0.21,0.1,0.12,312.0,https://www.vlr.gg/player/34217/monokuma?timespan=all/?timespan=90d,0.955,0.76
+Astin,Randoms,1.02,216.173,1.059,135.142,0.732,0.774,0.3,0.061,0.073,318.0,https://www.vlr.gg/player/43143/astin?timespan=all/?timespan=90d,0.955,0.76
+Nikuu,Randoms,0.919,165.849,0.866,112.722,0.753,0.578,0.44,0.043,0.055,73.0,https://www.vlr.gg/player/34243/nikuu?timespan=all/?timespan=90d,,
+AC,Titan Esports Club,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/14445/ac?timespan=all/?timespan=90d,1.0,1.0
+Haodong,Titan Esports Club,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4720/haodong?timespan=all/?timespan=90d,1.0,1.0
+Abo,Titan Esports Club,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/5011/abo?timespan=all/?timespan=90d,1.0,1.0
+Rb,Titan Esports Club,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/488/rb?timespan=all/?timespan=90d,1.0,1.0
+B1ack,Titan Esports Club,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/30526/b1ack?timespan=all/?timespan=90d,1.0,1.0
+P0PPIN,RANKERS,1.194,213.394,1.316,137.431,0.761,0.765,0.341,0.091,0.085,570.0,https://www.vlr.gg/player/21778/p0ppin?timespan=all/?timespan=90d,0.837,0.94
+Eggsterr,RANKERS,1.18,223.2,1.34,143.2,0.78,0.82,0.31,0.11,0.1,570.0,https://www.vlr.gg/player/35302/eggsterr?timespan=all/?timespan=90d,0.921,0.93
+nightz,RANKERS,1.072,230.481,1.124,144.74,0.726,0.827,0.308,0.143,0.111,1435.0,https://www.vlr.gg/player/41798/nightz?timespan=all/?timespan=90d,0.927,0.93
+Inspire,RANKERS,1.072,185.9,1.204,120.904,0.756,0.657,0.246,0.076,0.063,570.0,https://www.vlr.gg/player/53/inspire?timespan=all/?timespan=90d,0.963,0.962
+canezera,RANKERS,1.195,271.495,1.298,175.544,0.747,0.938,0.284,0.181,0.14,1531.0,https://www.vlr.gg/player/36560/canezera?timespan=all/?timespan=90d,0.921,0.93
+o0o0o,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4402/o0o0o?timespan=all/?timespan=90d,0.997,0.986
+OBONE,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/36670/obone?timespan=all/?timespan=90d,0.995,0.973
+SWERL,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/1209/swerl?timespan=all/?timespan=90d,1.0,1.0
+CB,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/39697/cb?timespan=all/?timespan=90d,1.0,1.0
+Ezeir,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/46460/ezeir?timespan=all/?timespan=90d,1.0,1.0
+GuanG,Nova Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/41054/guang?timespan=all/?timespan=90d,1.0,1.0
+YOME,DRX Changers,0.69,125.3,0.63,78.5,0.74,0.46,0.44,0.06,0.04,81.0,https://www.vlr.gg/player/29269/yome?timespan=all/?timespan=90d,0.3,1.0
+Ache,DRX Changers,0.67,125.8,0.65,86.8,0.65,0.42,0.17,0.04,0.05,81.0,https://www.vlr.gg/player/43037/ache?timespan=all/?timespan=90d,0.3,1.0
+raafa,FURIA,0.897,170.685,0.842,109.985,0.69,0.56,0.436,0.08,0.109,255.0,https://www.vlr.gg/player/25743/raafa?timespan=all/?timespan=90d,1.0,0.933
+heat,FURIA,1.097,212.035,1.193,147.478,0.686,0.778,0.129,0.1,0.098,255.0,https://www.vlr.gg/player/8673/heat?timespan=all/?timespan=90d,1.0,1.0
+mwzera,FURIA,1.226,222.837,1.395,144.449,0.763,0.826,0.238,0.08,0.029,255.0,https://www.vlr.gg/player/939/mwzera?timespan=all/?timespan=90d,1.0,1.0
+havoc,FURIA,1.135,231.039,1.216,148.673,0.708,0.796,0.111,0.266,0.149,255.0,https://www.vlr.gg/player/8706/havoc?timespan=all/?timespan=90d,1.0,1.0
+Khalil,FURIA,0.909,160.324,0.897,104.979,0.749,0.556,0.354,0.024,0.061,255.0,https://www.vlr.gg/player/1711/khalil?timespan=all/?timespan=90d,1.0,1.0
+ckuma,Chaos Alliance,0.49,109.0,0.38,81.5,0.53,0.35,0.12,0.0,0.06,17.0,https://www.vlr.gg/player/42541/ckuma?timespan=all/?timespan=90d,0.955,0.825
+Uta,Chaos Alliance,0.93,213.2,0.91,142.3,0.68,0.75,0.21,0.14,0.18,126.0,https://www.vlr.gg/player/7851/uta?timespan=all/?timespan=90d,0.993,0.97
+CHAK,Chaos Alliance,0.813,175.959,0.808,114.837,0.684,0.657,0.216,0.058,0.113,126.0,https://www.vlr.gg/player/47977/chak?timespan=all/?timespan=90d,0.955,0.802
+YoWamu,BABO,0.949,232.307,1.021,150.476,0.722,0.776,0.215,0.228,0.252,290.0,https://www.vlr.gg/player/34785/yowamu?timespan=all/?timespan=90d,0.955,0.84
+Ask,BABO,1.088,218.593,1.113,141.612,0.746,0.732,0.296,0.078,0.062,290.0,https://www.vlr.gg/player/23971/ask?timespan=all/?timespan=90d,0.962,0.867
+Ady,REVE RISE MAX,1.175,212.295,1.176,137.605,0.765,0.75,0.442,0.076,0.041,290.0,https://www.vlr.gg/player/47467/ady?timespan=all/?timespan=90d,0.955,0.84
+kurozooted,BABO,0.976,170.549,0.969,114.233,0.734,0.635,0.396,0.034,0.071,290.0,https://www.vlr.gg/player/10658/kurozooted?timespan=all/?timespan=90d,0.978,0.92
+ScoPe,REVE RISE MAX,0.986,182.406,1.066,123.48,0.694,0.692,0.151,0.1,0.074,290.0,https://www.vlr.gg/player/47469/scope?timespan=all/?timespan=90d,0.955,0.84
+NT2k,Team Big BAAM,1.101,221.449,1.14,144.294,0.725,0.783,0.338,0.155,0.115,870.0,https://www.vlr.gg/player/14227/nt2k?timespan=all/?timespan=90d,,
+LilHieu,Team Big BAAM,0.986,218.774,1.024,141.354,0.696,0.755,0.238,0.125,0.146,870.0,https://www.vlr.gg/player/21840/lilhieu?timespan=all/?timespan=90d,,
+nTK,Team Big BAAM,1.073,203.54,1.108,138.838,0.72,0.723,0.296,0.088,0.078,870.0,https://www.vlr.gg/player/1432/ntk?timespan=all/?timespan=90d,,
+P1nA,Team Big BAAM,1.086,198.321,1.081,130.218,0.734,0.691,0.435,0.081,0.076,765.0,https://www.vlr.gg/player/1431/p1na?timespan=all/?timespan=90d,,
+KimHung2k5,Team Big BAAM,1.094,217.345,1.125,145.826,0.662,0.762,0.227,0.071,0.077,412.0,https://www.vlr.gg/player/49818/kimhung2k5?timespan=all/?timespan=90d,,
+gobera,2Game Esports,1.13,212.796,1.211,140.457,0.671,0.763,0.194,0.105,0.1,181.0,https://www.vlr.gg/player/14950/gobera?timespan=all/?timespan=90d,1.0,0.978
+pryze,2Game Esports,0.98,166.679,0.967,113.132,0.69,0.58,0.265,0.045,0.078,203.0,https://www.vlr.gg/player/662/pryze?timespan=all/?timespan=90d,0.989,0.983
+lz,2Game Esports,1.004,181.034,1.011,119.572,0.689,0.657,0.368,0.054,0.061,203.0,https://www.vlr.gg/player/6195/lz?timespan=all/?timespan=90d,0.989,0.983
+spike,2Game Esports,0.976,218.856,0.993,138.344,0.761,0.746,0.338,0.156,0.11,203.0,https://www.vlr.gg/player/21661/spike?timespan=all/?timespan=90d,0.989,0.983
+silentzz,2Game Esports,0.757,182.543,0.813,118.057,0.661,0.647,0.136,0.14,0.167,203.0,https://www.vlr.gg/player/11921/silentzz?timespan=all/?timespan=90d,0.989,0.983
+faithz0r,2Game Esports,0.29,76.0,0.3,53.0,0.41,0.27,0.09,0.0,0.09,22.0,https://www.vlr.gg/player/14482/faithz0r?timespan=all/?timespan=90d,0.0,0.0
+Kr1stal,Global Esports,1.34,239.444,1.482,162.689,0.805,0.821,0.377,0.093,0.042,312.0,https://www.vlr.gg/player/5796/kr1stal?timespan=all/?timespan=90d,0.874,0.906
+kellyS,Global Esports,1.089,209.752,1.148,132.654,0.816,0.761,0.334,0.08,0.086,312.0,https://www.vlr.gg/player/7437/kellys?timespan=all/?timespan=90d,0.894,0.829
+Papi,Global Esports,1.168,194.112,1.238,126.636,0.79,0.689,0.449,0.064,0.047,312.0,https://www.vlr.gg/player/13219/papi?timespan=all/?timespan=90d,0.904,0.833
+SPARTA,Exsto Gaming,0.867,166.202,0.84,123.255,0.707,0.566,0.278,0.082,0.111,62.0,https://www.vlr.gg/player/49677/sparta?timespan=all/?timespan=90d,,
+sommboiii,Exsto Gaming,1.029,193.174,1.053,128.312,0.737,0.688,0.31,0.092,0.072,170.0,https://www.vlr.gg/player/5209/sommboiii?timespan=all/?timespan=90d,0.955,0.76
+Spartabang,Exsto Gaming,1.103,233.203,1.15,153.468,0.748,0.829,0.325,0.088,0.114,170.0,https://www.vlr.gg/player/37185/spartabang?timespan=all/?timespan=90d,0.955,0.76
+Rossi,Exsto Gaming,1.058,247.275,1.041,160.061,0.74,0.782,0.303,0.243,0.139,170.0,https://www.vlr.gg/player/31640/rossi?timespan=all/?timespan=90d,0.955,0.76
+Kyun,Exsto Gaming,0.923,190.063,1.018,122.411,0.659,0.682,0.223,0.058,0.076,108.0,https://www.vlr.gg/player/17990/kyun?timespan=all/?timespan=90d,0.955,0.76
+MrFaliN,FUT Esports,1.13,201.623,1.214,133.002,0.757,0.689,0.44,0.084,0.065,302.0,https://www.vlr.gg/player/8044/mrfalin?timespan=all/?timespan=90d,0.982,1.0
+xeus,FUT Esports,1.078,237.394,1.174,155.533,0.709,0.841,0.195,0.205,0.196,302.0,https://www.vlr.gg/player/12793/xeus?timespan=all/?timespan=90d,1.0,1.0
+yetujey,FUT Esports,1.248,231.949,1.408,147.97,0.752,0.84,0.188,0.122,0.076,302.0,https://www.vlr.gg/player/8369/yetujey?timespan=all/?timespan=90d,0.981,1.0
+AtaKaptan,FUT Esports,1.13,213.3,1.19,139.2,0.72,0.75,0.46,0.11,0.08,152.0,https://www.vlr.gg/player/6510/atakaptan?timespan=all/?timespan=90d,0.984,1.0
+cNed,FUT Esports,1.28,273.546,1.425,176.268,0.782,0.969,0.206,0.215,0.121,226.0,https://www.vlr.gg/player/573/cned?timespan=all/?timespan=90d,0.982,1.0
+qRaxs,FUT Esports,1.038,185.748,1.049,120.168,0.764,0.658,0.391,0.045,0.05,302.0,https://www.vlr.gg/player/1139/qraxs?timespan=all/?timespan=90d,0.982,1.0
+Squish,Dreams To Legends,1.002,227.144,0.964,153.61,0.679,0.77,0.241,0.205,0.189,383.0,https://www.vlr.gg/player/48708/squish?timespan=all/?timespan=90d,,
+Bored,Dreams To Legends,1.079,203.168,1.026,137.551,0.702,0.713,0.387,0.066,0.081,340.0,https://www.vlr.gg/player/44684/bored?timespan=all/?timespan=90d,,
+EMIYA,Dreams To Legends,0.995,210.827,0.966,144.823,0.677,0.728,0.249,0.108,0.093,383.0,https://www.vlr.gg/player/44671/emiya?timespan=all/?timespan=90d,,
+B1n,Dreams To Legends,0.9,172.255,0.794,112.487,0.665,0.584,0.503,0.04,0.082,383.0,https://www.vlr.gg/player/44674/b1n?timespan=all/?timespan=90d,,
+Mikey,Dreams To Legends,0.96,194.148,0.941,128.078,0.719,0.688,0.316,0.071,0.052,383.0,https://www.vlr.gg/player/44673/mikey?timespan=all/?timespan=90d,,
+NemuiZzZz,Dreams To Legends,0.829,156.488,0.754,102.919,0.602,0.558,0.345,0.095,0.12,43.0,https://www.vlr.gg/player/48961/nemuizzzz?timespan=all/?timespan=90d,,
+saxx,Original Gaming,0.975,168.236,0.928,113.04,0.695,0.608,0.396,0.059,0.054,714.0,https://www.vlr.gg/player/48576/saxx?timespan=all/?timespan=90d,,
+Hansia,Original Gaming,1.088,219.449,1.103,142.874,0.726,0.772,0.255,0.131,0.084,714.0,https://www.vlr.gg/player/41536/hansia?timespan=all/?timespan=90d,,
+Kuro,Original Gaming,0.909,210.649,0.956,133.593,0.682,0.725,0.203,0.168,0.182,714.0,https://www.vlr.gg/player/44152/kuro?timespan=all/?timespan=90d,0.955,0.82
+16Ch0ps,Original Gaming,1.122,243.946,1.184,155.161,0.683,0.854,0.183,0.137,0.105,580.0,https://www.vlr.gg/player/14566/16ch0ps?timespan=all/?timespan=90d,,
+bobae,Original Gaming,1.025,192.998,1.035,133.771,0.723,0.685,0.256,0.052,0.06,714.0,https://www.vlr.gg/player/41538/bobae?timespan=all/?timespan=90d,,
+nAts,Team Liquid,0.946,186.963,1.012,117.107,0.615,0.686,0.243,0.059,0.109,54.0,https://www.vlr.gg/player/457/nats?timespan=all/?timespan=90d,1.0,1.0
+paTiTek,Team Liquid,0.826,164.889,0.77,102.989,0.78,0.556,0.385,0.076,0.111,54.0,https://www.vlr.gg/player/309/patitek?timespan=all/?timespan=90d,1.0,1.0
+kamyk,Team Liquid,0.909,176.556,0.927,128.941,0.708,0.651,0.145,0.021,0.036,54.0,https://www.vlr.gg/player/1475/kamyk?timespan=all/?timespan=90d,0.993,0.97
+Keiko,Team Liquid,1.243,253.852,1.255,164.919,0.723,0.908,0.447,0.076,0.079,54.0,https://www.vlr.gg/player/11494/keiko?timespan=all/?timespan=90d,1.0,1.0
+kamo,Team Liquid,0.77,222.5,0.8,144.8,0.61,0.69,0.19,0.17,0.28,54.0,https://www.vlr.gg/player/14681/kamo?timespan=all/?timespan=90d,1.0,1.0
+Makaveli,Orangutan,1.065,208.856,1.225,138.132,0.696,0.761,0.199,0.107,0.107,268.0,https://www.vlr.gg/player/30693/makaveli?timespan=all/?timespan=90d,,
+Venka,Orangutan,1.104,251.651,1.218,165.147,0.692,0.894,0.162,0.216,0.152,572.0,https://www.vlr.gg/player/27336/venka?timespan=all/?timespan=90d,0.978,0.912
+deecee,Orangutan,0.985,178.766,0.996,121.761,0.717,0.64,0.286,0.076,0.082,408.0,https://www.vlr.gg/player/26376/deecee?timespan=all/?timespan=90d,0.978,0.912
+Techno,Orangutan,1.031,195.722,1.077,127.058,0.711,0.687,0.327,0.098,0.1,624.0,https://www.vlr.gg/player/27775/techno?timespan=all/?timespan=90d,0.989,0.956
+hellff,Orangutan,1.055,190.447,1.055,125.789,0.721,0.665,0.37,0.082,0.083,624.0,https://www.vlr.gg/player/3627/hellff?timespan=all/?timespan=90d,0.989,0.956
+Hoax,Orangutan,1.125,201.506,1.175,136.401,0.749,0.715,0.348,0.061,0.048,624.0,https://www.vlr.gg/player/3639/hoax?timespan=all/?timespan=90d,0.978,0.912
+player,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/46749/player?timespan=all/?timespan=90d,1.0,1.0
+bunt,All Gamers,0.66,166.769,0.699,104.054,0.796,0.589,0.258,0.082,0.078,39.0,https://www.vlr.gg/player/25949/bunt?timespan=all/?timespan=90d,1.0,1.0
+monk,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/14431/monk?timespan=all/?timespan=90d,1.0,1.0
+deLb,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/10821/delb?timespan=all/?timespan=90d,0.997,0.988
+Spitfires,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4881/spitfires?timespan=all/?timespan=90d,0.999,0.993
+K1ra,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/46748/k1ra?timespan=all/?timespan=90d,1.0,1.0
+X3B,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/37019/x3b?timespan=all/?timespan=90d,1.0,1.0
+Ethan,TUMT Shark,1.375,252.356,1.743,156.995,0.847,0.959,0.279,0.061,0.074,118.0,https://www.vlr.gg/player/46327/ethan?timespan=all/?timespan=90d,1.0,1.0
+Saluat,TUMT Shark,1.44,333.106,1.729,208.441,0.874,1.103,0.371,0.269,0.114,105.0,https://www.vlr.gg/player/49611/saluat?timespan=all/?timespan=90d,,
+popoman4Q,TUMT Shark,1.138,164.706,1.299,100.084,0.781,0.608,0.505,0.038,0.039,105.0,https://www.vlr.gg/player/2371/popoman4q?timespan=all/?timespan=90d,,
+Croudy,TUMT Shark,1.327,198.905,2.217,138.986,0.867,0.752,0.345,0.067,0.068,118.0,https://www.vlr.gg/player/49612/croudy?timespan=all/?timespan=90d,,
+Shu,TUMT Shark,1.164,237.89,1.314,154.402,0.756,0.864,0.409,0.167,0.104,118.0,https://www.vlr.gg/player/46462/shu?timespan=all/?timespan=90d,,
+Crws,TALON,1.058,205.628,1.025,137.825,0.717,0.693,0.393,0.087,0.052,253.0,https://www.vlr.gg/player/3977/crws?timespan=all/?timespan=90d,1.0,1.0
+JitBoyS,TALON,0.973,172.392,0.925,113.362,0.667,0.615,0.347,0.079,0.095,253.0,https://www.vlr.gg/player/13788/jitboys?timespan=all/?timespan=90d,1.0,1.0
+primmie,TALON,1.014,232.196,1.138,147.233,0.705,0.837,0.109,0.153,0.167,253.0,https://www.vlr.gg/player/25255/primmie?timespan=all/?timespan=90d,1.0,1.0
+ban,TALON,0.763,169.178,0.806,115.753,0.674,0.61,0.145,0.103,0.073,253.0,https://www.vlr.gg/player/5129/ban?timespan=all/?timespan=90d,1.0,1.0
+Governor,TALON,0.968,184.376,0.933,124.879,0.689,0.642,0.23,0.124,0.082,359.0,https://www.vlr.gg/player/3980/governor?timespan=all/?timespan=90d,0.991,0.993
+kiNgg,LEVIATÁN,0.942,177.851,0.93,120.572,0.67,0.626,0.255,0.057,0.074,67.0,https://www.vlr.gg/player/8549/kingg?timespan=all/?timespan=90d,1.0,1.0
+Demon1,LEVIATÁN,1.131,217.885,1.268,153.174,0.637,0.803,0.228,0.127,0.083,131.0,https://www.vlr.gg/player/26171/demon1?timespan=all/?timespan=90d,0.966,0.998
+tex,LEVIATÁN,0.813,192.635,0.826,132.329,0.644,0.642,0.242,0.135,0.179,178.0,https://www.vlr.gg/player/1818/tex?timespan=all/?timespan=90d,0.948,1.0
+C0M,LEVIATÁN,0.896,190.351,0.888,124.404,0.736,0.645,0.23,0.074,0.108,178.0,https://www.vlr.gg/player/619/c0m?timespan=all/?timespan=90d,0.952,1.0
+nataNk,LEVIATÁN,0.969,181.254,0.877,123.904,0.731,0.63,0.388,0.091,0.107,67.0,https://www.vlr.gg/player/5004/natank?timespan=all/?timespan=90d,1.0,0.985
+K4DAVRA,Gentle Mates,1.314,230.553,1.327,157.383,0.766,0.852,0.443,0.02,0.041,47.0,https://www.vlr.gg/player/20871/k4davra?timespan=all/?timespan=90d,1.0,1.0
+RobbieBk,Gentle Mates,1.33,216.5,1.37,142.2,0.79,0.79,0.3,0.15,0.04,47.0,https://www.vlr.gg/player/5893/robbiebk?timespan=all/?timespan=90d,0.978,0.91
+Minny,Gentle Mates,1.04,222.0,1.09,132.3,0.72,0.81,0.11,0.17,0.0,47.0,https://www.vlr.gg/player/23169/minny?timespan=all/?timespan=90d,0.978,0.867
+Zyppan,Gentle Mates,0.844,159.702,0.734,102.872,0.766,0.533,0.555,0.086,0.148,47.0,https://www.vlr.gg/player/11/zyppan?timespan=all/?timespan=90d,0.983,1.0
+Click,Gentle Mates,0.806,207.766,0.87,129.181,0.701,0.704,0.15,0.174,0.17,47.0,https://www.vlr.gg/player/7866/click?timespan=all/?timespan=90d,0.65,1.0
+JessieVash,Team Secret,1.36,189.0,1.5,132.6,0.84,0.63,0.32,0.16,0.0,19.0,https://www.vlr.gg/player/2334/jessievash?timespan=all/?timespan=90d,0.999,0.995
+invy,Team Secret,1.53,300.0,1.67,184.6,0.74,1.05,0.53,0.11,0.11,19.0,https://www.vlr.gg/player/8504/invy?timespan=all/?timespan=90d,0.999,0.995
+Wild0reoo,Team Secret,1.23,242.0,1.31,176.6,0.79,0.89,0.26,0.16,0.0,19.0,https://www.vlr.gg/player/9740/wild0reoo?timespan=all/?timespan=90d,0.975,0.883
+2ge,Team Secret,1.07,240.0,1.06,138.7,0.74,0.89,0.26,0.16,0.26,19.0,https://www.vlr.gg/player/9735/2ge?timespan=all/?timespan=90d,0.995,0.981
+Jremy,Team Secret,1.19,270.0,1.2,182.7,0.68,0.95,0.53,0.05,0.0,19.0,https://www.vlr.gg/player/7405/jremy?timespan=all/?timespan=90d,0.999,0.995
+wAvE,Asterisk,0.947,192.31,0.916,129.827,0.696,0.674,0.237,0.088,0.118,229.0,https://www.vlr.gg/player/22054/wave?timespan=all/?timespan=90d,,
+River,Asterisk,0.878,173.356,0.853,114.466,0.674,0.609,0.296,0.051,0.085,308.0,https://www.vlr.gg/player/43398/river?timespan=all/?timespan=90d,,
+YasH,Asterisk,0.867,209.406,0.86,136.435,0.672,0.707,0.169,0.154,0.162,404.0,https://www.vlr.gg/player/43389/yash?timespan=all/?timespan=90d,,
+rinsat,Asterisk,0.979,228.059,0.942,151.774,0.679,0.796,0.31,0.104,0.115,291.0,https://www.vlr.gg/player/49570/rinsat?timespan=all/?timespan=90d,,
+Icarus,Asterisk,0.901,169.477,0.924,117.471,0.636,0.608,0.129,0.033,0.084,404.0,https://www.vlr.gg/player/27755/icarus?timespan=all/?timespan=90d,,
+BerLIN,FunPlus Phoenix,0.85,155.723,0.714,136.743,0.59,0.509,0.338,0.032,0.098,348.0,https://www.vlr.gg/player/7857/berlin?timespan=all/?timespan=90d,0.999,0.994
+Autumn,FunPlus Phoenix,0.562,164.68,0.846,97.294,0.63,0.614,0.17,0.08,0.062,231.0,https://www.vlr.gg/player/872/autumn?timespan=all/?timespan=90d,0.999,0.994
+Life,FunPlus Phoenix,1.042,238.59,1.06,150.26,0.731,0.839,0.173,0.215,0.173,348.0,https://www.vlr.gg/player/3028/life?timespan=all/?timespan=90d,1.0,1.0
+AAAAY,FunPlus Phoenix,1.008,191.469,0.941,128.282,0.752,0.668,0.333,0.076,0.118,200.0,https://www.vlr.gg/player/19530/aaaay?timespan=all/?timespan=90d,0.999,0.994
+yosemite,FunPlus Phoenix,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/6022/yosemite?timespan=all/?timespan=90d,1.0,1.0
+Juzo Suzuya,Veterans,1.034,213.728,1.056,141.324,0.709,0.74,0.233,0.07,0.098,432.0,https://www.vlr.gg/player/49524/juzo-suzuya?timespan=all/?timespan=90d,,
+Bumble,Veterans,1.145,233.592,1.167,156.635,0.722,0.809,0.281,0.084,0.079,432.0,https://www.vlr.gg/player/44146/bumble?timespan=all/?timespan=90d,,
+Brinicle,Veterans,0.909,188.444,0.861,120.87,0.717,0.624,0.387,0.089,0.095,373.0,https://www.vlr.gg/player/14205/brinicle?timespan=all/?timespan=90d,,
+Maybe,Veterans,0.982,229.788,1.04,150.534,0.667,0.81,0.177,0.192,0.172,398.0,https://www.vlr.gg/player/23028/maybe?timespan=all/?timespan=90d,,
+SinS,Veterans,0.965,180.82,0.953,118.739,0.728,0.648,0.414,0.061,0.085,432.0,https://www.vlr.gg/player/44148/sins?timespan=all/?timespan=90d,,
+Tara,Paper Rex x Spotlight Series,0.827,149.116,0.728,96.895,0.648,0.514,0.419,0.039,0.048,361.0,https://www.vlr.gg/player/8492/tara?timespan=all/?timespan=90d,0.3,1.0
+Kohaibi,Paper Rex x Spotlight Series,0.782,119.674,0.743,85.386,0.73,0.418,0.286,0.027,0.084,115.0,https://www.vlr.gg/player/9175/kohaibi?timespan=all/?timespan=90d,0.3,1.0
+Dep,ZETA DIVISION,1.297,285.851,1.508,175.758,0.742,1.014,0.23,0.257,0.135,74.0,https://www.vlr.gg/player/424/dep?timespan=all/?timespan=90d,0.999,0.996
+SugarZ3ro,ZETA DIVISION,1.059,175.596,1.17,113.785,0.713,0.656,0.383,0.12,0.0,52.0,https://www.vlr.gg/player/6668/sugarz3ro?timespan=all/?timespan=90d,0.999,0.996
+CLZ,ZETA DIVISION,1.005,177.635,0.949,123.679,0.672,0.636,0.404,0.059,0.04,52.0,https://www.vlr.gg/player/2615/clz?timespan=all/?timespan=90d,0.979,0.925
+SyouTa,ZETA DIVISION,0.658,133.596,0.843,87.65,0.592,0.499,0.157,0.036,0.117,52.0,https://www.vlr.gg/player/12990/syouta?timespan=all/?timespan=90d,0.979,0.925
+Xdll,ZETA DIVISION,1.091,197.596,1.214,135.752,0.671,0.731,0.213,0.098,0.098,52.0,https://www.vlr.gg/player/25221/xdll?timespan=all/?timespan=90d,0.976,0.914
+Boo,Team Heretics,0.866,175.905,0.909,118.116,0.676,0.654,0.242,0.072,0.052,95.0,https://www.vlr.gg/player/1144/boo?timespan=all/?timespan=90d,0.984,1.0
+MiniBoo,Team Heretics,0.887,189.063,0.921,124.38,0.759,0.706,0.328,0.093,0.181,95.0,https://www.vlr.gg/player/18350/miniboo?timespan=all/?timespan=90d,0.982,0.997
+Wo0t,Team Heretics,1.204,233.313,1.416,153.21,0.754,0.847,0.239,0.144,0.071,209.0,https://www.vlr.gg/player/21328/wo0t?timespan=all/?timespan=90d,0.98,1.0
+RieNs,Team Heretics,0.889,183.111,0.951,117.588,0.709,0.687,0.255,0.05,0.106,95.0,https://www.vlr.gg/player/10971/riens?timespan=all/?timespan=90d,0.984,1.0
+benjyfishy,Team Heretics,0.935,169.726,0.873,104.268,0.747,0.63,0.392,0.07,0.115,95.0,https://www.vlr.gg/player/29873/benjyfishy?timespan=all/?timespan=90d,0.969,1.0
+weber,Team Heretics,0.67,75.0,0.44,51.5,0.79,0.29,0.38,0.0,0.08,24.0,https://www.vlr.gg/player/2038/weber?timespan=all/?timespan=90d,,
+florescent,Apeks,1.447,308.71,1.729,194.057,0.833,1.081,0.22,0.332,0.095,204.0,https://www.vlr.gg/player/17976/florescent?timespan=all/?timespan=90d,0.347,0.995
+MOLSI,Apeks,0.98,198.3,1.03,134.6,0.7,0.74,0.25,0.09,0.06,81.0,https://www.vlr.gg/player/1281/molsi?timespan=all/?timespan=90d,0.996,0.985
+AvovA,Apeks,1.13,208.3,1.1,143.9,0.7,0.79,0.43,0.12,0.07,81.0,https://www.vlr.gg/player/1507/avova?timespan=all/?timespan=90d,0.997,0.989
+Flashback,DRX,1.242,219.839,1.257,162.44,0.757,0.811,0.202,0.096,0.042,532.0,https://www.vlr.gg/player/35013/flashback?timespan=all/?timespan=90d,0.979,1.0
+MaKo,DRX,0.999,184.137,1.061,113.24,0.741,0.67,0.411,0.075,0.108,474.0,https://www.vlr.gg/player/4462/mako?timespan=all/?timespan=90d,1.0,1.0
+Athan,DRX,1.057,186.47,0.902,133.191,0.741,0.631,0.462,0.069,0.08,532.0,https://www.vlr.gg/player/34982/athan?timespan=all/?timespan=90d,0.93,1.0
+freeing,DRX,1.036,183.636,0.96,125.506,0.735,0.631,0.242,0.069,0.109,474.0,https://www.vlr.gg/player/1916/freeing?timespan=all/?timespan=90d,0.989,0.966
+HYUNMIN,DRX,0.98,231.394,1.05,147.06,0.716,0.804,0.2,0.189,0.199,532.0,https://www.vlr.gg/player/28400/hyunmin?timespan=all/?timespan=90d,0.934,0.973
+Allen,BC SWELL,1.062,178.015,1.046,122.561,0.786,0.623,0.45,0.036,0.045,249.0,https://www.vlr.gg/player/17111/allen?timespan=all/?timespan=90d,0.965,0.876
+Jan,BC SWELL,1.1,189.645,1.123,129.641,0.773,0.678,0.288,0.104,0.082,249.0,https://www.vlr.gg/player/10642/jan?timespan=all/?timespan=90d,0.962,0.867
+sakura,BC SWELL,1.092,226.392,1.128,145.145,0.737,0.812,0.383,0.073,0.104,249.0,https://www.vlr.gg/player/25279/sakura?timespan=all/?timespan=90d,0.955,0.84
+Jerry,BC SWELL,1.011,207.251,1.059,139.88,0.714,0.763,0.154,0.097,0.097,249.0,https://www.vlr.gg/player/46355/jerry?timespan=all/?timespan=90d,0.955,0.84
+Jinbey,BC SWELL,1.091,237.015,1.173,152.843,0.737,0.843,0.221,0.193,0.167,249.0,https://www.vlr.gg/player/43072/jinbey?timespan=all/?timespan=90d,0.955,0.84
+UR,ZETA DIVISION GC,0.91,176.236,0.834,118.959,0.666,0.601,0.337,0.079,0.096,175.0,https://www.vlr.gg/player/39902/ur?timespan=all/?timespan=90d,0.3,1.0
+SereNa,ZETA DIVISION GC,0.904,188.733,0.851,126.871,0.632,0.655,0.224,0.06,0.114,283.0,https://www.vlr.gg/player/39904/serena?timespan=all/?timespan=90d,0.3,1.0
+Moco,ZETA DIVISION GC,1.051,190.545,1.053,121.543,0.706,0.704,0.375,0.05,0.076,175.0,https://www.vlr.gg/player/29314/moco?timespan=all/?timespan=90d,0.3,1.0
+aco,ZETA DIVISION GC,0.814,158.147,0.706,103.839,0.687,0.54,0.413,0.049,0.076,283.0,https://www.vlr.gg/player/29316/aco?timespan=all/?timespan=90d,0.3,1.0
+suzu,ZETA DIVISION GC,0.936,213.639,0.962,141.724,0.651,0.77,0.2,0.181,0.214,175.0,https://www.vlr.gg/player/10653/suzu?timespan=all/?timespan=90d,0.3,1.0
+Lightningfast,Level 5,1.018,175.057,0.945,104.492,0.775,0.669,0.418,0.098,0.093,106.0,https://www.vlr.gg/player/3626/lightningfast?timespan=all/?timespan=90d,0.992,0.971
+tricky,Level 5,1.062,219.908,1.115,142.124,0.724,0.863,0.158,0.191,0.156,178.0,https://www.vlr.gg/player/28612/tricky?timespan=all/?timespan=90d,1.0,1.0
+Kohliii,Level 5,1.026,188.348,1.082,128.902,0.786,0.732,0.338,0.022,0.038,178.0,https://www.vlr.gg/player/10758/kohliii?timespan=all/?timespan=90d,,
+Paradox,Level 5,0.972,197.202,0.989,126.32,0.755,0.723,0.346,0.069,0.083,178.0,https://www.vlr.gg/player/10463/paradox?timespan=all/?timespan=90d,0.955,0.825
+Russ,Level 5,0.789,121.802,0.928,76.113,0.679,0.596,0.371,0.036,0.094,106.0,https://www.vlr.gg/player/1162/russ?timespan=all/?timespan=90d,1.0,0.974
+BcJ,Moist x Shopify,1.031,203.41,1.007,128.357,0.748,0.703,0.428,0.091,0.142,189.0,https://www.vlr.gg/player/864/bcj?timespan=all/?timespan=90d,0.972,0.947
+Pa1nt,Moist x Shopify,1.122,255.619,1.238,160.702,0.708,0.9,0.206,0.208,0.16,567.0,https://www.vlr.gg/player/23407/pa1nt?timespan=all/?timespan=90d,0.938,0.93
+Spaz,Moist x Shopify,1.154,209.328,1.135,138.056,0.761,0.721,0.453,0.074,0.056,230.0,https://www.vlr.gg/player/8422/spaz?timespan=all/?timespan=90d,0.938,0.93
+Paincakes,Moist x Shopify,1.119,230.742,1.237,149.974,0.723,0.798,0.21,0.142,0.084,189.0,https://www.vlr.gg/player/2164/paincakes?timespan=all/?timespan=90d,0.889,0.935
+brawk,Moist x Shopify,1.021,184.963,1.036,126.634,0.776,0.655,0.319,0.061,0.038,189.0,https://www.vlr.gg/player/2172/brawk?timespan=all/?timespan=90d,0.967,0.957
+whzy,Bilibili Gaming,0.91,235.828,1.116,134.874,0.693,0.852,0.211,0.211,0.18,497.0,https://www.vlr.gg/player/4885/whzy?timespan=all/?timespan=90d,1.0,1.0
+Levius,Bilibili Gaming,0.865,195.303,1.004,115.158,0.68,0.689,0.243,0.074,0.075,451.0,https://www.vlr.gg/player/40845/levius?timespan=all/?timespan=90d,1.0,1.0
+rushia,Bilibili Gaming,0.827,154.24,0.851,86.839,0.731,0.564,0.423,0.051,0.083,497.0,https://www.vlr.gg/player/48878/rushia?timespan=all/?timespan=90d,1.0,1.0
+nephh,Bilibili Gaming,1.101,210.24,1.067,128.819,0.725,0.735,0.514,0.074,0.028,482.0,https://www.vlr.gg/player/10698/nephh?timespan=all/?timespan=90d,0.993,0.974
+Knight,Bilibili Gaming,0.938,189.414,1.003,115.751,0.759,0.656,0.322,0.127,0.089,497.0,https://www.vlr.gg/player/4774/knight?timespan=all/?timespan=90d,1.0,1.0
+seven,TSM,1.132,232.745,1.139,152.887,0.782,0.794,0.396,0.1,0.087,648.0,https://www.vlr.gg/player/8376/seven?timespan=all/?timespan=90d,0.941,0.928
+gMd,TSM,1.119,212.403,1.118,138.774,0.751,0.749,0.425,0.086,0.082,550.0,https://www.vlr.gg/player/64/gmd?timespan=all/?timespan=90d,0.942,0.928
+sym,TSM,0.986,233.889,1.018,152.081,0.689,0.803,0.209,0.222,0.2,568.0,https://www.vlr.gg/player/3702/sym?timespan=all/?timespan=90d,0.963,0.946
+tdawgg,TSM,0.981,181.605,1.026,123.061,0.744,0.645,0.433,0.065,0.088,410.0,https://www.vlr.gg/player/3007/tdawgg?timespan=all/?timespan=90d,0.938,0.93
+XXiF,TSM,1.01,173.211,1.054,119.373,0.742,0.629,0.206,0.059,0.048,341.0,https://www.vlr.gg/player/1023/xxif?timespan=all/?timespan=90d,0.941,0.93
+Recoil,TSM,1.016,218.723,1.071,142.479,0.733,0.77,0.316,0.12,0.115,782.0,https://www.vlr.gg/player/39602/recoil?timespan=all/?timespan=90d,0.766,0.948
+ALEKSANDAR,QoR,1.056,196.507,1.138,131.635,0.731,0.739,0.141,0.083,0.07,930.0,https://www.vlr.gg/player/1120/aleksandar?timespan=all/?timespan=90d,0.919,0.93
+nerve,QoR,1.088,201.491,1.032,131.515,0.752,0.684,0.476,0.074,0.078,930.0,https://www.vlr.gg/player/754/nerve?timespan=all/?timespan=90d,0.933,0.93
+snarly,QoR,1.001,192.968,1.042,125.742,0.742,0.68,0.393,0.094,0.105,1637.0,https://www.vlr.gg/player/21878/snarly?timespan=all/?timespan=90d,0.91,0.93
+Boni,QoR,1.161,252.945,1.231,157.997,0.725,0.89,0.267,0.195,0.16,1524.0,https://www.vlr.gg/player/24553/boni?timespan=all/?timespan=90d,0.91,0.93
+Logan,QoR,1.077,214.158,1.076,144.908,0.761,0.725,0.337,0.088,0.07,1757.0,https://www.vlr.gg/player/5093/logan?timespan=all/?timespan=90d,0.91,0.93
+SpYzera,The Ultimates,1.334,234.898,1.531,156.086,0.788,0.875,0.345,0.098,0.051,249.0,https://www.vlr.gg/player/1618/spyzera?timespan=all/?timespan=90d,0.958,0.818
+Fighter,The Ultimates,0.857,206.839,0.994,132.29,0.665,0.737,0.175,0.138,0.123,249.0,https://www.vlr.gg/player/37847/fighter?timespan=all/?timespan=90d,0.959,0.816
+KHaaLiD,The Ultimates,1.106,210.638,1.194,142.361,0.787,0.741,0.253,0.104,0.096,249.0,https://www.vlr.gg/player/5599/khaalid?timespan=all/?timespan=90d,0.958,0.818
+Moh,The Ultimates,1.297,249.639,1.452,160.775,0.749,0.905,0.283,0.157,0.123,249.0,https://www.vlr.gg/player/5600/moh?timespan=all/?timespan=90d,0.958,0.818
+Sand,The Ultimates,1.087,188.162,1.25,130.412,0.718,0.73,0.185,0.05,0.072,249.0,https://www.vlr.gg/player/6503/sand?timespan=all/?timespan=90d,0.958,0.816
+Flowy,Al-Qadsiah Esports,0.923,183.228,0.871,120.754,0.71,0.605,0.46,0.069,0.071,274.0,https://www.vlr.gg/player/36069/flowy?timespan=all/?timespan=90d,0.955,0.817
+Avvix,Al-Qadsiah Esports,1.135,210.476,1.187,145.428,0.741,0.777,0.3,0.051,0.075,340.0,https://www.vlr.gg/player/33464/avvix?timespan=all/?timespan=90d,0.955,0.81
+str1keR,Al-Qadsiah Esports,0.992,224.764,1.053,150.675,0.652,0.787,0.2,0.161,0.192,340.0,https://www.vlr.gg/player/7286/str1ker?timespan=all/?timespan=90d,0.955,0.811
+Elixllo,Al-Qadsiah Esports,1.078,204.23,1.147,142.918,0.697,0.755,0.184,0.095,0.073,340.0,https://www.vlr.gg/player/27316/elixllo?timespan=all/?timespan=90d,0.955,0.812
+rezy,Al-Qadsiah Esports,0.919,179.003,0.88,116.422,0.688,0.63,0.371,0.075,0.098,340.0,https://www.vlr.gg/player/11914/rezy?timespan=all/?timespan=90d,0.955,0.813
+Winteryrook,Al-Qadsiah Esports,1.275,258.576,1.433,164.379,0.772,0.898,0.287,0.167,0.136,66.0,https://www.vlr.gg/player/3807/winteryrook?timespan=all/?timespan=90d,0.955,0.805
+Whimp,MiBH,0.692,137.077,0.601,97.235,0.646,0.477,0.3,0.061,0.111,160.0,https://www.vlr.gg/player/5536/whimp?timespan=all/?timespan=90d,,
+ezzy,MiBH,0.84,181.309,0.839,117.384,0.63,0.642,0.194,0.088,0.112,160.0,https://www.vlr.gg/player/7485/ezzy?timespan=all/?timespan=90d,,
+vibhoRR,MiBH,0.84,187.3,0.7,123.1,0.62,0.58,0.32,0.05,0.04,73.0,https://www.vlr.gg/player/3268/vibhorr?timespan=all/?timespan=90d,,
+Yuvi,MiBH,1.139,251.753,1.066,162.793,0.629,0.863,0.149,0.175,0.151,73.0,https://www.vlr.gg/player/46051/yuvi?timespan=all/?timespan=90d,,
+Excali,MiBH,0.874,172.824,0.785,116.421,0.687,0.607,0.453,0.083,0.1,233.0,https://www.vlr.gg/player/3271/excali?timespan=all/?timespan=90d,1.0,1.0
+iNaz,DRAGONS,0.907,158.806,0.904,107.542,0.583,0.613,0.214,0.049,0.059,103.0,https://www.vlr.gg/player/44546/inaz?timespan=all/?timespan=90d,0.955,0.812
+AL7B,DRAGONS,0.96,182.317,0.928,117.46,0.671,0.64,0.282,0.07,0.057,145.0,https://www.vlr.gg/player/36073/al7b?timespan=all/?timespan=90d,0.955,0.814
+k1Ng,DRAGONS,0.883,220.476,0.969,138.545,0.664,0.784,0.215,0.094,0.144,42.0,https://www.vlr.gg/player/17648/k1ng?timespan=all/?timespan=90d,0.955,0.815
+Rayy,DRAGONS,0.895,174.531,0.804,119.943,0.643,0.57,0.286,0.068,0.046,145.0,https://www.vlr.gg/player/27313/rayy?timespan=all/?timespan=90d,0.955,0.814
+Sogeking,DRAGONS,0.966,228.35,0.975,140.903,0.647,0.804,0.158,0.221,0.268,145.0,https://www.vlr.gg/player/46250/sogeking?timespan=all/?timespan=90d,0.955,0.814
+Darwin,DRAGONS,0.884,185.757,0.836,125.176,0.745,0.633,0.311,0.066,0.065,145.0,https://www.vlr.gg/player/35761/darwin?timespan=all/?timespan=90d,0.955,0.81
+dgzin,LOUD,1.019,241.483,1.148,147.208,0.694,0.846,0.156,0.233,0.227,177.0,https://www.vlr.gg/player/8873/dgzin?timespan=all/?timespan=90d,1.0,0.976
+v1nny,LOUD,0.834,150.319,0.761,101.443,0.677,0.527,0.451,0.009,0.103,136.0,https://www.vlr.gg/player/1586/v1nny?timespan=all/?timespan=90d,1.0,0.92
+pANcada,LOUD,1.047,192.294,1.042,124.522,0.688,0.705,0.293,0.075,0.098,136.0,https://www.vlr.gg/player/683/pancada?timespan=all/?timespan=90d,0.996,0.99
+tuyz,LOUD,0.869,159.349,0.854,104.443,0.641,0.559,0.199,0.037,0.037,136.0,https://www.vlr.gg/player/2408/tuyz?timespan=all/?timespan=90d,1.0,0.998
+cauanzin,LOUD,1.023,212.844,1.003,139.128,0.707,0.726,0.281,0.115,0.09,136.0,https://www.vlr.gg/player/6193/cauanzin?timespan=all/?timespan=90d,1.0,0.998
+wedid,Turtle Troop,0.96,173.826,0.847,117.67,0.715,0.587,0.433,0.064,0.084,222.0,https://www.vlr.gg/player/1856/wedid?timespan=all/?timespan=90d,0.936,0.93
+jowa,Turtle Troop,1.197,245.966,1.293,161.552,0.774,0.846,0.264,0.12,0.105,493.0,https://www.vlr.gg/player/19292/jowa?timespan=all/?timespan=90d,0.904,0.93
+bdog,Turtle Troop,1.064,201.155,1.02,136.451,0.745,0.698,0.416,0.063,0.094,222.0,https://www.vlr.gg/player/844/bdog?timespan=all/?timespan=90d,0.941,0.937
+Kaoticcc,Turtle Troop,0.961,211.269,1.03,140.608,0.687,0.765,0.194,0.178,0.141,435.0,https://www.vlr.gg/player/4917/kaoticcc?timespan=all/?timespan=90d,0.824,0.939
+SiuFatBB,Wolves Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/7849/siufatbb?timespan=all/?timespan=90d,1.0,1.0
+V1yA,Wolves Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/45104/v1ya?timespan=all/?timespan=90d,1.0,1.0
+Yuicaw,Wolves Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/11218/yuicaw?timespan=all/?timespan=90d,1.0,1.0
+Spring,Wolves Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/14125/spring?timespan=all/?timespan=90d,1.0,1.0
+Lysoar,Wolves Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/37489/lysoar?timespan=all/?timespan=90d,1.0,1.0
+Juicy,Wolves Esports,1.421,290.105,1.539,193.35,0.735,0.976,0.288,0.187,0.141,111.0,https://www.vlr.gg/player/7426/juicy?timespan=all/?timespan=90d,0.97,0.883
+ValdyN,Alter Ego,0.989,193.167,0.937,128.431,0.722,0.665,0.386,0.068,0.072,615.0,https://www.vlr.gg/player/7807/valdyn?timespan=all/?timespan=90d,0.955,0.822
+Nakya,Alter Ego,1.032,221.596,1.07,147.529,0.712,0.785,0.255,0.104,0.125,615.0,https://www.vlr.gg/player/16852/nakya?timespan=all/?timespan=90d,0.955,0.821
+Cud,Alter Ego,1.036,180.466,1.092,122.9,0.723,0.671,0.182,0.077,0.063,574.0,https://www.vlr.gg/player/2346/cud?timespan=all/?timespan=90d,0.955,0.821
+ray4c,Alter Ego,0.847,206.313,0.86,131.659,0.677,0.681,0.279,0.17,0.188,612.0,https://www.vlr.gg/player/11666/ray4c?timespan=all/?timespan=90d,0.958,0.835
+gotten,Alter Ego,1.076,209.145,1.042,135.538,0.739,0.728,0.443,0.079,0.064,615.0,https://www.vlr.gg/player/23710/gotten?timespan=all/?timespan=90d,0.955,0.822
+Asteriskk,Alter Ego,0.78,142.0,0.71,93.9,0.7,0.5,0.5,0.0,0.2,20.0,https://www.vlr.gg/player/1742/asteriskk?timespan=all/?timespan=90d,0.0,0.0
+Vera,Disguised,1.057,236.464,1.129,151.791,0.754,0.808,0.295,0.188,0.151,604.0,https://www.vlr.gg/player/24653/vera?timespan=all/?timespan=90d,0.966,0.869
+STYRON,Disguised,1.071,181.861,1.126,118.14,0.78,0.648,0.416,0.087,0.056,658.0,https://www.vlr.gg/player/11704/styron?timespan=all/?timespan=90d,0.955,0.825
+crazyguy,Disguised,1.202,232.899,1.295,159.85,0.748,0.811,0.286,0.107,0.072,547.0,https://www.vlr.gg/player/1430/crazyguy?timespan=all/?timespan=90d,0.984,0.937
+Deryeon,Disguised,1.086,193.683,1.192,126.805,0.748,0.707,0.272,0.089,0.075,658.0,https://www.vlr.gg/player/9152/deryeon?timespan=all/?timespan=90d,0.99,0.961
+wayne,Disguised,1.187,218.526,1.247,141.081,0.801,0.794,0.508,0.076,0.071,658.0,https://www.vlr.gg/player/24628/wayne?timespan=all/?timespan=90d,0.955,0.825
+dip,SaD Esports,1.034,204.424,1.007,137.429,0.713,0.697,0.342,0.095,0.07,684.0,https://www.vlr.gg/player/8397/dip?timespan=all/?timespan=90d,0.934,0.93
+Dark3st,SaD Esports,1.034,201.942,0.985,130.016,0.695,0.691,0.454,0.097,0.117,1146.0,https://www.vlr.gg/player/6437/dark3st?timespan=all/?timespan=90d,0.934,0.93
+benjii,SaD Esports,1.037,188.136,1.003,124.49,0.713,0.66,0.333,0.056,0.042,1301.0,https://www.vlr.gg/player/8758/benjii?timespan=all/?timespan=90d,0.83,0.94
+furbsa,SaD Esports,0.937,205.245,1.03,131.593,0.662,0.742,0.171,0.146,0.183,1003.0,https://www.vlr.gg/player/21886/furbsa?timespan=all/?timespan=90d,0.934,0.93
+flyuh,KOI,0.42,123.286,0.435,83.595,0.57,0.38,0.287,0.071,0.143,42.0,https://www.vlr.gg/player/3685/flyuh?timespan=all/?timespan=90d,0.968,0.963
+grubinho,KOI,0.939,179.619,0.903,116.521,0.525,0.667,0.265,0.093,0.122,42.0,https://www.vlr.gg/player/5550/grubinho?timespan=all/?timespan=90d,0.963,1.0
+sheydos,KOI,1.17,220.0,1.1,151.9,0.76,0.79,0.21,0.02,0.02,42.0,https://www.vlr.gg/player/1428/sheydos?timespan=all/?timespan=90d,0.982,1.0
+Filu,KOI,0.63,198.5,0.76,124.1,0.62,0.67,0.1,0.1,0.26,42.0,https://www.vlr.gg/player/4544/filu?timespan=all/?timespan=90d,1.0,0.957
+soulcas,KOI,0.85,172.571,0.738,119.274,0.596,0.62,0.406,0.05,0.117,42.0,https://www.vlr.gg/player/101/soulcas?timespan=all/?timespan=90d,0.997,0.987
+Zauqk,Next Gen,0.971,187.854,0.981,125.424,0.715,0.644,0.298,0.075,0.095,489.0,https://www.vlr.gg/player/29790/zauqk?timespan=all/?timespan=90d,0.955,0.78
+Sinaway,Next Gen,1.187,221.705,1.285,147.802,0.749,0.811,0.311,0.105,0.087,489.0,https://www.vlr.gg/player/29821/sinaway?timespan=all/?timespan=90d,0.955,0.76
+FETA,Next Gen,1.183,241.606,1.225,158.126,0.748,0.833,0.259,0.19,0.121,489.0,https://www.vlr.gg/player/31254/feta?timespan=all/?timespan=90d,0.955,0.76
+BigE,Next Gen,1.083,203.402,1.013,133.015,0.767,0.694,0.49,0.087,0.08,489.0,https://www.vlr.gg/player/31255/bige?timespan=all/?timespan=90d,0.955,0.76
+Mihlog,Team Flash,1.163,195.035,1.287,130.96,0.768,0.708,0.282,0.066,0.034,720.0,https://www.vlr.gg/player/36180/mihlog?timespan=all/?timespan=90d,,
+bucute,Team Flash,1.308,232.668,1.461,154.066,0.805,0.856,0.388,0.101,0.059,720.0,https://www.vlr.gg/player/48575/bucute?timespan=all/?timespan=90d,,
+K1LLERS,Team Flash,1.183,208.622,1.325,138.32,0.792,0.758,0.456,0.061,0.061,720.0,https://www.vlr.gg/player/8036/k1llers?timespan=all/?timespan=90d,1.0,1.0
+ting2k5,Team Flash,1.157,257.154,1.29,166.983,0.729,0.907,0.182,0.222,0.183,720.0,https://www.vlr.gg/player/14213/ting2k5?timespan=all/?timespan=90d,0.978,0.912
+alyaL,Team Flash,1.188,236.047,1.341,154.727,0.76,0.832,0.302,0.129,0.08,720.0,https://www.vlr.gg/player/8240/alyal?timespan=all/?timespan=90d,1.0,1.0
+Boostio,100 Thieves,0.87,175.0,0.87,107.6,0.66,0.65,0.4,0.06,0.06,62.0,https://www.vlr.gg/player/604/boostio?timespan=all/?timespan=90d,1.0,1.0
+zander,100 Thieves,1.054,237.226,1.068,146.842,0.742,0.809,0.42,0.116,0.096,62.0,https://www.vlr.gg/player/8082/zander?timespan=all/?timespan=90d,0.904,0.922
+Cryocells,100 Thieves,0.988,181.0,0.987,118.016,0.693,0.674,0.274,0.047,0.132,62.0,https://www.vlr.gg/player/4147/cryocells?timespan=all/?timespan=90d,1.0,1.0
+eeiu,100 Thieves,0.98,188.081,1.04,126.513,0.63,0.66,0.256,0.047,0.066,62.0,https://www.vlr.gg/player/796/eeiu?timespan=all/?timespan=90d,0.952,0.985
+Asuna,100 Thieves,0.88,238.0,0.78,150.9,0.73,0.73,0.32,0.24,0.13,62.0,https://www.vlr.gg/player/601/asuna?timespan=all/?timespan=90d,1.0,1.0
+Rudi,100 Thieves,1.273,234.81,1.365,153.754,0.785,0.814,0.456,0.151,0.135,141.0,https://www.vlr.gg/player/16045/rudi?timespan=all/?timespan=90d,,
+BugattiVeyron,All Gamers Young,1.038,233.538,0.983,144.131,0.742,0.795,0.181,0.126,0.126,39.0,https://www.vlr.gg/player/49587/bugattiveyron?timespan=all/?timespan=90d,1.0,1.0
+Kyu,Ambrosia,1.148,213.026,1.172,145.574,0.775,0.749,0.377,0.072,0.053,827.0,https://www.vlr.gg/player/30470/kyu?timespan=all/?timespan=90d,0.518,0.977
+smiley,Ambrosia,1.117,203.443,1.162,129.835,0.757,0.737,0.387,0.074,0.076,873.0,https://www.vlr.gg/player/13084/smiley?timespan=all/?timespan=90d,0.627,0.965
+ScrewFace,Ambrosia,0.951,185.573,0.968,124.069,0.716,0.641,0.316,0.087,0.103,890.0,https://www.vlr.gg/player/3227/screwface?timespan=all/?timespan=90d,0.791,0.948
+acrian,Ambrosia,1.132,203.452,1.229,134.826,0.757,0.728,0.317,0.078,0.068,1149.0,https://www.vlr.gg/player/24865/acrian?timespan=all/?timespan=90d,0.518,0.977
+satellite,Ambrosia,1.191,255.12,1.337,159.641,0.737,0.908,0.187,0.219,0.128,1681.0,https://www.vlr.gg/player/29076/satellite?timespan=all/?timespan=90d,0.938,0.93
+patrickWHO,Global Esports,1.027,235.218,1.097,154.759,0.731,0.835,0.228,0.186,0.177,238.0,https://www.vlr.gg/player/44259/patrickwho?timespan=all/?timespan=90d,0.97,0.868
+UdoTan,Global Esports,1.095,216.511,1.176,141.161,0.7,0.772,0.215,0.13,0.103,238.0,https://www.vlr.gg/player/4428/udotan?timespan=all/?timespan=90d,0.988,0.952
+NaturE,Evil Geniuses,0.802,152.618,0.745,99.925,0.684,0.531,0.338,0.035,0.069,227.0,https://www.vlr.gg/player/4927/nature?timespan=all/?timespan=90d,0.942,0.975
+Derrek,Evil Geniuses,0.957,187.45,0.927,133.397,0.678,0.656,0.283,0.088,0.067,227.0,https://www.vlr.gg/player/1533/derrek?timespan=all/?timespan=90d,0.999,0.998
+supamen,Evil Geniuses,1.048,204.467,1.028,133.977,0.696,0.731,0.297,0.106,0.063,227.0,https://www.vlr.gg/player/826/supamen?timespan=all/?timespan=90d,0.974,0.992
+stew,JDG Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/16924/stew?timespan=all/?timespan=90d,1.0,1.0
+Viva,JDG Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/36415/viva?timespan=all/?timespan=90d,1.0,1.0
+jkuro,JDG Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/3519/jkuro?timespan=all/?timespan=90d,1.0,1.0
+Z1yan,JDG Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/41029/z1yan?timespan=all/?timespan=90d,1.0,1.0
+sword9,JDG Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/3049/sword9?timespan=all/?timespan=90d,1.0,1.0
+Luca,Delight,1.066,198.147,1.079,127.601,0.726,0.708,0.357,0.056,0.073,276.0,https://www.vlr.gg/player/37393/luca?timespan=all/?timespan=90d,0.955,0.84
+Chay,Delight,1.085,204.126,1.059,134.43,0.723,0.706,0.351,0.094,0.099,276.0,https://www.vlr.gg/player/31845/chay?timespan=all/?timespan=90d,0.737,0.893
+g4ll,Delight,1.003,211.588,1.006,134.838,0.7,0.745,0.244,0.137,0.158,276.0,https://www.vlr.gg/player/45852/g4ll?timespan=all/?timespan=90d,0.955,0.84
+R1va,Delight,0.931,181.937,0.907,121.922,0.688,0.624,0.27,0.081,0.065,276.0,https://www.vlr.gg/player/45853/r1va?timespan=all/?timespan=90d,0.955,0.84
+flora,Delight,1.108,217.425,1.147,146.633,0.71,0.776,0.265,0.137,0.105,276.0,https://www.vlr.gg/player/47482/flora?timespan=all/?timespan=90d,0.955,0.84
+Tuna,APAY Academy,0.84,176.282,0.915,118.111,0.625,0.647,0.147,0.089,0.109,386.0,https://www.vlr.gg/player/49532/tuna?timespan=all/?timespan=90d,,
+Lightning,APAY Academy,0.785,186.695,0.783,126.385,0.618,0.626,0.212,0.115,0.151,367.0,https://www.vlr.gg/player/49529/lightning?timespan=all/?timespan=90d,,
+Fin,APAY Academy,1.18,215.527,1.136,144.398,0.739,0.769,0.364,0.045,0.041,540.0,https://www.vlr.gg/player/49530/fin?timespan=all/?timespan=90d,,
+Jose1,APAY Academy,0.927,207.89,0.966,135.052,0.658,0.719,0.23,0.106,0.12,503.0,https://www.vlr.gg/player/49531/jose1?timespan=all/?timespan=90d,,
+Dylan,APAY Academy,0.961,228.292,1.006,147.938,0.653,0.78,0.181,0.19,0.214,440.0,https://www.vlr.gg/player/49533/dylan?timespan=all/?timespan=90d,,
+シガレット,APAY Academy,1.098,218.128,1.121,146.76,0.597,0.725,0.342,0.064,0.06,47.0,https://www.vlr.gg/player/49541/?timespan=all/?timespan=90d,,
+Yatoo,APAY Academy,0.909,177.019,0.848,118.542,0.705,0.603,0.299,0.046,0.028,227.0,https://www.vlr.gg/player/21826/yatoo?timespan=all/?timespan=90d,,
+LOVE,APAY Academy,0.791,162.762,0.727,106.021,0.651,0.547,0.341,0.047,0.071,397.0,https://www.vlr.gg/player/49569/love?timespan=all/?timespan=90d,,
+FireBallOps,Nightblood Gaming,1.109,220.115,1.174,144.363,0.737,0.806,0.221,0.097,0.077,962.0,https://www.vlr.gg/player/10053/fireballops?timespan=all/?timespan=90d,0.918,0.93
+Kess,Nightblood Gaming,1.162,224.653,1.18,143.668,0.755,0.771,0.459,0.087,0.054,975.0,https://www.vlr.gg/player/9094/kess?timespan=all/?timespan=90d,0.918,0.93
+alym,Nightblood Gaming,1.096,241.905,1.162,154.146,0.72,0.845,0.222,0.204,0.175,936.0,https://www.vlr.gg/player/48025/alym?timespan=all/?timespan=90d,0.843,0.938
+HUYNH,Fisher Navy,0.949,178.807,0.904,113.045,0.728,0.615,0.447,0.075,0.102,930.0,https://www.vlr.gg/player/62/huynh?timespan=all/?timespan=90d,0.918,0.93
+sogo,Fisher Navy,0.944,187.502,0.941,123.645,0.696,0.655,0.311,0.058,0.081,930.0,https://www.vlr.gg/player/6445/sogo?timespan=all/?timespan=90d,0.918,0.93
+mindfreak,Paper Rex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/9800/mindfreak?timespan=all/?timespan=90d,1.0,1.0
+Jinggg,Paper Rex,1.142,218.224,1.067,168.444,0.685,0.761,0.23,0.095,0.099,445.0,https://www.vlr.gg/player/7378/jinggg?timespan=all/?timespan=90d,0.984,1.0
+f0rsakeN,Paper Rex,1.49,267.419,1.307,207.998,0.819,0.93,0.265,0.202,0.19,333.0,https://www.vlr.gg/player/9801/f0rsaken?timespan=all/?timespan=90d,0.983,1.0
+d4v41,Paper Rex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/9803/d4v41?timespan=all/?timespan=90d,1.0,1.0
+something,Paper Rex,1.189,213.228,1.189,158.302,0.749,0.757,0.215,0.229,0.107,657.0,https://www.vlr.gg/player/17086/something?timespan=all/?timespan=90d,0.983,1.0
+Cloud,GIANTX,1.08,202.577,1.049,136.689,0.732,0.721,0.345,0.069,0.062,142.0,https://www.vlr.gg/player/4181/cloud?timespan=all/?timespan=90d,1.0,1.0
+purp0,GIANTX,1.241,264.908,1.324,166.869,0.702,0.929,0.132,0.228,0.124,224.0,https://www.vlr.gg/player/1885/purp0?timespan=all/?timespan=90d,0.956,0.976
+runneR,GIANTX,0.98,184.603,0.905,122.696,0.78,0.632,0.463,0.117,0.082,224.0,https://www.vlr.gg/player/21610/runner?timespan=all/?timespan=90d,0.975,1.0
+westside,GIANTX,1.034,194.867,1.068,132.172,0.737,0.711,0.237,0.071,0.078,224.0,https://www.vlr.gg/player/34684/westside?timespan=all/?timespan=90d,0.767,1.0
+tomaszy,GIANTX,0.901,187.958,0.881,122.907,0.717,0.645,0.349,0.025,0.112,142.0,https://www.vlr.gg/player/19691/tomaszy?timespan=all/?timespan=90d,1.0,0.995
+Jamppi,BBL Esports,1.003,178.677,1.012,116.978,0.75,0.647,0.387,0.048,0.072,358.0,https://www.vlr.gg/player/9780/jamppi?timespan=all/?timespan=90d,0.982,1.0
+sociablEE,BBL Esports,1.177,229.722,1.33,152.022,0.753,0.813,0.268,0.113,0.106,358.0,https://www.vlr.gg/player/5568/sociablee?timespan=all/?timespan=90d,0.767,1.0
+chiwa,BBL Esports,1.177,216.363,1.298,146.719,0.736,0.775,0.253,0.085,0.06,358.0,https://www.vlr.gg/player/321/chiwa?timespan=all/?timespan=90d,0.767,1.0
+PROFEK,BBL Esports,1.118,199.447,1.16,129.587,0.761,0.7,0.45,0.104,0.057,358.0,https://www.vlr.gg/player/5554/profek?timespan=all/?timespan=90d,0.825,0.968
+LewN,BBL Esports,1.078,232.025,1.171,152.22,0.69,0.824,0.191,0.218,0.145,358.0,https://www.vlr.gg/player/20144/lewn?timespan=all/?timespan=90d,0.65,1.0
+Srx,Onyx Ravens,1.062,228.383,1.116,145.122,0.66,0.797,0.133,0.196,0.175,270.0,https://www.vlr.gg/player/30503/srx?timespan=all/?timespan=90d,0.955,0.82
+waleed,Onyx Ravens,1.055,185.773,1.064,123.259,0.713,0.687,0.197,0.068,0.037,270.0,https://www.vlr.gg/player/40014/waleed?timespan=all/?timespan=90d,0.955,0.82
+Kuro,Onyx Ravens,0.8,163.997,0.759,108.046,0.647,0.554,0.287,0.081,0.076,270.0,https://www.vlr.gg/player/19311/kuro?timespan=all/?timespan=90d,0.955,0.82
+ACHRF,Onyx Ravens,1.1,220.12,1.056,152.746,0.731,0.737,0.301,0.11,0.069,270.0,https://www.vlr.gg/player/12333/achrf?timespan=all/?timespan=90d,0.955,0.82
+zMART,Onyx Ravens,0.934,194.099,0.972,131.609,0.665,0.718,0.194,0.1,0.093,270.0,https://www.vlr.gg/player/12331/zmart?timespan=all/?timespan=90d,0.955,0.82
+OLDERGREG,BITEKI,0.937,158.719,0.855,108.61,0.705,0.56,0.301,0.051,0.055,186.0,https://www.vlr.gg/player/49676/oldergreg?timespan=all/?timespan=90d,,
+Jiggy,BITEKI,1.029,194.902,1.004,123.676,0.759,0.692,0.418,0.092,0.092,267.0,https://www.vlr.gg/player/48709/jiggy?timespan=all/?timespan=90d,0.955,0.76
+Spirit,BITEKI,1.201,245.234,1.223,159.027,0.739,0.856,0.261,0.147,0.099,267.0,https://www.vlr.gg/player/33053/spirit?timespan=all/?timespan=90d,0.955,0.76
+SplatGun,BITEKI,1.148,225.959,1.226,147.364,0.75,0.794,0.386,0.085,0.088,267.0,https://www.vlr.gg/player/45980/splatgun?timespan=all/?timespan=90d,0.955,0.76
+Jacyn,BITEKI,1.063,230.478,1.098,151.24,0.773,0.799,0.285,0.136,0.125,267.0,https://www.vlr.gg/player/45979/jacyn?timespan=all/?timespan=90d,0.955,0.76
+sHOW,BITEKI,0.927,183.78,0.87,123.051,0.635,0.634,0.221,0.027,0.048,41.0,https://www.vlr.gg/player/36714/show?timespan=all/?timespan=90d,0.955,0.76
+ahk,BITEKI,0.67,124.5,0.635,82.75,0.7,0.425,0.425,0.125,0.15,40.0,https://www.vlr.gg/player/49563/ahk?timespan=all/?timespan=90d,,
+Yusin,Ambitious Legend Gaming GC,0.82,186.8,0.7,123.8,0.7,0.62,0.41,0.1,0.08,71.0,https://www.vlr.gg/player/25415/yusin?timespan=all/?timespan=90d,0.4,1.0
+JinNy,Ambitious Legend Gaming GC,0.788,139.875,0.636,89.504,0.548,0.476,0.365,0.04,0.044,71.0,https://www.vlr.gg/player/1909/jinny?timespan=all/?timespan=90d,0.3,1.0
+Muffyn,Ambitious Legend Gaming GC,0.723,192.901,0.803,117.593,0.575,0.691,0.07,0.168,0.225,71.0,https://www.vlr.gg/player/13232/muffyn?timespan=all/?timespan=90d,0.3,1.0
+Laiyin,Ambitious Legend Gaming GC,0.692,159.831,0.651,108.744,0.62,0.539,0.166,0.084,0.124,71.0,https://www.vlr.gg/player/48160/laiyin?timespan=all/?timespan=90d,0.3,1.0
+1hp,Ambitious Legend Gaming GC,0.295,86.294,0.284,63.759,0.496,0.264,0.267,0.028,0.119,34.0,https://www.vlr.gg/player/48161/1hp?timespan=all/?timespan=90d,0.3,1.0
+monSi,Trust In Plug,0.977,173.251,0.947,111.621,0.729,0.598,0.33,0.066,0.08,403.0,https://www.vlr.gg/player/4385/monsi?timespan=all/?timespan=90d,0.945,0.936
+Teague,Trust In Plug,0.88,151.45,0.758,95.411,0.696,0.517,0.516,0.043,0.065,403.0,https://www.vlr.gg/player/3874/teague?timespan=all/?timespan=90d,0.945,0.936
+mikeE,Trust In Plug,1.125,228.457,1.194,150.033,0.678,0.818,0.191,0.131,0.107,403.0,https://www.vlr.gg/player/29688/mikee?timespan=all/?timespan=90d,0.954,0.94
+Jerrwin,Trust In Plug,0.973,231.226,1.04,147.874,0.691,0.796,0.254,0.163,0.164,1525.0,https://www.vlr.gg/player/34057/jerrwin?timespan=all/?timespan=90d,0.937,0.944
+bao,Trust In Plug,1.062,207.755,1.108,134.161,0.735,0.743,0.315,0.078,0.075,1133.0,https://www.vlr.gg/player/41877/bao?timespan=all/?timespan=90d,0.932,0.942
+Meiy,DetonatioN FocusMe,0.968,230.531,1.174,150.306,0.689,0.832,0.15,0.089,0.132,376.0,https://www.vlr.gg/player/6672/meiy?timespan=all/?timespan=90d,0.996,0.987
+Art,DetonatioN FocusMe,0.86,190.5,0.9,115.0,0.68,0.64,0.3,0.1,0.13,327.0,https://www.vlr.gg/player/10627/art?timespan=all/?timespan=90d,0.996,0.984
+Jinboong,DetonatioN FocusMe,1.021,214.991,1.213,135.957,0.746,0.787,0.23,0.055,0.082,226.0,https://www.vlr.gg/player/4052/jinboong?timespan=all/?timespan=90d,0.99,0.965
+Akame,DetonatioN FocusMe,0.884,201.816,1.001,147.011,0.773,0.733,0.447,0.16,0.114,348.0,https://www.vlr.gg/player/13002/akame?timespan=all/?timespan=90d,0.99,0.963
+gyen,DetonatioN FocusMe,0.684,145.0,0.659,98.557,0.709,0.509,0.315,0.033,0.131,61.0,https://www.vlr.gg/player/48577/gyen?timespan=all/?timespan=90d,1.0,1.0
+SSeeS,DetonatioN FocusMe,0.86,153.0,1.08,84.6,0.81,0.62,0.24,0.1,0.05,21.0,https://www.vlr.gg/player/21438/ssees?timespan=all/?timespan=90d,0.997,0.991
+valyn,G2 Esports,1.057,203.123,1.076,132.228,0.744,0.718,0.358,0.071,0.107,279.0,https://www.vlr.gg/player/3885/valyn?timespan=all/?timespan=90d,0.983,0.998
+jawgemo,G2 Esports,1.161,252.684,1.236,160.855,0.721,0.882,0.259,0.177,0.172,335.0,https://www.vlr.gg/player/3993/jawgemo?timespan=all/?timespan=90d,0.984,1.0
+trent,G2 Esports,1.193,226.747,1.159,151.696,0.733,0.759,0.355,0.084,0.067,452.0,https://www.vlr.gg/player/15500/trent?timespan=all/?timespan=90d,0.966,1.0
+JonahP,G2 Esports,0.884,164.046,0.823,109.224,0.751,0.551,0.467,0.058,0.095,314.0,https://www.vlr.gg/player/4581/jonahp?timespan=all/?timespan=90d,0.983,0.998
+leaf,G2 Esports,1.129,228.041,1.156,144.14,0.703,0.779,0.298,0.14,0.113,413.0,https://www.vlr.gg/player/7873/leaf?timespan=all/?timespan=90d,0.982,0.998
+karam1l,DUPG Esports,1.183,242.886,1.246,159.589,0.692,0.888,0.161,0.126,0.102,476.0,https://www.vlr.gg/player/30286/karam1l?timespan=all/?timespan=90d,,
+HyBr1D,DUPG Esports,0.842,153.319,0.768,105.769,0.676,0.542,0.359,0.01,0.085,83.0,https://www.vlr.gg/player/17294/hybr1d?timespan=all/?timespan=90d,,
+AceStaRRRRR,DUPG Esports,0.899,181.771,0.81,125.175,0.707,0.612,0.333,0.077,0.074,415.0,https://www.vlr.gg/player/31355/acestarrrrr?timespan=all/?timespan=90d,,
+Envy2K,DUPG Esports,1.018,242.941,1.074,147.767,0.703,0.853,0.189,0.177,0.153,392.0,https://www.vlr.gg/player/46104/envy2k?timespan=all/?timespan=90d,,
+Disease,DUPG Esports,0.825,139.127,0.704,93.972,0.698,0.506,0.417,0.032,0.104,415.0,https://www.vlr.gg/player/43390/disease?timespan=all/?timespan=90d,,
+Rarga,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/22047/rarga?timespan=all/?timespan=90d,0.996,0.982
+happywei,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/37927/happywei?timespan=all/?timespan=90d,0.998,0.989
+MrCANI,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/37674/mrcani?timespan=all/?timespan=90d,1.0,1.0
+MarT1n,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/36668/mart1n?timespan=all/?timespan=90d,1.0,1.0
+coconut,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/12365/coconut?timespan=all/?timespan=90d,1.0,1.0
+YOU,Xi Lai Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4710/you?timespan=all/?timespan=90d,1.0,1.0
+ZiXuan,Xi Lai Gaming,0.928,186.525,0.881,128.263,0.741,0.598,0.475,0.097,0.092,251.0,https://www.vlr.gg/player/4763/zixuan?timespan=all/?timespan=90d,1.0,1.0
+Minimise,JiJieHao,1.032,213.589,1.123,135.143,0.77,0.756,0.412,0.128,0.12,612.0,https://www.vlr.gg/player/5228/minimise?timespan=all/?timespan=90d,1.0,1.0
+Dragon,JiJieHao,1.201,227.18,1.336,150.915,0.741,0.834,0.276,0.119,0.076,612.0,https://www.vlr.gg/player/6659/dragon?timespan=all/?timespan=90d,0.978,0.912
+LEW,JiJieHao,1.133,237.453,1.268,157.91,0.747,0.834,0.22,0.165,0.094,612.0,https://www.vlr.gg/player/1062/lew?timespan=all/?timespan=90d,0.978,0.912
+IKANA,JiJieHao,1.088,197.816,1.184,132.567,0.742,0.695,0.313,0.057,0.067,561.0,https://www.vlr.gg/player/26310/ikana?timespan=all/?timespan=90d,0.955,0.8
+tixx,JiJieHao,1.173,223.378,1.248,144.752,0.797,0.785,0.44,0.121,0.051,574.0,https://www.vlr.gg/player/12968/tixx?timespan=all/?timespan=90d,0.955,0.84
+punda,JiJieHao,1.026,214.438,0.992,151.716,0.701,0.735,0.381,0.079,0.084,200.0,https://www.vlr.gg/player/3294/punda?timespan=all/?timespan=90d,,
+FinestQueue,Blue Eyes White Dragon,0.835,158.838,0.897,109.007,0.691,0.568,0.151,0.042,0.097,74.0,https://www.vlr.gg/player/48694/finestqueue?timespan=all/?timespan=90d,,
+Vuxqt,Blue Eyes White Dragon,0.993,197.79,0.953,131.495,0.74,0.69,0.412,0.083,0.068,798.0,https://www.vlr.gg/player/48696/vuxqt?timespan=all/?timespan=90d,,
+Migod,Blue Eyes White Dragon,0.964,218.103,0.953,142.453,0.688,0.723,0.27,0.153,0.165,764.0,https://www.vlr.gg/player/48697/migod?timespan=all/?timespan=90d,,
+Storm,Blue Eyes White Dragon,1.203,230.055,1.289,154.061,0.697,0.826,0.153,0.075,0.061,781.0,https://www.vlr.gg/player/26528/storm?timespan=all/?timespan=90d,,
+KhoiBeo,Blue Eyes White Dragon,0.982,182.889,0.977,122.37,0.704,0.664,0.234,0.08,0.08,775.0,https://www.vlr.gg/player/49559/khoibeo?timespan=all/?timespan=90d,,
+Pricckk,Blue Eyes White Dragon,0.984,196.9,0.992,126.737,0.707,0.697,0.328,0.102,0.139,798.0,https://www.vlr.gg/player/48695/pricckk?timespan=all/?timespan=90d,,
+madv,Team Falcons Vega,1.239,236.012,1.345,152.593,0.766,0.86,0.289,0.097,0.084,364.0,https://www.vlr.gg/player/29903/madv?timespan=all/?timespan=90d,0.3,1.0
+Toki,Team Falcons Vega,1.052,200.558,1.021,132.917,0.726,0.693,0.408,0.088,0.084,515.0,https://www.vlr.gg/player/20055/toki?timespan=all/?timespan=90d,0.3,1.0
+eva,Team Falcons Vega,0.979,166.384,1.069,109.264,0.697,0.602,0.208,0.026,0.044,112.0,https://www.vlr.gg/player/19371/eva?timespan=all/?timespan=90d,0.3,1.0
+Mary,Team Falcons Vega,1.046,232.548,1.122,148.511,0.689,0.816,0.212,0.161,0.169,364.0,https://www.vlr.gg/player/17333/mary?timespan=all/?timespan=90d,0.3,1.0
+Huntr,club penguin,1.006,183.0,1.031,113.318,0.705,0.729,0.387,0.044,0.158,44.0,https://www.vlr.gg/player/15961/huntr?timespan=all/?timespan=90d,,
+pyua,BarackObamaPizza,0.83,158.433,0.749,109.368,0.655,0.522,0.304,0.092,0.106,208.0,https://www.vlr.gg/player/1773/pyua?timespan=all/?timespan=90d,0.955,0.76
+fusion,club penguin,1.159,229.394,1.169,150.476,0.723,0.802,0.249,0.07,0.06,208.0,https://www.vlr.gg/player/44691/fusion?timespan=all/?timespan=90d,0.955,0.76
+Zetik,club penguin,0.965,173.364,0.804,110.609,0.684,0.592,0.409,0.067,0.0,44.0,https://www.vlr.gg/player/14348/zetik?timespan=all/?timespan=90d,,
+oj,club penguin,0.89,174.198,0.838,116.939,0.716,0.585,0.278,0.089,0.113,164.0,https://www.vlr.gg/player/1775/oj?timespan=all/?timespan=90d,0.955,0.76
+Mundy,club penguin,0.943,224.598,0.969,149.45,0.666,0.762,0.191,0.158,0.148,164.0,https://www.vlr.gg/player/2597/mundy?timespan=all/?timespan=90d,0.955,0.76
+wodz,club penguin,0.983,213.716,0.973,141.609,0.687,0.734,0.323,0.094,0.119,208.0,https://www.vlr.gg/player/33920/wodz?timespan=all/?timespan=90d,0.955,0.76
+Ninebody,TYLOO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/3547/ninebody?timespan=all/?timespan=90d,1.0,1.0
+hfmi0dzjc9z7,TYLOO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/7135/hfmi0dzjc9z7?timespan=all/?timespan=90d,1.0,1.0
+Eren,TYLOO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/14444/eren?timespan=all/?timespan=90d,1.0,1.0
+LuoK1ng,Trace Esports,0.906,189.984,1.004,122.125,0.679,0.658,0.428,0.046,0.058,515.0,https://www.vlr.gg/player/3045/luok1ng?timespan=all/?timespan=90d,1.0,1.0
+Kai,Trace Esports,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/37494/kai?timespan=all/?timespan=90d,1.0,1.0
+FengF,Trace Esports,1.193,203.731,0.977,159.586,0.686,0.709,0.206,0.115,0.122,498.0,https://www.vlr.gg/player/4770/fengf?timespan=all/?timespan=90d,1.0,1.0
+heybay,Trace Esports,0.54,161.223,0.805,75.875,0.599,0.563,0.451,0.047,0.123,347.0,https://www.vlr.gg/player/4712/heybay?timespan=all/?timespan=90d,1.0,1.0
+Biank,Trace Esports,0.761,182.951,0.844,107.148,0.628,0.598,0.342,0.064,0.178,515.0,https://www.vlr.gg/player/3021/biank?timespan=all/?timespan=90d,1.0,1.0
+johnqt,Sentinels,1.005,178.925,1.043,119.68,0.734,0.635,0.352,0.04,0.057,404.0,https://www.vlr.gg/player/1265/johnqt?timespan=all/?timespan=90d,0.999,0.998
+N4RRATE,Sentinels,1.034,215.481,1.052,141.198,0.711,0.734,0.273,0.103,0.103,404.0,https://www.vlr.gg/player/36245/n4rrate?timespan=all/?timespan=90d,0.997,0.993
+bang,Sentinels,1.109,211.011,1.113,134.265,0.755,0.767,0.381,0.076,0.087,404.0,https://www.vlr.gg/player/3880/bang?timespan=all/?timespan=90d,1.0,1.0
+Zellsis,Sentinels,0.971,183.136,0.937,117.275,0.743,0.624,0.505,0.064,0.09,404.0,https://www.vlr.gg/player/729/zellsis?timespan=all/?timespan=90d,0.999,0.998
+zekken,Sentinels,1.088,241.982,1.169,150.083,0.698,0.844,0.204,0.204,0.179,404.0,https://www.vlr.gg/player/4004/zekken?timespan=all/?timespan=90d,0.999,0.998
+Reduxx,Cubert Academy,1.108,238.571,1.182,153.308,0.718,0.878,0.173,0.158,0.143,106.0,https://www.vlr.gg/player/8419/reduxx?timespan=all/?timespan=90d,0.961,0.95
+nobody,EDward Gaming,0.686,179.441,0.803,104.705,0.64,0.606,0.227,0.051,0.12,177.0,https://www.vlr.gg/player/3017/nobody?timespan=all/?timespan=90d,1.0,1.0
+S1Mon,EDward Gaming,0.762,168.819,0.795,93.377,0.555,0.592,0.435,0.031,0.135,221.0,https://www.vlr.gg/player/13768/s1mon?timespan=all/?timespan=90d,1.0,1.0
+ZmjjKK,EDward Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/3520/zmjjkk?timespan=all/?timespan=90d,1.0,1.0
+CHICHOO,EDward Gaming,0.739,187.753,1.034,96.961,0.562,0.697,0.142,0.05,0.125,162.0,https://www.vlr.gg/player/15559/chichoo?timespan=all/?timespan=90d,1.0,1.0
+Smoggy,EDward Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4742/smoggy?timespan=all/?timespan=90d,1.0,1.0
+stax,T1,1.113,199.043,1.205,133.449,0.805,0.686,0.495,0.071,0.024,265.0,https://www.vlr.gg/player/485/stax?timespan=all/?timespan=90d,0.999,0.996
+Meteor,T1,0.983,195.261,1.113,131.354,0.705,0.715,0.198,0.094,0.118,265.0,https://www.vlr.gg/player/13039/meteor?timespan=all/?timespan=90d,0.999,0.997
+Sylvan,T1,1.108,189.472,1.047,123.567,0.798,0.656,0.586,0.058,0.067,265.0,https://www.vlr.gg/player/4056/sylvan?timespan=all/?timespan=90d,0.998,0.995
+BuZz,T1,1.163,240.689,1.276,146.747,0.73,0.829,0.146,0.232,0.128,265.0,https://www.vlr.gg/player/804/buzz?timespan=all/?timespan=90d,0.999,0.996
+iZu,T1,1.089,201.347,1.152,131.162,0.738,0.71,0.341,0.104,0.114,265.0,https://www.vlr.gg/player/29833/izu?timespan=all/?timespan=90d,0.997,0.991
+NOVAE,Rub n' Pug,1.045,210.018,1.045,140.647,0.682,0.769,0.138,0.12,0.112,401.0,https://www.vlr.gg/player/36676/novae?timespan=all/?timespan=90d,0.955,0.76
+gon,Nemesis,0.789,169.705,0.695,114.048,0.652,0.524,0.403,0.074,0.147,149.0,https://www.vlr.gg/player/43115/gon?timespan=all/?timespan=90d,,
+WisdomCats,Tiny Turtle Squad,0.847,170.139,0.741,114.893,0.662,0.537,0.366,0.044,0.052,115.0,https://www.vlr.gg/player/43169/wisdomcats?timespan=all/?timespan=90d,,
+Zeo,Tiny Turtle Squad,1.007,201.68,0.973,135.12,0.735,0.706,0.268,0.067,0.04,75.0,https://www.vlr.gg/player/49800/zeo?timespan=all/?timespan=90d,,
+Estrella,Rex Regum Qeon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/25025/estrella?timespan=all/?timespan=90d,0.991,0.974
+Monyet,Rex Regum Qeon,2.08,354.0,2.3,237.9,0.94,1.35,0.71,0.18,0.06,17.0,https://www.vlr.gg/player/8497/monyet?timespan=all/?timespan=90d,0.998,0.991
+xffero,Rex Regum Qeon,1.05,269.0,0.97,173.8,0.76,0.95,0.47,0.11,0.11,38.0,https://www.vlr.gg/player/4871/xffero?timespan=all/?timespan=90d,0.996,0.985
+Jemkin,Rex Regum Qeon,1.16,205.0,1.15,151.3,0.86,0.71,0.38,0.05,0.1,21.0,https://www.vlr.gg/player/24895/jemkin?timespan=all/?timespan=90d,0.991,0.969
+Kushy,Rex Regum Qeon,0.732,184.842,0.791,120.745,0.658,0.655,0.236,0.105,0.186,38.0,https://www.vlr.gg/player/4866/kushy?timespan=all/?timespan=90d,0.971,0.887
+FiNESSE,NRG Esports,0.884,158.868,0.873,103.871,0.714,0.554,0.273,0.055,0.063,498.0,https://www.vlr.gg/player/817/finesse?timespan=all/?timespan=90d,0.999,0.996
+s0m,NRG Esports,1.103,202.552,1.101,130.126,0.752,0.728,0.474,0.089,0.066,498.0,https://www.vlr.gg/player/4164/s0m?timespan=all/?timespan=90d,1.0,1.0
+Verno,NRG Esports,1.343,228.492,1.61,150.47,0.784,0.834,0.307,0.09,0.052,498.0,https://www.vlr.gg/player/21668/verno?timespan=all/?timespan=90d,0.969,0.957
+mada,NRG Esports,1.061,227.269,1.154,143.996,0.724,0.784,0.218,0.213,0.189,498.0,https://www.vlr.gg/player/5132/mada?timespan=all/?timespan=90d,0.977,0.971
+Ethan,NRG Esports,1.085,197.269,1.055,128.903,0.76,0.675,0.474,0.095,0.082,498.0,https://www.vlr.gg/player/11225/ethan?timespan=all/?timespan=90d,1.0,1.0
+ArPoom,Team NKT Academy,1.107,202.306,1.196,136.315,0.837,0.727,0.416,0.05,0.087,85.0,https://www.vlr.gg/player/12291/arpoom?timespan=all/?timespan=90d,0.955,0.802
+socools0da,Team NKT Academy,1.15,192.0,1.24,130.0,0.84,0.74,0.2,0.06,0.09,85.0,https://www.vlr.gg/player/16977/socools0da?timespan=all/?timespan=90d,0.955,0.802
+Vickyz,Team NKT Academy,0.818,207.541,0.811,133.671,0.667,0.684,0.211,0.144,0.26,85.0,https://www.vlr.gg/player/25535/vickyz?timespan=all/?timespan=90d,,
+D4rf,Team NKT Academy,1.213,240.441,1.154,152.376,0.787,0.79,0.568,0.132,0.082,85.0,https://www.vlr.gg/player/27225/d4rf?timespan=all/?timespan=90d,,
+LoRangeZ,Team NKT Academy,1.404,226.965,1.604,149.627,0.732,0.838,0.458,0.071,0.037,85.0,https://www.vlr.gg/player/31498/lorangez?timespan=all/?timespan=90d,,
+nizhaoTZH,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/4880/nizhaotzh?timespan=all/?timespan=90d,0.999,0.994
+vo0kashu,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/3741/vo0kashu?timespan=all/?timespan=90d,1.0,1.0
+Shion7,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/41774/shion7?timespan=all/?timespan=90d,1.0,1.0
+Cangshu,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/46527/cangshu?timespan=all/?timespan=90d,1.0,1.0
+Nicc,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/11524/nicc?timespan=all/?timespan=90d,1.0,1.0
+TvirusLuke,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/7841/tvirusluke?timespan=all/?timespan=90d,1.0,1.0
+SpiritZ1,Dragon Ranger Gaming,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/31753/spiritz1?timespan=all/?timespan=90d,1.0,1.0
+fiziq,YFP Gaming,0.978,190.842,0.909,127.065,0.702,0.624,0.351,0.093,0.083,446.0,https://www.vlr.gg/player/739/fiziq?timespan=all/?timespan=90d,0.932,0.934
+jakee,YFP Gaming,1.13,232.6,1.166,145.382,0.748,0.826,0.388,0.12,0.091,1023.0,https://www.vlr.gg/player/8742/jakee?timespan=all/?timespan=90d,0.915,0.937
+stellar,YFP Gaming,1.046,189.049,1.062,123.373,0.745,0.675,0.34,0.05,0.054,752.0,https://www.vlr.gg/player/733/stellar?timespan=all/?timespan=90d,0.933,0.939
+penny,YFP Gaming,1.073,237.479,1.14,154.042,0.71,0.813,0.226,0.2,0.173,752.0,https://www.vlr.gg/player/7716/penny?timespan=all/?timespan=90d,0.929,0.934
+thief,YFP Gaming,1.097,210.468,1.15,139.752,0.733,0.767,0.242,0.092,0.084,752.0,https://www.vlr.gg/player/69/thief?timespan=all/?timespan=90d,0.947,0.951
+123,Reckoning Esports,1.169,256.094,1.19,170.383,0.73,0.89,0.27,0.146,0.11,600.0,https://www.vlr.gg/player/40912/123?timespan=all/?timespan=90d,0.955,0.78
+kibojn,Reckoning Esports,1.068,194.261,1.088,120.482,0.731,0.714,0.407,0.057,0.064,477.0,https://www.vlr.gg/player/19231/kibojn?timespan=all/?timespan=90d,,
+aplycs,Reckoning Esports,0.995,180.024,0.941,122.248,0.717,0.64,0.361,0.051,0.031,387.0,https://www.vlr.gg/player/44919/aplycs?timespan=all/?timespan=90d,0.955,0.825
+Mojo,Reckoning Esports,0.811,162.038,0.761,106.259,0.691,0.539,0.415,0.061,0.119,410.0,https://www.vlr.gg/player/8156/mojo?timespan=all/?timespan=90d,0.955,0.825
+Deadly10,Reckoning Esports,1.056,225.502,1.063,144.788,0.709,0.793,0.196,0.185,0.172,637.0,https://www.vlr.gg/player/18702/deadly10?timespan=all/?timespan=90d,,
+ghostxD,Reckoning Esports,0.84,164.211,0.837,109.771,0.646,0.581,0.257,0.061,0.054,410.0,https://www.vlr.gg/player/48426/ghostxd?timespan=all/?timespan=90d,,
+BlackWiz,NOEZ FOXX,1.076,187.191,1.062,123.548,0.786,0.682,0.474,0.061,0.039,264.0,https://www.vlr.gg/player/7888/blackwiz?timespan=all/?timespan=90d,0.955,0.84
+Esperanza,NOEZ FOXX,0.857,190.43,0.95,121.684,0.694,0.686,0.184,0.107,0.13,264.0,https://www.vlr.gg/player/1952/esperanza?timespan=all/?timespan=90d,0.955,0.853
+thiefy,NOEZ FOXX,1.077,177.379,1.036,122.469,0.739,0.635,0.394,0.061,0.054,264.0,https://www.vlr.gg/player/6676/thiefy?timespan=all/?timespan=90d,0.955,0.84
+marin,NOEZ FOXX,1.1,215.161,1.181,148.457,0.718,0.755,0.211,0.088,0.105,264.0,https://www.vlr.gg/player/1027/marin?timespan=all/?timespan=90d,0.955,0.84
+eKo,NOEZ FOXX,1.22,285.1,1.27,174.8,0.78,0.95,0.27,0.2,0.14,264.0,https://www.vlr.gg/player/1960/eko?timespan=all/?timespan=90d,0.996,0.985
+dos9,BOOM Esports,1.068,196.708,1.029,127.519,0.796,0.705,0.516,0.064,0.039,185.0,https://www.vlr.gg/player/16215/dos9?timespan=all/?timespan=90d,0.982,0.93
+Famouz,BOOM Esports,0.981,238.702,0.991,158.274,0.71,0.81,0.241,0.134,0.117,121.0,https://www.vlr.gg/player/2348/famouz?timespan=all/?timespan=90d,0.966,0.866
+Shiro,BOOM Esports,1.053,207.282,1.008,134.449,0.721,0.688,0.439,0.11,0.083,202.0,https://www.vlr.gg/player/10739/shiro?timespan=all/?timespan=90d,0.965,0.863
+NcSlasher,BOOM Esports,1.055,206.054,1.066,132.945,0.774,0.723,0.424,0.119,0.065,202.0,https://www.vlr.gg/player/7043/ncslasher?timespan=all/?timespan=90d,0.963,0.856
+BerserX,BOOM Esports,1.136,216.098,1.362,141.331,0.757,0.809,0.228,0.093,0.137,202.0,https://www.vlr.gg/player/4874/berserx?timespan=all/?timespan=90d,0.965,0.863
+saadhak,Karmine Corp,0.886,170.279,0.813,123.264,0.648,0.542,0.275,0.149,0.096,80.0,https://www.vlr.gg/player/727/saadhak?timespan=all/?timespan=90d,1.0,1.0
+Avez,Karmine Corp,0.942,188.891,0.875,122.265,0.787,0.65,0.412,0.091,0.027,80.0,https://www.vlr.gg/player/5654/avez?timespan=all/?timespan=90d,0.978,0.881
+Elite,Karmine Corp,1.147,231.562,1.396,148.325,0.676,0.847,0.202,0.088,0.099,80.0,https://www.vlr.gg/player/16459/elite?timespan=all/?timespan=90d,1.0,0.993
+SUYGETSU,Karmine Corp,1.084,185.775,1.134,123.148,0.701,0.673,0.289,0.061,0.064,80.0,https://www.vlr.gg/player/2858/suygetsu?timespan=all/?timespan=90d,1.0,1.0
+marteen,Karmine Corp,0.926,203.991,0.95,130.736,0.703,0.737,0.222,0.161,0.164,80.0,https://www.vlr.gg/player/10307/marteen?timespan=all/?timespan=90d,0.953,1.0
+meL,Shopify Rebellion,1.014,188.376,1.11,118.783,0.784,0.654,0.454,0.084,0.086,204.0,https://www.vlr.gg/player/3063/mel?timespan=all/?timespan=90d,0.3,1.0
+alexis,Shopify Rebellion,0.977,164.28,0.926,104.289,0.753,0.553,0.561,0.041,0.094,377.0,https://www.vlr.gg/player/3079/alexis?timespan=all/?timespan=90d,0.325,0.997
+Noia,Shopify Rebellion,1.152,204.75,1.344,139.075,0.706,0.782,0.176,0.076,0.062,204.0,https://www.vlr.gg/player/17397/noia?timespan=all/?timespan=90d,0.332,0.996
+sarahcat,Shopify Rebellion,1.017,198.15,1.082,132.498,0.769,0.68,0.295,0.086,0.07,418.0,https://www.vlr.gg/player/21486/sarahcat?timespan=all/?timespan=90d,0.3,1.0
+Ri0,True Rippers,0.846,160.354,0.81,107.633,0.694,0.568,0.285,0.091,0.074,464.0,https://www.vlr.gg/player/3502/ri0?timespan=all/?timespan=90d,,
+Marcai,True Rippers,1.004,229.292,1.008,148.106,0.71,0.797,0.189,0.167,0.173,464.0,https://www.vlr.gg/player/46121/marcai?timespan=all/?timespan=90d,,
+BatmaN,True Rippers,0.844,179.216,0.867,112.072,0.665,0.666,0.185,0.063,0.088,129.0,https://www.vlr.gg/player/40057/batman?timespan=all/?timespan=90d,,
+R0meo,True Rippers,0.903,178.333,0.923,116.899,0.726,0.625,0.237,0.13,0.098,335.0,https://www.vlr.gg/player/46048/r0meo?timespan=all/?timespan=90d,,
+WAT,True Rippers,1.144,233.534,1.198,147.732,0.761,0.849,0.347,0.081,0.065,464.0,https://www.vlr.gg/player/1770/wat?timespan=all/?timespan=90d,0.955,0.825
+RvK,True Rippers,1.026,199.523,1.046,131.552,0.703,0.694,0.292,0.062,0.082,464.0,https://www.vlr.gg/player/12323/rvk?timespan=all/?timespan=90d,,
+artzin,MIBR,1.004,207.549,1.028,131.882,0.729,0.709,0.308,0.129,0.095,323.0,https://www.vlr.gg/player/5957/artzin?timespan=all/?timespan=90d,0.963,0.995
+xenom,MIBR,0.9,162.233,0.914,100.703,0.715,0.567,0.333,0.082,0.087,218.0,https://www.vlr.gg/player/20240/xenom?timespan=all/?timespan=90d,1.0,0.94
+cortezia,MIBR,1.107,216.772,1.292,146.541,0.719,0.808,0.108,0.112,0.108,218.0,https://www.vlr.gg/player/5395/cortezia?timespan=all/?timespan=90d,1.0,0.95
+nzr,MIBR,0.928,171.662,0.959,118.642,0.7,0.623,0.26,0.046,0.063,323.0,https://www.vlr.gg/player/725/nzr?timespan=all/?timespan=90d,0.983,0.998
+aspas,MIBR,1.331,254.373,1.505,166.238,0.79,0.912,0.16,0.195,0.105,218.0,https://www.vlr.gg/player/8480/aspas?timespan=all/?timespan=90d,1.0,0.998
+RIPablo,IGZIST,0.916,169.577,0.892,106.238,0.747,0.596,0.413,0.06,0.06,461.0,https://www.vlr.gg/player/1973/ripablo?timespan=all/?timespan=90d,0.955,0.84
+popogachi,IGZIST,1.335,275.964,1.472,182.56,0.758,0.956,0.309,0.131,0.103,461.0,https://www.vlr.gg/player/2671/popogachi?timespan=all/?timespan=90d,0.97,0.893
+Yamada,IGZIST,1.048,192.241,1.058,126.437,0.758,0.687,0.495,0.047,0.069,461.0,https://www.vlr.gg/player/44613/yamada?timespan=all/?timespan=90d,0.955,0.84
+oitaN,IGZIST,1.042,188.936,1.086,130.598,0.74,0.672,0.265,0.083,0.063,461.0,https://www.vlr.gg/player/1971/oitan?timespan=all/?timespan=90d,0.955,0.84
+Frxeez,IGZIST,0.965,217.98,1.027,137.517,0.714,0.762,0.202,0.195,0.188,461.0,https://www.vlr.gg/player/47481/frxeez?timespan=all/?timespan=90d,0.955,0.84
+Munchkin,Gen.G,1.149,207.554,1.092,138.774,0.724,0.693,0.434,0.089,0.085,587.0,https://www.vlr.gg/player/2489/munchkin?timespan=all/?timespan=90d,1.0,1.0
+Foxy9,Gen.G,0.88,191.268,0.928,124.013,0.69,0.663,0.181,0.095,0.107,587.0,https://www.vlr.gg/player/11600/foxy9?timespan=all/?timespan=90d,1.0,1.0
+t3xture,Gen.G,1.044,229.016,1.138,143.204,0.728,0.825,0.158,0.18,0.173,634.0,https://www.vlr.gg/player/9196/t3xture?timespan=all/?timespan=90d,1.0,1.0
+yoman,Gen.G,1.065,175.637,0.989,124.079,0.744,0.621,0.29,0.056,0.063,634.0,https://www.vlr.gg/player/25081/yoman?timespan=all/?timespan=90d,1.0,1.0
+Karon,Gen.G,1.112,193.143,1.132,118.64,0.738,0.704,0.392,0.086,0.059,634.0,https://www.vlr.gg/player/34974/karon?timespan=all/?timespan=90d,1.0,1.0
+Boaster,FNATIC,0.891,144.882,0.811,101.699,0.693,0.533,0.347,0.046,0.07,142.0,https://www.vlr.gg/player/438/boaster?timespan=all/?timespan=90d,1.0,1.0
+crashies,FNATIC,0.83,144.5,0.71,98.6,0.69,0.49,0.35,0.1,0.06,49.0,https://www.vlr.gg/player/4/crashies?timespan=all/?timespan=90d,0.999,0.996
+kaajak,FNATIC,0.92,192.113,0.949,127.423,0.68,0.688,0.184,0.107,0.143,142.0,https://www.vlr.gg/player/9554/kaajak?timespan=all/?timespan=90d,0.994,0.974
+Chronicle,FNATIC,1.058,209.331,1.092,146.712,0.753,0.717,0.233,0.07,0.077,142.0,https://www.vlr.gg/player/458/chronicle?timespan=all/?timespan=90d,1.0,1.0
+Alfajer,FNATIC,1.269,284.113,1.339,182.149,0.754,0.968,0.188,0.241,0.127,142.0,https://www.vlr.gg/player/9810/alfajer?timespan=all/?timespan=90d,1.0,1.0
+mimi,G2 Gozen,0.847,162.688,0.796,107.474,0.691,0.57,0.358,0.053,0.089,536.0,https://www.vlr.gg/player/17323/mimi?timespan=all/?timespan=90d,0.37,1.0
+rezq,G2 Gozen,0.824,207.498,0.877,132.269,0.641,0.711,0.18,0.181,0.23,281.0,https://www.vlr.gg/player/36175/rezq?timespan=all/?timespan=90d,0.341,1.0
+amy,G2 Gozen,0.877,177.766,0.906,119.885,0.691,0.644,0.168,0.061,0.066,454.0,https://www.vlr.gg/player/24149/amy?timespan=all/?timespan=90d,0.335,1.0
+Vania,G2 Gozen,0.998,177.284,0.902,112.64,0.749,0.603,0.448,0.061,0.042,363.0,https://www.vlr.gg/player/20064/vania?timespan=all/?timespan=90d,0.332,1.0
+Petra,G2 Gozen,0.966,199.335,0.934,129.587,0.694,0.692,0.273,0.11,0.131,281.0,https://www.vlr.gg/player/17320/petra?timespan=all/?timespan=90d,0.411,1.0
+ness,GIANTX GC,1.003,183.026,0.95,120.868,0.711,0.651,0.31,0.033,0.051,125.0,https://www.vlr.gg/player/17343/ness?timespan=all/?timespan=90d,0.3,1.0
+Smurfette,GIANTX GC,1.015,215.282,1.087,144.854,0.643,0.77,0.168,0.146,0.193,125.0,https://www.vlr.gg/player/16418/smurfette?timespan=all/?timespan=90d,0.3,1.0
+Joliinaa,GIANTX GC,1.034,201.993,1.023,135.148,0.73,0.684,0.372,0.061,0.062,207.0,https://www.vlr.gg/player/26632/joliinaa?timespan=all/?timespan=90d,0.3,1.0
+sarah,GIANTX GC,0.812,152.152,0.728,96.396,0.623,0.5,0.409,0.087,0.075,125.0,https://www.vlr.gg/player/24107/sarah?timespan=all/?timespan=90d,0.378,1.0
+Miyori,GIANTX GC,0.869,204.822,0.915,134.969,0.687,0.688,0.194,0.12,0.153,207.0,https://www.vlr.gg/player/24101/miyori?timespan=all/?timespan=90d,0.3,1.0
+theia,FlyQuest RED,0.853,167.228,0.854,106.712,0.668,0.593,0.457,0.077,0.06,127.0,https://www.vlr.gg/player/17/theia?timespan=all/?timespan=90d,0.3,1.0
+evv,FlyQuest RED,1.077,219.566,1.159,143.534,0.752,0.768,0.309,0.069,0.077,598.0,https://www.vlr.gg/player/33694/evv?timespan=all/?timespan=90d,0.3,1.0
+sonder,FlyQuest RED,0.894,175.021,0.88,113.955,0.762,0.605,0.349,0.092,0.098,177.0,https://www.vlr.gg/player/8849/sonder?timespan=all/?timespan=90d,0.3,1.0
+StarBound,FlyQuest RED,1.208,236.938,1.345,151.65,0.74,0.867,0.16,0.14,0.073,385.0,https://www.vlr.gg/player/8329/starbound?timespan=all/?timespan=90d,0.3,1.0
+dodonut,FlyQuest RED,1.189,240.168,1.189,161.538,0.783,0.839,0.231,0.174,0.095,238.0,https://www.vlr.gg/player/9185/dodonut?timespan=all/?timespan=90d,0.3,1.0
+Jovi,FlyQuest RED,1.041,186.64,1.02,124.188,0.717,0.656,0.322,0.064,0.098,240.0,https://www.vlr.gg/player/6570/jovi?timespan=all/?timespan=90d,,
+Alexy,Xipto Esports,1.124,212.762,1.15,142.958,0.738,0.75,0.253,0.124,0.134,303.0,https://www.vlr.gg/player/16621/alexy?timespan=all/?timespan=90d,0.3,1.0
+enerii,Xipto Esports,0.922,215.646,0.952,141.118,0.647,0.751,0.241,0.156,0.205,303.0,https://www.vlr.gg/player/8176/enerii?timespan=all/?timespan=90d,0.3,1.0
+Kamiyu,Xipto Esports,0.991,198.603,0.936,133.484,0.676,0.68,0.367,0.053,0.07,229.0,https://www.vlr.gg/player/18093/kamiyu?timespan=all/?timespan=90d,0.3,1.0
+dods,KRÜ BLAZE,1.086,248.345,1.164,160.542,0.697,0.864,0.223,0.227,0.222,223.0,https://www.vlr.gg/player/25663/dods?timespan=all/?timespan=90d,0.3,1.0
+conir,KRÜ BLAZE,1.033,191.076,1.061,127.339,0.761,0.66,0.409,0.071,0.061,223.0,https://www.vlr.gg/player/11259/conir?timespan=all/?timespan=90d,0.3,1.0
+micaela,KRÜ BLAZE,1.103,202.358,1.141,127.082,0.755,0.747,0.433,0.074,0.056,223.0,https://www.vlr.gg/player/21558/micaela?timespan=all/?timespan=90d,0.3,1.0
+biazik,KRÜ BLAZE,1.089,200.305,1.048,138.03,0.753,0.652,0.391,0.107,0.07,223.0,https://www.vlr.gg/player/11235/biazik?timespan=all/?timespan=90d,0.3,1.0
+romily,KRÜ BLAZE,1.054,195.16,1.159,130.288,0.723,0.716,0.233,0.056,0.047,223.0,https://www.vlr.gg/player/18982/romily?timespan=all/?timespan=90d,0.3,1.0
+srN,MIBR GC,1.166,274.717,1.232,177.407,0.718,0.932,0.184,0.286,0.197,410.0,https://www.vlr.gg/player/31574/srn?timespan=all/?timespan=90d,0.3,1.0
+sayuri,MIBR GC,0.997,171.619,0.95,107.61,0.763,0.612,0.498,0.046,0.065,410.0,https://www.vlr.gg/player/11239/sayuri?timespan=all/?timespan=90d,0.3,1.0
+Jelly,MIBR GC,1.085,209.738,1.048,136.955,0.753,0.733,0.373,0.063,0.055,410.0,https://www.vlr.gg/player/21435/jelly?timespan=all/?timespan=90d,0.3,1.0
+Mel,MIBR GC,1.09,193.432,1.125,124.304,0.742,0.677,0.347,0.049,0.097,305.0,https://www.vlr.gg/player/19791/mel?timespan=all/?timespan=90d,0.3,1.0
+jubs,MIBR GC,0.855,151.913,0.881,105.016,0.712,0.538,0.208,0.052,0.063,305.0,https://www.vlr.gg/player/14685/jubs?timespan=all/?timespan=90d,0.3,1.0
+Slandy,mesos millionaires,1.093,227.815,1.087,147.13,0.763,0.731,0.373,0.06,0.1,81.0,https://www.vlr.gg/player/14722/slandy?timespan=all/?timespan=90d,0.3,1.0
+Aniemal,mesos millionaires,0.846,166.928,0.82,112.673,0.677,0.588,0.291,0.054,0.076,552.0,https://www.vlr.gg/player/6575/aniemal?timespan=all/?timespan=90d,0.3,1.0
+Aeric,Aspyre x Swarm,1.156,218.547,1.223,141.114,0.743,0.761,0.306,0.117,0.092,406.0,https://www.vlr.gg/player/6576/aeric?timespan=all/?timespan=90d,0.0,0.0
+maryna,Fisher Fruit,0.692,143.945,0.541,93.779,0.549,0.456,0.298,0.04,0.054,73.0,https://www.vlr.gg/player/11964/maryna?timespan=all/?timespan=90d,0.3,1.0
+oranges,Teddy Tactics,0.854,154.661,0.827,104.658,0.682,0.537,0.295,0.047,0.093,533.0,https://www.vlr.gg/player/37920/oranges?timespan=all/?timespan=90d,0.347,0.995
+venus,Teddy Tactics,1.008,226.333,1.071,148.235,0.716,0.793,0.149,0.147,0.152,232.0,https://www.vlr.gg/player/28546/venus?timespan=all/?timespan=90d,0.3,1.0
+Raven,Teddy Tactics,1.189,241.211,1.321,155.858,0.742,0.881,0.2,0.082,0.058,418.0,https://www.vlr.gg/player/38728/raven?timespan=all/?timespan=90d,0.3,1.0
+calsushi,Teddy Tactics,0.878,176.389,0.82,119.194,0.704,0.6,0.369,0.043,0.065,325.0,https://www.vlr.gg/player/28530/calsushi?timespan=all/?timespan=90d,0.344,0.995
+k0rupt,Funhavers,0.982,191.372,0.969,121.473,0.739,0.665,0.447,0.073,0.071,1051.0,https://www.vlr.gg/player/28870/k0rupt?timespan=all/?timespan=90d,0.547,0.972
+Gia,Elation Vortex,0.878,154.971,0.826,111.222,0.688,0.559,0.432,0.063,0.064,136.0,https://www.vlr.gg/player/26008/gia?timespan=all/?timespan=90d,0.3,1.0
+Celeste,Infinity X,0.889,215.308,0.919,143.172,0.706,0.748,0.245,0.092,0.139,169.0,https://www.vlr.gg/player/41746/celeste?timespan=all/?timespan=90d,0.3,1.0
+WIRE,Elation Vortex,1.224,288.988,1.287,189.925,0.746,0.988,0.252,0.215,0.142,500.0,https://www.vlr.gg/player/46200/wire?timespan=all/?timespan=90d,0.3,1.0
+Hyungwonho,Elation Vortex,0.808,165.3,0.832,104.33,0.607,0.566,0.268,0.041,0.117,120.0,https://www.vlr.gg/player/29784/hyungwonho?timespan=all/?timespan=90d,0.3,1.0
+terror,Endear Esports,1.231,242.253,1.363,155.788,0.75,0.858,0.269,0.095,0.077,461.0,https://www.vlr.gg/player/45801/terror?timespan=all/?timespan=90d,0.3,1.0
+karie,oomfies,1.393,273.478,1.769,174.594,0.84,1.029,0.256,0.105,0.048,311.0,https://www.vlr.gg/player/17951/karie?timespan=all/?timespan=90d,0.3,1.0
+mili,Refrag,1.011,212.16,1.088,143.488,0.731,0.769,0.196,0.124,0.125,81.0,https://www.vlr.gg/player/28187/mili?timespan=all/?timespan=90d,0.3,1.0
+Kazler,Refrag,1.409,309.705,1.455,199.395,0.776,1.089,0.232,0.249,0.118,112.0,https://www.vlr.gg/player/25167/kazler?timespan=all/?timespan=90d,0.3,1.0
+rise,zZz,1.39,211.6,1.8,136.5,0.83,0.78,0.45,0.09,0.07,141.0,https://www.vlr.gg/player/5149/rise?timespan=all/?timespan=90d,0.3,1.0
+bunnybee,Fisher Fruit,0.937,220.81,0.988,139.625,0.569,0.779,0.162,0.127,0.209,168.0,https://www.vlr.gg/player/25246/bunnybee?timespan=all/?timespan=90d,0.3,1.0
+avery,oomfies,1.356,213.236,1.718,139.901,0.839,0.811,0.447,0.067,0.024,311.0,https://www.vlr.gg/player/17950/avery?timespan=all/?timespan=90d,0.3,1.0
+lazylion,Passion Project,1.065,202.769,0.968,151.612,0.753,0.665,0.462,0.057,0.078,104.0,https://www.vlr.gg/player/26188/lazylion?timespan=all/?timespan=90d,0.41,0.987
+unstable,Passion Project,0.974,172.9,0.98,113.744,0.721,0.622,0.278,0.061,0.07,717.0,https://www.vlr.gg/player/27884/unstable?timespan=all/?timespan=90d,0.561,0.97
+melya,Fisher Fruit,1.103,200.563,1.193,132.626,0.733,0.731,0.25,0.067,0.057,1059.0,https://www.vlr.gg/player/19556/melya?timespan=all/?timespan=90d,0.3,1.0
+Nora,YFP X,1.067,202.562,1.088,132.398,0.727,0.721,0.275,0.109,0.089,1466.0,https://www.vlr.gg/player/32667/nora?timespan=all/?timespan=90d,0.3,1.0
+Crook,Funhavers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0

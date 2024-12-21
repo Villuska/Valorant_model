@@ -30,9 +30,12 @@ def get_tournaments():
                 urls.add(href)
         return list(urls)
 
-def get_event_teams():
-    
-    event_urls = get_tournaments()
+def get_event_teams(var):
+    if var == "2":
+        link = input("Tournament link: ")
+        event_urls = [link]
+    else:
+        event_urls = get_tournaments()
     team_urls = set()
     time.sleep(2)
 
@@ -63,4 +66,8 @@ def get_event_teams():
 
    
 
-get_event_teams()
+def main():
+    var = input("1 for automatic, 2 for specific event: ")
+    get_event_teams(var)
+
+main()

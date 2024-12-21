@@ -23,6 +23,8 @@ import time
 from scipy.interpolate import interp1d
 import itertools
 import math
+from scrape_player_multi import *
+from file_helpers import *
 
 pd.set_option('mode.chained_assignment', None)
 
@@ -79,30 +81,44 @@ def find_player_data(url, timeframe):
         
         # Using .loc to set the 'url' column
         df = player_stats_table[["Player", "Team", "Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", "FKPR", "FDPR", "Total_Rounds_Played"]]
+        columns_to_round = ["Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", "FKPR", "FDPR", "Total_Rounds_Played"]
+        df[columns_to_round] = df[columns_to_round].round(3)
         df.loc[:, 'url'] = url  # This avoids SettingWithCopyWarning
         
     else:
         columns = ["Player", "Team", "Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", "FKPR", "FDPR", "Total_Rounds_Played"]
         df = pd.DataFrame([[player_name, team_name] + [0] * (len(columns) - 2)], columns=columns)
 
+    df['tier_m'] = 0
+    df['region_m'] = 0
+    
+
     if os.path.exists(f"player_data_{timeframe}.csv"):
-        df.to_csv(f"player_data_{timeframe}.csv", header=False, mode='a', index=False)
-        df = pd.read_csv(f"player_data_{timeframe}.csv")
-        df = df.drop_duplicates(subset=['url'], keep='first', inplace=False)
         print(df)
         print("")
+        existing_df = pd.read_csv(f"player_data_{timeframe}.csv")
+        updated_df = pd.concat([existing_df, df]).drop_duplicates(subset=['url'], keep='last')
+        updated_df.to_csv(f"player_data_{timeframe}.csv", index=False)
+
     else:
         df.to_csv(f"player_data_{timeframe}.csv", index=False)
         print(df)
         print("")
     
 def main():
-    base_urls_all = list(pd.read_csv("players.csv")['url'])
+    base_urls_all = list(pd.read_csv("players.csv")['url'].dropna())
     for url in base_urls_all:
         find_player_data(url, 'all')
-    base_urls_90 = list(pd.read_csv("players.csv")['url_90d'])
+    base_urls_90 = list(pd.read_csv("players.csv")['url_90d'].dropna())
     for url in base_urls_90:
         find_player_data(url, '90d')
+    scrape_player_multi()
+    players_df_90 = pd.read_csv("player_data_90d.csv")
+    players_df_all = pd.read_csv("player_data_all.csv")
+
+    save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
+    save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
+    
 
 if __name__ == "__main__":
     main()

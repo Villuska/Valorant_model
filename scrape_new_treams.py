@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import re
 import datetime
+from get_regions_from_old import *
 
 def add_players_to_csv(player_tuple, team):
     name = player_tuple[0]
@@ -22,13 +23,13 @@ def add_players_to_csv(player_tuple, team):
         url = url + "?timespan=all"
 
     url_90 = url + "/?timespan=90d"
-    columns = ['name', 'team', 'url', 'url_90d']
+    columns = ['name', 'team', 'url', 'url_90d', 'tier_m', 'region_m']
     if os.path.exists("players.csv"):
         if url not in pd.read_csv("players.csv")['url']:
-            df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90]])
+            df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90, None, None]])
             df.to_csv("players.csv", header=False, mode='a', index=False)
     else:
-        df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90]])
+        df = pd.DataFrame(columns=columns, data=[[name, team, url, url_90, None, None]])
         df.to_csv("players.csv", index=False)
 
 def get_players_from_soup(soup, team):
@@ -90,26 +91,31 @@ def get_last_change(url):
             first_date = "2024-06-06"
             count = 0
         return first_date, count
+    else:
+        return "2024-06-06", 0
 
-    return "2024-06-06", 0
+    
 
 def get_team_data_and_add_players(url):
+    print(url)
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         name, abbrevation = get_team_data_from_soup(soup)
         players = get_players_from_soup(soup, name)
         last_change, changes = get_last_change(url)
-        columns = ['team', 'abbrevation', 'players', 'last_change', 'changes', 'url']
+        region = None
+        tier = None
+        columns = ['team', 'abbrevation', 'region', 'tier','players', 'last_change', 'changes', 'url']
         if os.path.exists("teams.csv"):
-            if url not in pd.read_csv("teams.csv")['url']:
-                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, players, last_change, changes, url]])
+            if url not in pd.read_csv("teams.csv")['url'].tolist():
+                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
                 print("")
                 df.to_csv("teams.csv", header=False, mode='a', index=False)
                 print(df)
                 print("")
         else:
-            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, players, last_change, changes, url]])
+            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
             df.to_csv("teams.csv", index=False)
             print("")
             print(df)
@@ -117,11 +123,14 @@ def get_team_data_and_add_players(url):
 
 def main():
     urls = list(pd.read_csv("team_links.csv")['url'])
+    existing_urls = pd.read_csv("teams.csv")['url'].tolist()
+    urls = list(set(urls) - set(existing_urls))
     for url in urls:     
         get_team_data_and_add_players(url)
     print("")
     print("Scraping done!")
     print("")
+    get_regions_from_old()
 
 if __name__ == "__main__":
     main()
