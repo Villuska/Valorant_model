@@ -32,8 +32,8 @@ def player_strength_calculator(file, save_file_name):
                              player_stats_zscores['ACS'] * 0.2 +
                              player_stats_zscores['ADR'] * 0.075 +
                              player_stats_zscores['APR'] * 0.075 +
-                             player_stats_zscores['FKPR'] * 0.075 +
-                             player_stats_zscores['FDPR'] * 0.075) *
+                             player_stats_zscores['FKPR'] * 0.1 +
+                             player_stats_zscores['FDPR'] * 0.05) *
                             player_stats_zscores['tier_m'] *
                             player_stats_zscores['region_m']).round(2),
         'Total_Rounds_Played': player_stats_zscores['Total_Rounds_Played']
@@ -41,8 +41,9 @@ def player_strength_calculator(file, save_file_name):
     
     # Sort player strength in descending order
     player_strength = player_strength.sort_values(by='Player_Strength', ascending=False)
-    
+    player_strength = player_strength.drop_duplicates(subset=['Player', 'Team'], keep='last')
     # Save to file
+    player_strength = player_strength.round(2)
     player_strength.to_csv(save_file_name, index=False)
     return player_strength
 

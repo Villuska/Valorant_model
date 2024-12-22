@@ -22,7 +22,7 @@ def add_players_to_csv(player_tuple, team):
     if not "?timespan=all" in url:
         url = url + "?timespan=all"
 
-    url_90 = url + "/?timespan=90d"
+    url_90 = url + "/?timespan=90d".replace("?timespan=all/", "?timespan=90d")
     columns = ['name', 'team', 'url', 'url_90d', 'tier_m', 'region_m']
     if os.path.exists("players.csv"):
         if url not in pd.read_csv("players.csv")['url']:

@@ -3,6 +3,24 @@ from file_helpers import *
 import numpy as np
 import ast
 
+def scale_value(x, in_min=100, in_max=300, out_min=0.01, out_max=0.35):
+    return (x - in_min) / (in_max - in_min) * (out_max - out_min) + out_min
+
+
+def all_recent_scaler(row):
+    recent_rounds = row['Total_Rounds_Played_90d']
+    all_rounds = row['Total_Rounds_Played_All']
+    strength_all = row['Player_Strength_All']
+    strength_recent = row['Player_Strength_90d']
+    if all_rounds <= 300:
+        strength = np.nan
+    elif recent_rounds < 100:
+        strength = strength_all
+    else:
+        recent_m = scale_value(row['Total_Rounds_Played_90d'])
+        strength = recent_m * strength_recent + (1-recent_m) * strength_all
+    return strength
+
 def team_strength_calculator(strength_90d, strength_all):
     # Read CSV files
     player_strength_90d = strength_90d
@@ -13,18 +31,12 @@ def team_strength_calculator(strength_90d, strength_all):
     player_strength_all = player_strength_all.rename(columns={"Player_Strength": "Player_Strength_All", "Total_Rounds_Played": "Total_Rounds_Played_All"})
 
     # Merge dataframes
-    print(player_strength_90d.columns)
-    print(player_strength_all.columns)
     player_strength = pd.merge(player_strength_90d, player_strength_all, on=["Player", "Team"])
     # Calculate Player_Strength
-    player_strength['Player_Strength'] = player_strength.apply(
-        lambda row: np.nan if row['Total_Rounds_Played_All'] <= 240 else
-                    (0.35 * row['Player_Strength_90d'] + 0.65 * row['Player_Strength_All']) 
-                    if row['Total_Rounds_Played_90d'] >= 120 else row['Player_Strength_All'],
-        axis=1
-    )
+    player_strength['Player_Strength'] = player_strength.apply(all_recent_scaler, axis=1)
 
     player_strength = player_strength[['Player', 'Team', 'Player_Strength']]
+    player_strength = player_strength.sort_values(by='Player_Strength', ascending=False, inplace=False).round(2)
     player_strength.to_csv("final_player_strength.csv", index=False)
 
     team_data = pd.read_csv("teams.csv")
@@ -43,8 +55,6 @@ def team_strength_calculator(strength_90d, strength_all):
         team_data[player_col] = team_data['players'].apply(lambda players: players[i - 1] if len(players) >= i else None)
         
         # Debugging to ensure columns are correct
-        print(team_data.columns)
-        print(team_data.head())
         
         # Apply strength calculation
         team_data[strength_col] = team_data.apply(
@@ -58,7 +68,7 @@ def team_strength_calculator(strength_90d, strength_all):
         (team_data['Player_6_Strength'] >= 0) & (team_data['Player_6'] != "Lara"), None
     )
 
-    team_data.to_csv("Teams_with_Player_Strengths.csv", index=False)
+    team_data.to_csv("teams_with_Player_Strengths.csv", index=False)
 
     # Calculate Team_Strength
     team_data['Team_Strength'] = team_data[[col for col in team_data.columns if col.endswith('_Strength')]].mean(axis=1, skipna=True)
@@ -71,6 +81,8 @@ def team_strength_calculator(strength_90d, strength_all):
 
     # Save final team strengths
     team_data = team_data.sort_values(by='Team_Strength', ascending=False)
+    team_data = team_data.drop_duplicates(subset=['team'], keep='last')
+    team_data = team_data.round(2)
     team_data.to_csv("initial_strengths.csv", index=False)
     save_df_as_csv(team_data, 'firepowers', 'firepower_history')
 

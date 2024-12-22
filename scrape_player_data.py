@@ -29,6 +29,11 @@ from file_helpers import *
 pd.set_option('mode.chained_assignment', None)
 
 def find_player_data(url, timeframe):
+    if timeframe == "90d":
+        url = url.replace("?timespan=all/", "?timespan=90d").replace("?timespan=all", "?timespan=90d")
+        last_occurrence = url.rfind("?timespan=90d")
+        if last_occurrence != -1 and url.count("?timespan=90d") > 1:
+            url = url[:last_occurrence] + url[last_occurrence + len("?timespan=90d"):]
     print(f"Scraping: {url}")
 
     player_stats_scraper_page = requests.get(url)
@@ -37,6 +42,8 @@ def find_player_data(url, timeframe):
     player_stats = [elem.text for elem in player_stats_scraper_page.select("td+.mod-right, td.mod-center")]
     
     player_name = [elem.text for elem in player_stats_scraper_page.select(".wf-title")][0].strip()
+
+   
     
     team_name = requests.get(url)
     team_name = BeautifulSoup(team_name.content, 'html.parser')
@@ -53,20 +60,20 @@ def find_player_data(url, timeframe):
         player_stats_table = np.array(player_stats).reshape(num_rows, 16)
         player_stats_table = pd.DataFrame(player_stats_table)
         player_stats_table.columns = ["Use","Rounds_Played","Rating","ACS","KD","ADR","KAST","KPR","APR","FKPR","FDPR","K","D","A","FK","FD"]
-
+        
         # Drop 'Use' column
         player_stats_table = player_stats_table.drop(columns=["Use"])
 
         # Remove '%' from 'KAST' and convert columns to numeric
         player_stats_table["KAST"] = player_stats_table["KAST"].str.replace("%", "")
         player_stats_table = player_stats_table.apply(pd.to_numeric, errors='coerce').dropna()
-
+        
         # Calculate total rounds played
         Total_Rounds_Played = player_stats_table["Rounds_Played"].sum()
 
         # Normalize 'KAST'
         player_stats_table["KAST"] = player_stats_table["KAST"] / 100
-
+        print(player_stats_table)
         # Add 'Total_Rounds_Played' column
         player_stats_table["Total_Rounds_Played"] = Total_Rounds_Played
         # Calculate 'Percentage_Rounds_Played'
@@ -92,17 +99,15 @@ def find_player_data(url, timeframe):
     df['tier_m'] = 0
     df['region_m'] = 0
     
-
+    print(df)
     if os.path.exists(f"player_data_{timeframe}.csv"):
-        print(df)
         print("")
         existing_df = pd.read_csv(f"player_data_{timeframe}.csv")
-        updated_df = pd.concat([existing_df, df]).drop_duplicates(subset=['url'], keep='last')
+        updated_df = pd.concat([existing_df, df]).drop_duplicates(subset='url', keep='last')
         updated_df.to_csv(f"player_data_{timeframe}.csv", index=False)
 
     else:
         df.to_csv(f"player_data_{timeframe}.csv", index=False)
-        print(df)
         print("")
     
 def main():
@@ -119,6 +124,6 @@ def main():
     save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
     save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
     
-
 if __name__ == "__main__":
     main()
+
