@@ -25,7 +25,8 @@ import itertools
 import math
 from scrape_player_multi import *
 from file_helpers import *
-
+from form_initial_strengths import *
+from form_player_strengths import *
 pd.set_option('mode.chained_assignment', None)
 
 def find_player_data(url, timeframe):
@@ -110,7 +111,7 @@ def find_player_data(url, timeframe):
         df.to_csv(f"player_data_{timeframe}.csv", index=False)
         print("")
     
-def main():
+def scrape_player_data():
     base_urls_all = list(pd.read_csv("players.csv")['url'].dropna())
     for url in base_urls_all:
         find_player_data(url, 'all')
@@ -123,7 +124,8 @@ def main():
 
     save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
     save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
+    form_player_strengths()
+    form_initial_strengths()
     
-if __name__ == "__main__":
-    main()
+#scrape_player_data()
 

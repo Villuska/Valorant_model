@@ -4,7 +4,7 @@ from file_helpers import *
 def player_strength_calculator(file, save_file_name):
     # Read the player stats files
     player_stats = pd.read_csv(file)
-    player_stats_90d = pd.read_csv("player_stats_90.csv")
+    player_stats_90d = pd.read_csv("player_data_90d.csv")
     
     # Filter out players not in the last 90 days stats
     player_stats = player_stats[player_stats['Player'].isin(player_stats_90d['Player'])]
@@ -47,9 +47,7 @@ def player_strength_calculator(file, save_file_name):
     player_strength.to_csv(save_file_name, index=False)
     return player_strength
 
-def main():
+def form_player_strengths():
     player_strengths_all = player_strength_calculator("player_data_all.csv", "player_strengths_all.csv")
     player_strengths_90_d = player_strength_calculator("player_data_90d.csv", "player_strengths_90d.csv")
 
-if __name__ == "__main__":
-    main()

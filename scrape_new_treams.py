@@ -15,6 +15,7 @@ from selenium.webdriver.chrome.options import Options
 import re
 import datetime
 from get_regions_from_old import *
+from scrape_player_data import *
 
 def add_players_to_csv(player_tuple, team):
     name = player_tuple[0]
@@ -108,12 +109,11 @@ def get_team_data_and_add_players(url):
         tier = None
         columns = ['team', 'abbrevation', 'region', 'tier','players', 'last_change', 'changes', 'url']
         if os.path.exists("teams.csv"):
-            if url not in pd.read_csv("teams.csv")['url'].tolist():
-                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
-                print("")
-                df.to_csv("teams.csv", header=False, mode='a', index=False)
-                print(df)
-                print("")
+            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
+            print("")
+            df.to_csv("teams.csv", header=False, mode='a', index=False)
+            print(df)
+            print("")
         else:
             df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
             df.to_csv("teams.csv", index=False)
@@ -131,6 +131,7 @@ def main():
     print("Scraping done!")
     print("")
     get_regions_from_old()
+    scrape_player_data()
 
 if __name__ == "__main__":
     main()

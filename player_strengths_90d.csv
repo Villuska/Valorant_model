@@ -1,370 +1,847 @@
 Player,Team,Player_Strength,Total_Rounds_Played
-Alfajer,FNATIC,140.84,142.0
-Ethan,TUMT Shark,135.7,165.0
-f0rsakeN,Paper Rex,134.31,439.0
-sheydos,KOI,134.26,171.0
-Iceyyy,Unsigned5,133.91,40.0
-Monyet,Rex Regum Qeon,130.61,291.0
-something,Paper Rex,127.19,725.0
-Seoldam,RIDDLE ORDER,126.74,333.0
-zekken,Sentinels,125.75,682.0
-Dep,ZETA DIVISION,124.61,259.0
-Jinggg,Paper Rex,122.8,597.0
-Verno,NRG Esports,122.48,498.0
-marteen,Karmine Corp,122.27,306.0
-yetujey,FUT Esports,122.24,410.0
-purp0,GIANTX,121.47,402.0
-trent,G2 Esports,120.89,583.0
-Wo0t,Team Heretics,119.62,209.0
-OXY,Cloud9,117.13,600.0
-Flashback,DRX,117.0,571.0
-BuZz,T1,116.88,423.0
-RobbieBk,Gentle Mates,116.79,47.0
-xeus,FUT Esports,115.93,410.0
-FengF,Trace Esports,113.28,498.0
-runneR,GIANTX,113.06,380.0
-KEN,CREST GAMING Zst,112.41,740.0
-Munchkin,Gen.G,112.26,587.0
-crazyguy,Disguised,112.06,547.0
-Elite,Karmine Corp,111.53,80.0
-mindfreak,Paper Rex,111.5,17.0
-AvovA,Apeks,111.5,81.0
-AtaKaptan,FUT Esports,111.45,152.0
-leaf,G2 Esports,111.33,413.0
-Spaz,Moist x Shopify,110.73,1190.0
-bang,Sentinels,110.55,461.0
-iZu,T1,110.42,423.0
-satellite,Ambrosia,110.03,1681.0
-primmie,TALON,109.91,319.0
-Life,FunPlus Phoenix,108.02,348.0
-s0m,NRG Esports,107.98,498.0
-Cryocells,100 Thieves,107.84,227.0
-BcJ,Moist x Shopify,107.64,234.0
-Dragon,JiJieHao,107.1,649.0
-Meiy,DetonatioN FocusMe,106.57,489.0
-nephh,Bilibili Gaming,106.52,482.0
-grubinho,KOI,106.31,171.0
-LEW,JiJieHao,106.08,649.0
-Reduxx,Cubert Academy,105.46,327.0
-Caedye,RIDDLE ORDER,105.38,333.0
-Ethan,NRG Esports,105.26,498.0
-gobera,2Game Esports,105.23,181.0
-tricky,Level 5,104.91,178.0
-N4RRATE,Sentinels,104.85,626.0
-Karon,Gen.G,104.65,634.0
-t3xture,Gen.G,103.99,634.0
-Meteor,T1,103.92,423.0
-valyn,G2 Esports,103.91,410.0
-Minimise,JiJieHao,103.7,649.0
-Governor,TALON,103.48,649.0
-mikeE,Trust In Plug,103.38,1127.0
-Persia,Nongshim RedForce,102.89,155.0
-MrFaliN,FUT Esports,102.81,410.0
-dgzin,LOUD,102.68,177.0
-Xeppaa,Cloud9,102.64,427.0
-PatMen,ZOL Esports,102.29,468.0
-Sylvan,T1,102.22,423.0
-Demon1,LEVIATÁN,101.85,188.0
-Chronicle,FNATIC,101.23,142.0
-seven,TSM,100.96,1085.0
-brawk,Moist x Shopify,100.73,510.0
-Crws,TALON,100.67,300.0
-mada,NRG Esports,100.29,551.0
-gMd,TSM,100.28,987.0
-SpYzera,The Ultimates,100.06,963.0
-stax,T1,99.09,423.0
-SUYGETSU,Karmine Corp,98.24,80.0
-supamen,Evil Geniuses,98.2,227.0
-jakee,YFP Gaming,98.0,1746.0
-sym,TSM,97.9,755.0
-spike,2Game Esports,97.28,203.0
-Riza,Unsigned5,96.53,396.0
-Moh,The Ultimates,96.24,963.0
-Deryeon,Disguised,95.87,658.0
-tixx,JiJieHao,95.63,611.0
-Ivy,Nongshim RedForce,95.32,155.0
-whzy,Bilibili Gaming,95.18,497.0
-penny,YFP Gaming,95.18,822.0
-dos9,BOOM Esports,95.13,185.0
-Jan,BC SWELL,94.92,611.0
-yoman,Gen.G,94.82,634.0
-benjyfishy,Team Heretics,94.8,247.0
-xffero,Rex Regum Qeon,94.49,219.0
-Paincakes,Moist x Shopify,94.33,763.0
-Zellsis,Sentinels,93.94,741.0
-MiniBoo,Team Heretics,93.48,212.0
-HYUNMIN,DRX,93.4,571.0
-johnqt,Sentinels,92.75,682.0
-AAAAY,FunPlus Phoenix,92.49,200.0
-123,Reckoning Esports,92.4,600.0
-dip,SaD Esports,92.34,1537.0
-thief,YFP Gaming,92.32,822.0
-wayne,Disguised,92.28,729.0
-zander,100 Thieves,92.2,62.0
-Athan,DRX,92.02,571.0
-bazz,CREST GAMING Zst,91.68,759.0
-MOLSI,Apeks,91.58,81.0
-nerve,QoR,91.53,1560.0
-MaKo,DRX,91.4,474.0
-Zyppan,Gentle Mates,91.07,335.0
-Akame,DetonatioN FocusMe,90.87,461.0
-sakurai,CREST GAMING Zst,90.35,740.0
-qRaxs,FUT Esports,90.09,410.0
-Art,DetonatioN FocusMe,90.08,440.0
-Dambi,Nongshim RedForce,90.05,155.0
-Famouz,BOOM Esports,90.01,453.0
-sociablEE,BBL Esports,89.81,358.0
-Dark3st,SaD Esports,89.77,2008.0
-FETA,Next Gen,89.41,489.0
-patrickWHO,Global Esports,89.35,238.0
-Minny,Gentle Mates,89.2,47.0
-lz,2Game Esports,88.96,203.0
-Lightningfast,Level 5,88.92,106.0
-Jamppi,BBL Esports,88.89,358.0
-Kevzii,ZOL Esports,88.85,503.0
-Knight,Bilibili Gaming,88.71,497.0
-Shiro,BOOM Esports,88.67,534.0
-Ask,BABO,88.29,781.0
-freeing,DRX,88.1,474.0
-BerserX,BOOM Esports,87.72,534.0
-westside,GIANTX,87.71,513.0
-chiwa,BBL Esports,87.52,358.0
-Click,Gentle Mates,87.47,265.0
-Derrek,Evil Geniuses,87.22,333.0
-PROFEK,BBL Esports,87.22,358.0
-Uta,Chaos Alliance,87.09,126.0
-SugarZ3ro,ZETA DIVISION,86.77,237.0
-JoXJo,RIDDLE ORDER,86.54,333.0
-JitBoyS,TALON,86.27,319.0
-bdog,Turtle Troop,86.17,292.0
-LuoK1ng,Trace Esports,85.73,515.0
-Papi,Global Esports,85.7,534.0
-Avvix,Al-Qadsiah Esports,85.48,956.0
-Sinaway,Next Gen,85.04,489.0
-KHaaLiD,The Ultimates,84.81,963.0
-YoWamu,BABO,84.5,781.0
-stellar,YFP Gaming,84.36,752.0
-NcSlasher,BOOM Esports,84.0,534.0
-zMART,Onyx Ravens,83.66,960.0
-Jinboong,DetonatioN FocusMe,83.64,508.0
-Fixy,Unsigned5,83.5,396.0
-gotten,Alter Ego,83.47,615.0
-Francis,Nongshim RedForce,83.26,155.0
-yatsuka,RIDDLE ORDER,83.14,333.0
-Sand,The Ultimates,82.82,963.0
-tdawgg,TSM,82.62,1235.0
-Boo,Team Heretics,82.23,212.0
-socools0da,Team NKT Academy,82.14,455.0
-ACHRF,Onyx Ravens,82.13,979.0
-Luca,Delight,81.87,471.0
-saadhak,Karmine Corp,81.75,80.0
-Estrella,Rex Regum Qeon,81.34,201.0
-pryze,2Game Esports,81.31,203.0
-Kapi,CREST GAMING Zst,81.14,740.0
-kellyS,Global Esports,81.08,419.0
-kaajak,FNATIC,81.01,142.0
-thiefy,NOEZ FOXX,80.9,485.0
-Allen,BC SWELL,80.83,611.0
-snarly,QoR,80.52,2145.0
-Xdll,ZETA DIVISION,80.38,237.0
-ArPoom,Team NKT Academy,80.32,455.0
-sakura,BC SWELL,80.28,611.0
-Foxy9,Gen.G,80.25,587.0
-Levius,Bilibili Gaming,79.91,451.0
-Nakya,Alter Ego,79.77,615.0
-Boostio,100 Thieves,79.74,284.0
-monSi,Trust In Plug,79.45,946.0
-Flaring,Unsigned5,79.28,396.0
-Avez,Karmine Corp,78.72,80.0
-fiziq,YFP Gaming,78.64,516.0
-gyen,DetonatioN FocusMe,78.62,193.0
-v1c,Cloud9,78.59,600.0
-Teague,Trust In Plug,78.04,599.0
-Fighter,The Ultimates,78.0,963.0
-BlackWiz,NOEZ FOXX,77.87,485.0
-k1Ng,DRAGONS,77.3,947.0
-XXiF,TSM,77.3,341.0
-BigE,Next Gen,77.29,489.0
-RieNs,Team Heretics,77.05,95.0
-JonahP,G2 Esports,76.98,314.0
-C0M,LEVIATÁN,76.74,400.0
-CLZ,ZETA DIVISION,76.71,237.0
-str1keR,Al-Qadsiah Esports,76.42,956.0
-STYRON,Disguised,76.39,729.0
-IKANA,JiJieHao,76.23,597.0
-wedid,Turtle Troop,76.04,222.0
-kamyk,Team Liquid,75.76,54.0
-Winteryrook,Al-Qadsiah Esports,75.68,603.0
-ban,TALON,75.65,300.0
-mitch,Cloud9,74.64,204.0
-Elixllo,Al-Qadsiah Esports,74.14,956.0
-FiNESSE,NRG Esports,73.97,498.0
-ZYND,ZOL Esports,73.77,503.0
-ValdyN,Alter Ego,73.61,615.0
-aplycs,Reckoning Esports,72.76,730.0
-soulcas,KOI,72.75,116.0
-BerLIN,FunPlus Phoenix,72.58,348.0
-Paradox,Level 5,72.32,178.0
-Zauqk,Next Gen,72.07,593.0
-NOVAE,Rub n' Pug,72.03,401.0
-Cud,Alter Ego,71.49,591.0
-Esperanza,NOEZ FOXX,71.48,485.0
-SSeeS,DetonatioN FocusMe,70.54,21.0
-adverso,KRÜ Esports,70.36,189.0
-jEEE,ZOL Esports,70.05,503.0
-markL,Unsigned5,69.75,396.0
-ScrewFace,Ambrosia,69.63,1125.0
-Jemkin,Rex Regum Qeon,69.43,216.0
-rushia,Bilibili Gaming,69.08,497.0
-SyouTa,ZETA DIVISION,67.5,237.0
-Kuro,Original Gaming,67.45,805.0
-Kakarot,ZOL Esports,67.35,431.0
-moose,Cloud9,67.02,600.0
-Biank,Trace Esports,66.54,515.0
-margaret,Nongshim RedForce,66.16,155.0
-ray4c,Alter Ego,65.79,629.0
-silentzz,2Game Esports,65.41,203.0
-smiley,Ambrosia,64.56,873.0
-S1Mon,EDward Gaming,64.37,221.0
-Kuro,Onyx Ravens,62.85,979.0
-CHICHOO,EDward Gaming,61.75,162.0
-Mojo,Reckoning Esports,61.29,753.0
-NaturE,Evil Geniuses,60.63,227.0
-rezy,Al-Qadsiah Esports,60.18,956.0
-nobody,EDward Gaming,58.33,177.0
-Kyu,Ambrosia,57.37,864.0
-bunt,All Gamers,57.19,39.0
-flyuh,KOI,57.0,95.0
-Boaster,FNATIC,56.97,216.0
-florescent,Apeks,56.21,744.0
-Russ,Level 5,55.91,106.0
-acrian,Ambrosia,54.45,1149.0
-Filu,KOI,52.11,42.0
-k0rupt,Funhavers,50.45,1907.0
-Autumn,FunPlus Phoenix,46.3,231.0
-heybay,Trace Esports,43.96,347.0
-srN,MIBR GC,42.2,621.0
-karie,oomfies,40.9,817.0
-madv,Team Falcons Vega,40.67,810.0
-dods,KRÜ BLAZE,39.37,338.0
-WIRE,Elation Vortex,39.26,784.0
-Noia,Shopify Rebellion,39.01,744.0
-Vania,G2 Gozen,37.7,718.0
-may,Elation Vortex,36.39,33.0
-dodonut,FlyQuest RED,36.08,776.0
-sarahcat,Shopify Rebellion,36.07,958.0
-Mary,Team Falcons Vega,35.88,810.0
-rezq,G2 Gozen,35.71,505.0
-terror,Endear Esports,35.61,972.0
-Yusin,Ambitious Legend Gaming GC,35.47,226.0
-Petra,G2 Gozen,35.25,505.0
-meL,Shopify Rebellion,35.1,744.0
-Alexy,Xipto Esports,34.22,611.0
-avery,oomfies,34.16,716.0
-Kazler,Refrag,33.54,512.0
-Raven,Teddy Tactics,33.43,728.0
-Jelly,MIBR GC,33.25,621.0
-calsushi,Teddy Tactics,32.33,635.0
-Joliinaa,GIANTX GC,32.26,708.0
-Kamiyu,Xipto Esports,32.26,430.0
-biazik,KRÜ BLAZE,32.15,338.0
-sarah,GIANTX GC,31.8,657.0
-conir,KRÜ BLAZE,31.78,338.0
-StarBound,FlyQuest RED,31.75,891.0
-micaela,KRÜ BLAZE,31.56,338.0
-melya,Fisher Fruit,31.25,1660.0
-sayuri,MIBR GC,30.97,621.0
-TeddyIsFluffy,mesos millionaires,30.97,189.0
-marceline,YFP X,30.82,337.0
-Toki,Team Falcons Vega,30.76,961.0
-Smurfette,GIANTX GC,30.44,643.0
-UR,ZETA DIVISION GC,30.3,446.0
-romily,KRÜ BLAZE,30.29,338.0
-aria,Teddy Tactics,30.16,310.0
-evv,FlyQuest RED,30.13,1104.0
-alexis,Shopify Rebellion,29.72,917.0
-ness,GIANTX GC,29.63,643.0
-enerii,Xipto Esports,29.24,611.0
-Moco,ZETA DIVISION GC,29.2,446.0
-habibti,mesos millionaires,29.11,232.0
-mimi,G2 Gozen,28.77,891.0
-Mel,MIBR GC,28.73,516.0
-sonder,FlyQuest RED,28.71,683.0
-Slandy,mesos millionaires,28.67,313.0
-Nora,YFP X,28.66,1917.0
-mili,Refrag,28.59,481.0
-amy,G2 Gozen,28.51,678.0
-SUPERKAT,oomfies,27.69,405.0
-suzu,ZETA DIVISION GC,27.59,446.0
-venus,Teddy Tactics,27.54,542.0
-panday,oomfies,26.48,405.0
-Celeste,Infinity X,26.2,453.0
-Miyori,GIANTX GC,25.04,685.0
-aurelia,Elation Vortex,24.91,284.0
-jubs,MIBR GC,24.76,516.0
-oranges,Teddy Tactics,24.68,843.0
-eva,Team Falcons Vega,24.67,240.0
-theia,FlyQuest RED,24.67,633.0
-Muffyn,Ambitious Legend Gaming GC,24.03,211.0
-SereNa,ZETA DIVISION GC,23.15,554.0
-Gia,Elation Vortex,22.95,420.0
-Aniemal,mesos millionaires,22.79,784.0
-Laiyin,Ambitious Legend Gaming GC,22.73,226.0
-Tara,Paper Rex x Spotlight Series,22.6,630.0
-riv,Refrag,22.5,400.0
-Elab0rate,YFP X,22.49,337.0
-JinNy,Ambitious Legend Gaming GC,21.82,206.0
-aco,ZETA DIVISION GC,20.8,554.0
-Hyungwonho,Elation Vortex,19.08,371.0
-Sandra,Team Falcons Vega,18.97,128.0
-maryna,Fisher Fruit,16.37,73.0
-1hp,Ambitious Legend Gaming GC,7.03,169.0
+invy,Team Secret,154.17,19.0
+Alfajer,FNATIC,136.0,142.0
+cNed,FUT Esports,132.77,226.0
+aspas,MIBR,132.6,218.0
+Ethan,TUMT Shark,130.13,165.0
+sheydos,KOI,129.98,171.0
+f0rsakeN,Paper Rex,129.88,439.0
+Jremy,Team Secret,129.06,19.0
+Juicy,Wolves Esports,128.41,111.0
+Keiko,Team Liquid,127.22,54.0
+K4DAVRA,Gentle Mates,126.46,47.0
+JessieVash,Team Secret,125.63,19.0
+Iceyyy,Unsigned5,125.35,40.0
+something,Paper Rex,124.0,725.0
+jawgemo,G2 Esports,123.81,466.0
+popogachi,IGZIST,123.58,780.0
+zekken,Sentinels,122.83,682.0
+Dep,ZETA DIVISION,122.45,259.0
+azys,RIVAL,122.17,986.0
+eKo,NOEZ FOXX,121.67,485.0
+Monyet,Rex Regum Qeon,121.5,291.0
+Seoldam,RIDDLE ORDER,120.55,297.0
+Jinggg,Paper Rex,120.25,597.0
+yetujey,FUT Esports,120.2,410.0
+marteen,Karmine Corp,119.95,306.0
+keznit,KRÜ Esports,119.59,189.0
+purp0,GIANTX,119.39,402.0
+trent,G2 Esports,118.59,583.0
+Wo0t,Team Heretics,118.32,209.0
+mwzera,FURIA,118.14,255.0
+Wild0reoo,Team Secret,117.7,19.0
+Mazino,KRÜ Esports,117.11,189.0
+BuZz,T1,116.84,423.0
+moefcute,LAZY,116.71,841.0
+havoc,FURIA,116.67,255.0
+xeus,FUT Esports,116.17,410.0
+Flashback,DRX,115.72,571.0
+NT2k,Team Big BAAM,113.71,981.0
+RobbieBk,Gentle Mates,113.62,47.0
+runneR,GIANTX,113.38,380.0
+AvovA,Apeks,113.24,81.0
+FengF,Trace Esports,113.23,498.0
+Verno,NRG Esports,112.92,498.0
+AtaKaptan,FUT Esports,112.79,152.0
+Munchkin,Gen.G,112.73,587.0
+Elite,Karmine Corp,111.81,80.0
+leaf,G2 Esports,111.58,413.0
+KEN,CREST GAMING Zst,111.26,740.0
+iZu,T1,111.07,423.0
+bang,Sentinels,110.94,461.0
+primmie,TALON,110.93,319.0
+P1nA,Team Big BAAM,110.75,876.0
+BcJ,Moist x Shopify,110.62,234.0
+crazyguy,Disguised,110.27,547.0
+OXY,Cloud9,110.24,600.0
+rawfiul,RIVAL,110.07,986.0
+Life,FunPlus Phoenix,110.03,348.0
+mindfreak,Paper Rex,109.49,17.0
+s0m,NRG Esports,109.46,498.0
+Cryocells,100 Thieves,108.97,227.0
+Spaz,Moist x Shopify,108.76,1190.0
+Pa1nt,Moist x Shopify,108.64,1498.0
+ting2k5,Team Flash,108.44,1039.0
+Meiy,DetonatioN FocusMe,108.39,489.0
+nephh,Bilibili Gaming,108.38,482.0
+grubinho,KOI,107.8,171.0
+canezera,RANKERS,107.8,1788.0
+Melser,KRÜ Esports,107.36,189.0
+Ethan,NRG Esports,107.34,498.0
+DEATHMAKER,RIVAL,107.31,986.0
+tricky,Level 5,107.25,178.0
+N4RRATE,Sentinels,106.82,626.0
+Karon,Gen.G,106.82,634.0
+Kr1stal,Global Esports,106.8,419.0
+gobera,2Game Esports,106.62,181.0
+sociablEE,BBL Esports,106.27,358.0
+Dragon,JiJieHao,106.09,649.0
+Caedye,RIDDLE ORDER,106.08,297.0
+t3xture,Gen.G,106.07,634.0
+Meteor,T1,106.04,423.0
+BugattiVeyron,All Gamers Young,106.02,39.0
+dgzin,LOUD,105.99,177.0
+Cloud,GIANTX,105.85,142.0
+heat,FURIA,105.84,255.0
+MrFaliN,FUT Esports,105.79,410.0
+LEW,JiJieHao,105.59,649.0
+valyn,G2 Esports,105.29,410.0
+Deadly10,Reckoning Esports,105.26,980.0
+Riza,Unsigned5,105.21,396.0
+Sylvan,T1,105.19,423.0
+jakee,YFP Gaming,104.84,1681.0
+2ge,Team Secret,104.84,19.0
+Venka,Orangutan,104.7,572.0
+Xeppaa,Cloud9,104.53,427.0
+Minimise,JiJieHao,104.07,649.0
+Chronicle,FNATIC,103.89,142.0
+nTK,Team Big BAAM,103.88,981.0
+cauanzin,LOUD,103.77,136.0
+Reduxx,Cubert Academy,103.55,327.0
+Asuna,100 Thieves,103.43,62.0
+Boni,QoR,103.29,1982.0
+K1LLERS,Team Flash,102.98,1039.0
+Persia,Nongshim RedForce,102.9,155.0
+stax,T1,102.76,423.0
+cortezia,MIBR,102.26,218.0
+Crws,TALON,102.24,300.0
+UdoTan,Global Esports,102.03,238.0
+Kess,Nightblood Gaming,101.85,1831.0
+Kevzii,ZOL Esports,101.84,503.0
+supamen,Evil Geniuses,101.79,227.0
+RvK,True Rippers,101.55,619.0
+paTiTek,Team Liquid,101.54,171.0
+SUYGETSU,Karmine Corp,101.37,80.0
+alyaL,Team Flash,101.16,1039.0
+spike,2Game Esports,101.08,203.0
+mada,NRG Esports,101.06,551.0
+jowa,Turtle Troop,100.87,1291.0
+mikeE,Trust In Plug,100.53,1019.0
+Hyzee,LAZY,100.44,371.0
+Techno,Orangutan,100.44,805.0
+PatMen,ZOL Esports,100.38,468.0
+hellff,Orangutan,100.33,805.0
+Demon1,LEVIATÁN,100.19,188.0
+Hoax,Orangutan,100.13,805.0
+SpYzera,The Ultimates,99.74,994.0
+whzy,Bilibili Gaming,99.71,497.0
+brawk,Moist x Shopify,99.33,510.0
+gMd,TSM,99.31,987.0
+Eggsterr,RANKERS,99.24,570.0
+artzin,MIBR,98.63,323.0
+pANcada,LOUD,98.51,136.0
+zander,100 Thieves,98.28,62.0
+benjyfishy,Team Heretics,98.2,247.0
+sym,TSM,98.04,755.0
+Zellsis,Sentinels,97.7,741.0
+MiniBoo,Team Heretics,97.65,212.0
+dos9,BOOM Esports,97.57,185.0
+yoman,Gen.G,97.38,634.0
+seven,TSM,97.35,1085.0
+MOLSI,Apeks,97.21,81.0
+AAAAY,FunPlus Phoenix,97.2,200.0
+Vera,Disguised,96.93,604.0
+Jerrwin,Trust In Plug,96.87,2304.0
+BMV,LAZY,96.87,566.0
+Zyppan,Gentle Mates,96.76,335.0
+Moh,The Ultimates,96.72,994.0
+penny,YFP Gaming,96.63,822.0
+xffero,Rex Regum Qeon,96.58,219.0
+Deryeon,Disguised,96.47,658.0
+MaKo,DRX,96.46,474.0
+Famouz,BOOM Esports,96.4,382.0
+JoXJo,RIDDLE ORDER,96.3,297.0
+HYUNMIN,DRX,96.19,571.0
+bazz,CREST GAMING Zst,95.97,759.0
+ZiXuan,Xi Lai Gaming,95.87,251.0
+Governor,TALON,95.62,584.0
+Paincakes,Moist x Shopify,95.58,695.0
+Akame,DetonatioN FocusMe,95.42,461.0
+qRaxs,FUT Esports,95.33,410.0
+Athan,DRX,95.32,571.0
+tixx,JiJieHao,95.26,611.0
+Jan,BC SWELL,95.15,611.0
+stellar,YFP Gaming,94.7,752.0
+Knight,Bilibili Gaming,94.69,497.0
+Jamppi,BBL Esports,94.63,358.0
+Ivy,Nongshim RedForce,94.48,155.0
+chiwa,BBL Esports,94.34,358.0
+bao,Trust In Plug,94.19,1666.0
+Logan,QoR,94.18,2215.0
+nataNk,LEVIATÁN,94.17,67.0
+nightz,RANKERS,93.9,1834.0
+ezzy,MiBH,93.75,200.0
+lz,2Game Esports,93.72,203.0
+Inspire,RANKERS,93.68,570.0
+Minty,RIDDLE ORDER,93.44,249.0
+dip,SaD Esports,93.41,1462.0
+thief,YFP Gaming,93.4,822.0
+BerserX,BOOM Esports,93.31,463.0
+alym,Nightblood Gaming,93.17,1374.0
+wayne,Disguised,93.08,658.0
+Lightningfast,Level 5,93.02,106.0
+Dark3st,SaD Esports,92.94,1933.0
+johnqt,Sentinels,92.79,682.0
+nerve,QoR,92.75,1485.0
+Derrek,Evil Geniuses,92.67,333.0
+SugarZ3ro,ZETA DIVISION,92.57,237.0
+JitBoyS,TALON,92.27,319.0
+freeing,DRX,92.26,474.0
+LuoK1ng,Trace Esports,92.25,515.0
+jEEE,ZOL Esports,91.83,503.0
+satellite,Ambrosia,91.73,1681.0
+BlackWiz,NOEZ FOXX,91.51,485.0
+WAT,True Rippers,91.45,619.0
+Dambi,Nongshim RedForce,91.43,155.0
+patrickWHO,Global Esports,91.37,238.0
+sakurai,CREST GAMING Zst,91.35,740.0
+Shiro,BOOM Esports,91.33,463.0
+Minny,Gentle Mates,91.21,47.0
+123,Reckoning Esports,91.21,600.0
+marin,NOEZ FOXX,90.54,485.0
+P0PPIN,RANKERS,90.52,570.0
+Art,DetonatioN FocusMe,90.5,440.0
+bdog,Turtle Troop,90.37,292.0
+Uta,Chaos Alliance,90.35,126.0
+kellyS,Global Esports,90.21,419.0
+nAts,Team Liquid,90.13,54.0
+Shyy,KRÜ Esports,89.98,189.0
+kiNgg,LEVIATÁN,89.91,67.0
+Paradox,Level 5,89.82,178.0
+Ask,BABO,89.76,781.0
+Boo,Team Heretics,89.37,212.0
+saadhak,Karmine Corp,89.31,80.0
+oitaN,IGZIST,89.19,780.0
+Papi,Global Esports,89.03,534.0
+Antidote,RIVAL,88.96,963.0
+Excali,MiBH,88.87,372.0
+Flaring,Unsigned5,88.69,396.0
+eeiu,100 Thieves,88.54,62.0
+kurozooted,BABO,88.47,580.0
+PROFEK,BBL Esports,88.46,358.0
+FETA,Next Gen,88.45,489.0
+Ady,REVE RISE MAX,88.25,429.0
+Estrella,Rex Regum Qeon,88.08,201.0
+pryze,2Game Esports,87.73,203.0
+tomaszy,GIANTX,87.52,259.0
+AcZy,Exsto Gaming,87.51,53.0
+westside,GIANTX,87.45,513.0
+Levius,Bilibili Gaming,87.41,451.0
+kaajak,FNATIC,87.33,142.0
+NcSlasher,BOOM Esports,87.31,463.0
+Jinboong,DetonatioN FocusMe,87.3,508.0
+Boostio,100 Thieves,87.26,284.0
+Foxy9,Gen.G,87.23,587.0
+kenmohororo,BLUE BEES.ESP,86.94,425.0
+ALEKSANDAR,QoR,86.94,930.0
+Kakarot,ZOL Esports,86.93,431.0
+tdawgg,TSM,86.89,1170.0
+KHaaLiD,The Ultimates,86.79,994.0
+YoWamu,BABO,86.69,781.0
+vibhoRR,MiBH,86.49,73.0
+gyen,DetonatioN FocusMe,86.34,193.0
+nzr,MIBR,86.31,323.0
+furbsa,SaD Esports,86.18,1558.0
+v1c,Cloud9,86.11,600.0
+sogo,Fisher Navy,85.88,1706.0
+Kapi,CREST GAMING Zst,85.81,740.0
+Srx,Onyx Ravens,85.78,979.0
+kamo,Team Liquid,85.43,54.0
+Esperanza,NOEZ FOXX,85.42,485.0
+Francis,Nongshim RedForce,85.42,155.0
+Fixy,Unsigned5,85.41,396.0
+flora,Delight,85.39,471.0
+Click,Gentle Mates,85.35,265.0
+gotten,Alter Ego,85.14,615.0
+STYRON,Disguised,85.11,658.0
+C0M,LEVIATÁN,85.1,400.0
+snarly,QoR,84.91,2095.0
+yatsuka,RIDDLE ORDER,84.84,297.0
+Khalil,FURIA,84.73,255.0
+Xdll,ZETA DIVISION,84.64,237.0
+Sinaway,Next Gen,84.63,489.0
+RieNs,Team Heretics,84.56,95.0
+deecee,Orangutan,84.51,589.0
+JonahP,G2 Esports,84.46,314.0
+Avvix,Al-Qadsiah Esports,84.45,987.0
+Sand,The Ultimates,84.44,994.0
+Brofeld,CREST GAMING Zst,84.43,759.0
+Rossi,Exsto Gaming,84.25,223.0
+monSi,Trust In Plug,84.1,946.0
+Luca,Delight,84.07,471.0
+zMART,Onyx Ravens,84.04,960.0
+Allen,BC SWELL,83.93,611.0
+kamyk,Team Liquid,83.89,54.0
+ACHRF,Onyx Ravens,83.84,979.0
+Kushy,Rex Regum Qeon,83.7,258.0
+fiziq,YFP Gaming,83.63,516.0
+Han,esports team αD,83.57,588.0
+adverso,KRÜ Esports,83.43,189.0
+socools0da,Team NKT Academy,83.43,455.0
+AL7B,DRAGONS,83.41,1050.0
+thiefy,NOEZ FOXX,83.38,485.0
+Teague,Trust In Plug,83.37,599.0
+raafa,FURIA,83.37,255.0
+f0rsakeN,INHS Yining,83.25,71.0
+ban,TALON,83.17,300.0
+Ri0,True Rippers,83.1,619.0
+sakura,BC SWELL,82.77,611.0
+FireBallOps,Nightblood Gaming,82.7,1818.0
+EscO,esports team αD,82.63,588.0
+soulcas,KOI,82.63,116.0
+CLZ,ZETA DIVISION,82.6,237.0
+Lafura,BLUE BEES.ESP,82.54,329.0
+Mundy,club penguin,82.49,211.0
+Kaoticcc,Turtle Troop,82.36,1216.0
+FiNESSE,NRG Esports,82.34,498.0
+XXiF,TSM,82.16,341.0
+KeA,Unicorn Cyber Esports,82.14,707.0
+k1Ng,DRAGONS,82.13,947.0
+Nakya,Alter Ego,82.11,615.0
+Spirit,BITEKI,82.09,304.0
+Fighter,The Ultimates,82.0,994.0
+Jerry,BC SWELL,81.85,341.0
+ArPoom,Team NKT Academy,81.81,455.0
+kobra,CNEsports,81.8,153.0
+Jinbey,BC SWELL,81.6,341.0
+BerLIN,FunPlus Phoenix,81.55,348.0
+fusion,club penguin,81.33,255.0
+ScrewFace,Ambrosia,81.04,1125.0
+waleed,Onyx Ravens,80.99,979.0
+tex,LEVIATÁN,80.93,178.0
+Avez,Karmine Corp,80.67,80.0
+Yamada,IGZIST,80.48,780.0
+xenom,MIBR,80.46,218.0
+g4ll,Delight,80.42,344.0
+tuyz,LOUD,80.34,136.0
+SplatGun,BITEKI,80.07,304.0
+crashies,FNATIC,79.95,49.0
+benjii,SaD Esports,79.79,2006.0
+SSeeS,DetonatioN FocusMe,79.65,21.0
+IKANA,JiJieHao,79.59,561.0
+Frxeez,IGZIST,79.53,780.0
+rushia,Bilibili Gaming,78.97,497.0
+BigE,Next Gen,78.88,489.0
+HUYNH,Fisher Navy,78.76,1786.0
+wodz,club penguin,78.39,255.0
+Jemkin,Rex Regum Qeon,77.94,216.0
+markL,Unsigned5,77.9,396.0
+RIPablo,IGZIST,77.8,780.0
+Kakashiii,Randoms,77.64,416.0
+wedid,Turtle Troop,77.63,222.0
+ScoPe,REVE RISE MAX,77.54,429.0
+str1keR,Al-Qadsiah Esports,77.53,987.0
+mitch,Cloud9,77.47,204.0
+ValdyN,Alter Ego,77.37,615.0
+Elixllo,Al-Qadsiah Esports,77.33,987.0
+ZYND,ZOL Esports,77.21,503.0
+Winteryrook,Al-Qadsiah Esports,76.98,634.0
+sommboiii,Exsto Gaming,76.63,223.0
+Biank,Trace Esports,76.62,515.0
+aplycs,Reckoning Esports,76.37,730.0
+Zan,BLUE BEES.ESP,75.86,288.0
+Chay,Delight,75.84,471.0
+silentzz,2Game Esports,75.5,203.0
+S1Mon,EDward Gaming,75.28,221.0
+Cud,Alter Ego,75.27,591.0
+Zauqk,Next Gen,74.91,593.0
+keisu,BLUE BEES.ESP,74.76,288.0
+Jiggy,BITEKI,74.7,304.0
+SyouTa,ZETA DIVISION,74.5,237.0
+Recoil,TSM,74.44,877.0
+NOVAE,Rub n' Pug,74.28,401.0
+Jacyn,BITEKI,74.11,304.0
+moose,Cloud9,74.05,600.0
+LewN,BBL Esports,73.65,573.0
+R1va,Delight,73.58,471.0
+Mojo,Reckoning Esports,73.5,753.0
+niki,esports team αD,73.37,588.0
+Spartabang,Exsto Gaming,73.33,223.0
+Flowy,Al-Qadsiah Esports,72.99,274.0
+CHICHOO,EDward Gaming,72.74,162.0
+Astin,Randoms,72.42,365.0
+Kuro,Original Gaming,72.33,805.0
+e9Lair,BLUE BEES.ESP,72.05,425.0
+v1nny,LOUD,71.92,136.0
+margaret,Nongshim RedForce,71.83,155.0
+ray4c,Alter Ego,71.58,629.0
+nobody,EDward Gaming,70.43,177.0
+NaturE,Evil Geniuses,70.3,227.0
+bunt,All Gamers,69.94,39.0
+Whimp,MiBH,69.54,200.0
+Kyun,Exsto Gaming,69.51,161.0
+Darwin,DRAGONS,69.46,268.0
+Boaster,FNATIC,69.32,216.0
+sHOW,BITEKI,69.06,78.0
+hiro,Natus Vincere,68.8,74.0
+Kuro,Onyx Ravens,68.67,979.0
+Russ,Level 5,68.51,106.0
+Rayy,DRAGONS,68.49,1050.0
+Monokuma,Randoms,68.35,359.0
+Akashi,LAZY,66.36,799.0
+Filu,KOI,66.29,42.0
+flyuh,KOI,66.27,95.0
+rezy,Al-Qadsiah Esports,65.68,987.0
+smiley,Ambrosia,65.58,873.0
+oj,club penguin,65.46,211.0
+AlMtRoOo3,Onyx Ravens,65.05,19.0
+iNaz,DRAGONS,65.01,885.0
+YuRelly,esports team αD,63.71,158.0
+abu,esports team αD,62.49,292.0
+Mythical,Randoms,62.4,416.0
+Autumn,FunPlus Phoenix,61.24,231.0
+CHAK,Chaos Alliance,60.7,126.0
+pyua,BarackObamaPizza,60.23,255.0
+heybay,Trace Esports,59.82,347.0
+Planko,Randoms,59.71,416.0
+Kyu,Ambrosia,57.55,864.0
+acrian,Ambrosia,55.13,1149.0
+florescent,Apeks,53.85,744.0
+k0rupt,Funhavers,50.08,1792.0
+meL,Shopify Rebellion,45.1,744.0
+TeddyIsFluffy,mesos millionaires,41.66,189.0
+lazylion,Passion Project,40.95,104.0
+srN,MIBR GC,40.85,621.0
+Alexy,Xipto Esports,40.74,611.0
+Noia,Shopify Rebellion,40.37,744.0
+Kamiyu,Xipto Esports,39.78,430.0
+unstable,Passion Project,39.68,717.0
+karie,oomfies,39.46,817.0
+madv,Team Falcons Vega,39.35,810.0
+suzu,ZETA DIVISION GC,38.91,446.0
+dods,KRÜ BLAZE,38.57,338.0
+WIRE,Elation Vortex,38.45,784.0
+sarahcat,Shopify Rebellion,38.25,958.0
+Yusin,Ambitious Legend Gaming GC,38.16,226.0
+alexis,Shopify Rebellion,37.77,917.0
+Petra,G2 Gozen,37.53,467.0
+may,Elation Vortex,36.57,33.0
+Vania,G2 Gozen,36.3,680.0
+dodonut,FlyQuest RED,35.92,616.0
+Mary,Team Falcons Vega,35.69,810.0
+rezq,G2 Gozen,35.34,467.0
+terror,Endear Esports,35.21,866.0
+melya,Fisher Fruit,35.13,1660.0
+ckuma,Chaos Alliance,34.5,17.0
+avery,oomfies,34.23,716.0
+Kazler,Refrag,33.8,512.0
+mimi,G2 Gozen,33.61,853.0
+sarah,GIANTX GC,33.56,609.0
+Raven,Teddy Tactics,33.54,728.0
+Jelly,MIBR GC,33.49,621.0
+Nora,YFP X,33.35,1917.0
+SUPERKAT,oomfies,33.32,405.0
+calsushi,Teddy Tactics,33.08,635.0
+biazik,KRÜ BLAZE,32.73,338.0
+Joliinaa,GIANTX GC,32.66,660.0
+StarBound,FlyQuest RED,32.6,731.0
+conir,KRÜ BLAZE,32.36,338.0
+micaela,KRÜ BLAZE,32.16,338.0
+rise,zZz,32.08,600.0
+sayuri,MIBR GC,31.79,621.0
+marceline,YFP X,31.64,337.0
+Smurfette,GIANTX GC,31.64,595.0
+Toki,Team Falcons Vega,31.56,961.0
+aria,Teddy Tactics,31.55,310.0
+UR,ZETA DIVISION GC,31.23,446.0
+sonder,FlyQuest RED,31.2,523.0
+romily,KRÜ BLAZE,31.06,338.0
+evv,FlyQuest RED,30.85,944.0
+ness,GIANTX GC,30.85,595.0
+maryna,Fisher Fruit,30.8,73.0
+enerii,Xipto Esports,30.5,611.0
+habibti,mesos millionaires,30.31,232.0
+Moco,ZETA DIVISION GC,30.27,446.0
+Slandy,mesos millionaires,29.89,313.0
+Mel,MIBR GC,29.89,516.0
+mili,Refrag,29.82,481.0
+Kohaibi,Paper Rex x Spotlight Series,29.1,345.0
+venus,Teddy Tactics,29.03,542.0
+amy,G2 Gozen,28.54,640.0
+panday,oomfies,28.13,405.0
+Celeste,Infinity X,27.98,453.0
+oranges,Teddy Tactics,27.2,843.0
+Miyori,GIANTX GC,26.91,637.0
+aurelia,Elation Vortex,26.74,284.0
+jubs,MIBR GC,26.7,516.0
+eva,Team Falcons Vega,26.58,240.0
+bunnybee,Fisher Fruit,26.53,317.0
+Muffyn,Ambitious Legend Gaming GC,26.51,211.0
+theia,FlyQuest RED,26.1,473.0
+SereNa,ZETA DIVISION GC,25.49,554.0
+Gia,Elation Vortex,25.43,420.0
+Laiyin,Ambitious Legend Gaming GC,25.36,226.0
+Aniemal,mesos millionaires,25.27,784.0
+Tara,Paper Rex x Spotlight Series,25.17,630.0
+riv,Refrag,25.06,400.0
+Elab0rate,YFP X,25.03,337.0
+JinNy,Ambitious Legend Gaming GC,24.78,206.0
+aco,ZETA DIVISION GC,23.84,554.0
+Hyungwonho,Elation Vortex,22.29,371.0
+Sandra,Team Falcons Vega,22.27,128.0
+YOME,DRX Changers,18.09,120.0
+Ache,DRX Changers,16.66,120.0
+1hp,Ambitious Legend Gaming GC,13.19,169.0
+失败总是贯彻人生始终,HKUF,0.0,41.0
+PuFF,HKUF,0.0,41.0
+SGe,HKUF,0.0,41.0
+KaiSeN,HKUF,0.0,41.0
+R4t,HKUF,0.0,41.0
+consz,The MongolZ,0.0,400.0
+SkyIsBlue,The MongolZ,0.0,400.0
+MnFeaR,The MongolZ,0.0,400.0
+CXIX666,The MongolZ,0.0,400.0
+nex1SphiX,The MongolZ,0.0,400.0
+BMoMoツ,momo親子台,0.0,32.0
+SMoMoツ,momo親子台,0.0,32.0
+FMoMoツ,momo親子台,0.0,32.0
+CMoMoツ,momo親子台,0.0,32.0
+rodd,SAGAZ,0.0,322.0
+TORONTO,SAGAZ,0.0,163.0
+Ya0yU1,Daojiang Husky,0.0,40.0
+xiaoxia,TUMT Orcinus,0.0,72.0
+MiuMiuKK,TUMT Orcinus,0.0,72.0
+Spectre,TUMT Orcinus,0.0,72.0
+Bak1,OCU,0.0,58.0
+QiaoEn,OCU,0.0,58.0
+YungEn,OCU,0.0,58.0
+SumeeLunai,OCU,0.0,58.0
+aimbot,OCU,0.0,58.0
+V1ncy,Daojiang Husky,0.0,40.0
+我期待的不是雪而是有你的冬天,你媽買菜必漲價,0.0,30.0
+XiaoXu,Daojiang Husky,0.0,40.0
+HanJi,OCU,-0.0,0.0
+魔法貓咪,MYDunWaaAChu,0.0,32.0
+Milktea,ZFE,0.0,35.0
+LumiQQ,ZFE,0.0,35.0
+X1ngX1nG,ZFE,0.0,35.0
+prozin,Galorys,0.0,468.0
+RgLMeister,Galorys,0.0,468.0
+Urango,Galorys,0.0,468.0
+lukxo,Galorys,0.0,468.0
+Sato,Galorys,0.0,468.0
+solo88,LANDODGERS,0.0,111.0
+X1aoMa0,LANDODGERS,0.0,111.0
+Melancholy,LANDODGERS,0.0,111.0
+Pony,LANDODGERS,0.0,111.0
+Teddy,LANDODGERS,0.0,111.0
 Sunshine,TYLOO,-0.0,0.0
+faithz0r,2Game Esports,0.0,22.0
+RMoMoツ,momo親子台,0.0,32.0
+MINJU,ZFE,0.0,35.0
+Psilence,DRAGONS,0.0,1050.0
+vapen,Moist x Shopify,0.0,15.0
+OrcaZZ,TWA,0.0,99.0
+明日花,TWA,0.0,99.0
+CIC,TWA,0.0,99.0
+Setrod,GOOD BOY,0.0,56.0
+Owen,GOOD BOY,0.0,88.0
+uuuuuuuuuuuuuuuu,GOOD BOY,0.0,32.0
+rAb1q,GOOD BOY,0.0,88.0
+Nastiness,GOOD BOY,0.0,88.0
+Au1oek,GOOD BOY,0.0,88.0
+MiLuan,SAIO,0.0,89.0
+moon,SAIO,0.0,89.0
+Ankara,S2 Esports,0.0,89.0
+zhen,S2 Esports,0.0,89.0
+Murphy,S2 Esports,0.0,89.0
+Asteriskk,Alter Ego,0.0,20.0
+妳知道雞米花的花語是什麼嗎,TWA,0.0,99.0
+xzzcat,TWA,0.0,229.0
+PRX something,INHS Yining,0.0,53.0
 Aeric,Aspyre x Swarm,0.0,774.0
-Rarga,Xi Lai Gaming,-42.14,0.0
-o0o0o,Nova Esports,-42.36,0.0
-deLb,All Gamers,-42.44,0.0
-happywei,Xi Lai Gaming,-42.53,0.0
-Spitfires,All Gamers,-42.74,0.0
-Ezeir,Nova Esports,-43.09,0.0
-GuanG,Nova Esports,-43.09,0.0
-V1yA,Wolves Esports,-43.09,0.0
-SiuFatBB,Wolves Esports,-43.09,0.0
-CB,Nova Esports,-43.09,0.0
-Spring,Wolves Esports,-43.09,0.0
-Yuicaw,Wolves Esports,-43.09,0.0
-stew,JDG Esports,-43.09,0.0
-Viva,JDG Esports,-43.09,0.0
-jkuro,JDG Esports,-43.09,0.0
-Z1yan,JDG Esports,-43.09,0.0
-sword9,JDG Esports,-43.09,0.0
-Lysoar,Wolves Esports,-43.09,0.0
-d4v41,Paper Rex,-43.09,0.0
-SpiritZ1,Dragon Ranger Gaming,-43.09,0.0
-MrCANI,Xi Lai Gaming,-43.09,0.0
-MarT1n,Xi Lai Gaming,-43.09,0.0
-coconut,Xi Lai Gaming,-43.09,0.0
-Ninebody,TYLOO,-43.09,0.0
-Kai,Trace Esports,-43.09,0.0
-Eren,TYLOO,-43.09,0.0
-YOU,Xi Lai Gaming,-43.09,0.0
-TvirusLuke,Dragon Ranger Gaming,-43.09,0.0
-Nicc,Dragon Ranger Gaming,-43.09,0.0
-Shion7,Dragon Ranger Gaming,-43.09,0.0
-vo0kashu,Dragon Ranger Gaming,-43.09,0.0
-X3B,All Gamers,-43.09,0.0
-K1ra,All Gamers,-43.09,0.0
-Smoggy,EDward Gaming,-43.09,0.0
-ZmjjKK,EDward Gaming,-43.09,0.0
-yosemite,FunPlus Phoenix,-43.09,0.0
-AC,Titan Esports Club,-43.09,0.0
-Rb,Titan Esports Club,-43.09,0.0
-Abo,Titan Esports Club,-43.09,0.0
-Haodong,Titan Esports Club,-43.09,0.0
-B1ack,Titan Esports Club,-43.09,0.0
-SWERL,Nova Esports,-43.09,0.0
+lucks,Grêmio Esports,0.0,486.0
+HenB1N,Daojiang Husky,0.0,40.0
+Ginilson,TotalePRO,0.0,533.0
+PangXinXin,INHS Yining,0.0,71.0
+FATZHAI,INHS Yining,0.0,32.0
+Haby,CSU,0.0,41.0
+Noelowo,CSU,0.0,41.0
+沒心情,CSU,0.0,41.0
+Bulang,CSU,0.0,41.0
+rzk,CSU,0.0,41.0
+103,理科純情男高,0.0,39.0
+hdx,理科純情男高,0.0,39.0
+羊了個揚,理科純情男高,0.0,39.0
+Evann,理科純情男高,0.0,39.0
+Dodekethon,理科純情男高,0.0,39.0
+riyabtw,Oblivion Force,0.0,126.0
+CHIMEI,Oblivion Force,0.0,126.0
+Behappy,ZFE,0.0,35.0
+Kenkayyy,Orquestra Do Maestro,0.0,170.0
+maestr0,Orquestra Do Maestro,0.0,132.0
+forbanz,Orquestra Do Maestro,0.0,106.0
+woddy,Cumberland Phoenix,0.0,1477.0
+zeRo,Evil Samurai,0.0,118.0
+XiaoYu,Evil Samurai,0.0,248.0
+KiNN,Evil Samurai,0.0,118.0
+1yee1wee1yee1wee,Evil Samurai,0.0,118.0
+Beishang1019,Evil Samurai,0.0,118.0
+Anc1enT,VNU Esports,0.0,70.0
+T1ankong,VNU Esports,0.0,70.0
+huawei1016,VNU Esports,0.0,70.0
+ONLY,VNU Esports,0.0,70.0
+XmA,VNU Esports,0.0,70.0
+LEV Demon1,INHS Yining,0.0,57.0
+lSAGI,INHS Yining,0.0,71.0
+0n1y,LP33,0.0,74.0
+1111111 Fu,LP33,0.0,74.0
+Bosheng,LP33,0.0,74.0
+YuFan,STU樹德暴風樹,0.0,66.0
+Zhe,STU樹德暴風樹,0.0,66.0
+TianDi,STU樹德暴風樹,0.0,98.0
+Dio,STU樹德暴風樹,0.0,66.0
+MAKIMA,STU樹德暴風樹,0.0,66.0
+Esuki,Niflheimr,0.0,79.0
+LoNe1y,Niflheimr,0.0,79.0
+tungyao,Niflheimr,0.0,79.0
+Sushi0421,Niflheimr,0.0,79.0
+斗鱼丶阿肆,Niflheimr,0.0,79.0
+KaneKizz,Young Warriors,0.0,39.0
+Kiuuuu,Oblivion Force,0.0,109.0
+ntk,Orquestra Do Maestro,0.0,170.0
+DonDon,Young Warriors,0.0,39.0
+R1abb,Young Warriors,0.0,39.0
+PuzzDn,吳恩熙瓜汁,0.0,28.0
+X1ao3oヅ,吳恩熙瓜汁,0.0,28.0
+Lone1y,吳恩熙瓜汁,0.0,28.0
+XUAN,吳恩熙瓜汁,0.0,28.0
+吳恩希,吳恩熙瓜汁,0.0,28.0
+YESicaN,Fancy United Esports,0.0,601.0
+foxy,Fancy United Esports,0.0,236.0
+Crus,Fancy United Esports,0.0,601.0
+Hyuse,Fancy United Esports,0.0,229.0
+tok1o,Fancy United Esports,0.0,297.0
+Nia,Fancy United Esports,0.0,601.0
+twilight,Fancy United Esports,0.0,601.0
+yTao,LP33,0.0,74.0
+maou,LP33,0.0,74.0
+Ju,101 Outlaws,0.0,66.0
+Jww,101 Outlaws,0.0,66.0
+Boli,101 Outlaws,0.0,66.0
+xdd,姊姊壞了我好愛,0.0,56.0
+姊姊好壞我好愛,姊姊壞了我好愛,0.0,96.0
+Teddy,姊姊壞了我好愛,0.0,56.0
+命运不配做我的对手,姊姊壞了我好愛,0.0,56.0
+glacier,姊姊壞了我好愛,0.0,56.0
+GunterR,Hungkuang Falcon,0.0,194.0
+Unhappy,Hungkuang Falcon,0.0,194.0
+Yoyoman,Hungkuang Falcon,0.0,194.0
+Dizzy,Hungkuang Falcon,0.0,194.0
+k41zE,Hungkuang Falcon,0.0,194.0
+FYRR73,把牛變成鱒魚,0.0,105.0
+Ord1nary,Young Warriors,0.0,39.0
+LoNglOnG,Young Warriors,0.0,39.0
+桃園奈々生,把牛變成鱒魚,0.0,105.0
+ChiaWei,把牛變成鱒魚,0.0,73.0
+GoodSon,把牛變成鱒魚,0.0,32.0
+vit9ine,TBK Esports,0.0,298.0
+desire,TBK Esports,0.0,424.0
+Needy,TBK Esports,0.0,259.0
+Champzera,TBK Esports,0.0,298.0
+Myssen,TBK Esports,0.0,259.0
+Neko,FOP,0.0,77.0
+강아지,FOP,0.0,77.0
+YouKnow,FOP,0.0,77.0
+Aimlab132K,FOP,0.0,77.0
+s5hao,FOP,0.0,19.0
+YcC,FOP,0.0,58.0
+Pure,101 Outlaws,0.0,66.0
+Gu1,101 Outlaws,0.0,66.0
+Saalped,RED Canids,0.0,132.0
+Laser,Jester Circus,0.0,39.0
+bluexuan,Jester Circus,0.0,39.0
+BengYan,Jester Circus,0.0,39.0
+1 miss her,Jester Circus,0.0,39.0
+vulgar,Jester Circus,0.0,39.0
+guuih,Stellae Gaming,0.0,318.0
+bezn1,Stellae Gaming,0.0,338.0
+Siduzord,Stellae Gaming,0.0,338.0
+phc,Stellae Gaming,0.0,353.0
+phonics,Stellae Gaming,0.0,20.0
+turkish,SAGAZ,0.0,163.0
+str0nda,SAGAZ,0.0,163.0
+HiiiK,SAGAZ,0.0,370.0
+YanLi,把牛變成鱒魚,0.0,173.0
+Ra1ny,把牛變成鱒魚,0.0,105.0
+N11,Be Man,0.0,38.0
+Azazel,Be Man,0.0,38.0
+who am i,Be Man,0.0,38.0
+SooT1,Be Man,0.0,38.0
+Selin,Be Man,0.0,38.0
+TRIPCIEW,Rapid Lofi,0.0,474.0
+albus,Rapid Lofi,0.0,579.0
+Pr0digy,Rapid Lofi,0.0,603.0
+Suka,Rapid Lofi,0.0,603.0
+gin,Rapid Lofi,0.0,289.0
+DaFt,Rapid Lofi,0.0,467.0
+IceFeaTheR,你媽買菜必漲價,0.0,30.0
+吧噗的狗汪汪,你媽買菜必漲價,0.0,30.0
+天安門第一坦克手,你媽買菜必漲價,0.0,30.0
+Jway,RED Canids,0.0,132.0
+glym,RED Canids,0.0,174.0
+TouXi,Daojiang Husky,0.0,40.0
+bento,來送幸福的,0.0,34.0
+Dttoツ,來送幸福的,0.0,34.0
+我拥有钢铁般的意志,MYDunWaaAChu,0.0,32.0
+John weak,MYDunWaaAChu,0.0,32.0
+swag,PR0NETS,0.0,367.0
+GuhRVN,PR0NETS,0.0,311.0
+Leozin,PR0NETS,0.0,311.0
+jzz,PR0NETS,0.0,311.0
+Zanatsu,PR0NETS,0.0,367.0
+guiih9,Grêmio Esports,0.0,858.0
+Tiezzi,Grêmio Esports,0.0,441.0
+basic,Grêmio Esports,0.0,277.0
+above,Grêmio Esports,0.0,484.0
+peixeh,Grêmio Esports,0.0,915.0
+XiaoQ,來送幸福的,0.0,34.0
+Aaashire,MYDunWaaAChu,0.0,32.0
+bruninej,TotalePRO,0.0,407.0
+Loweed,TotalePRO,0.0,553.0
+RND,TotalePRO,0.0,225.0
+duhT,TotalePRO,0.0,533.0
+XiaoFeng,ROA Esport,0.0,41.0
+QueYa,ROA Esport,0.0,41.0
+Zhannn,ROA Esport,0.0,41.0
+Lock1ng,ROA Esport,0.0,41.0
+yZkA1,ROA Esport,0.0,41.0
+Nightmare,TUMT Orcinus,0.0,72.0
+Yii,TUMT Orcinus,0.0,72.0
+MOMO,來送幸福的,0.0,34.0
+SHIMANO DURA ACE,來送幸福的,0.0,34.0
+以为我挽留你结局就会改变,MYDunWaaAChu,0.0,32.0
+QUQUQUQUQ,你媽買菜必漲價,0.0,30.0
+happywei,Xi Lai Gaming,-9.35,0.0
+deLb,All Gamers,-9.36,0.0
+OBONE,Nova Esports,-9.39,0.0
+Rarga,Xi Lai Gaming,-9.42,0.0
+o0o0o,Nova Esports,-9.54,0.0
+SiuFatBB,Wolves Esports,-9.56,0.0
+d4v41,Paper Rex,-9.61,0.0
+stew,JDG Esports,-9.61,0.0
+Spitfires,All Gamers,-9.62,0.0
+SWERL,Nova Esports,-9.63,0.0
+MarT1n,Xi Lai Gaming,-9.63,0.0
+Viva,JDG Esports,-9.64,0.0
+nizhaoTZH,Dragon Ranger Gaming,-9.64,0.0
+Lysoar,Wolves Esports,-9.65,0.0
+Kai,Trace Esports,-9.65,0.0
+Haodong,Titan Esports Club,-9.7,0.0
+vo0kashu,Dragon Ranger Gaming,-9.7,0.0
+GuanG,Nova Esports,-9.7,0.0
+Ezeir,Nova Esports,-9.7,0.0
+CB,Nova Esports,-9.7,0.0
+K1ra,All Gamers,-9.7,0.0
+Abo,Titan Esports Club,-9.7,0.0
+Rb,Titan Esports Club,-9.7,0.0
+B1ack,Titan Esports Club,-9.7,0.0
+AC,Chosen Clique Gaming,-9.7,0.0
+X3B,All Gamers,-9.7,0.0
+player,All Gamers,-9.7,0.0
+Shion7,Dragon Ranger Gaming,-9.7,0.0
+SpiritZ1,Dragon Ranger Gaming,-9.7,0.0
+Cangshu,Dragon Ranger Gaming,-9.7,0.0
+Nicc,Dragon Ranger Gaming,-9.7,0.0
+TvirusLuke,Dragon Ranger Gaming,-9.7,0.0
+Yuicaw,Wolves Esports,-9.7,0.0
+V1yA,Wolves Esports,-9.7,0.0
+Smoggy,EDward Gaming,-9.7,0.0
+ZmjjKK,EDward Gaming,-9.7,0.0
+monk,All Gamers,-9.7,0.0
+yosemite,FunPlus Phoenix,-9.7,0.0
+hfmi0dzjc9z7,TYLOO,-9.7,0.0
+Ninebody,TYLOO,-9.7,0.0
+Eren,TYLOO,-9.7,0.0
+Spring,Wolves Esports,-9.7,0.0
+Z1yan,JDG Esports,-9.7,0.0
+jkuro,JDG Esports,-9.7,0.0
+sword9,JDG Esports,-9.7,0.0
+MrCANI,Xi Lai Gaming,-9.7,0.0
+coconut,Xi Lai Gaming,-9.7,0.0
+YOU,Xi Lai Gaming,-9.7,0.0
+Kyuanyami,esports team αD,,138.0
+kuro5,esports team αD,,19.0
+Louboutin,LAZY,,841.0
+LeVi,RIVAL,,986.0
+VictiM,RIVAL,,23.0
+JCL,ZOL Esports,,72.0
+GANGAZI,CNEsports,,186.0
+Ketzai,Unicorn Cyber Esports,,672.0
+QuinT,Unicorn Cyber Esports,,707.0
+X1nh,Unicorn Cyber Esports,,707.0
+prettyMy,Unicorn Cyber Esports,,35.0
+Creamm,Unicorn Cyber Esports,,707.0
+Curvezy,Randoms,,35.0
+Nikuu,Randoms,,73.0
+LilHieu,Team Big BAAM,,870.0
+KimHung2k5,Team Big BAAM,,412.0
+SPARTA,Exsto Gaming,,62.0
+Squish,Dreams To Legends,,436.0
+Bored,Dreams To Legends,,393.0
+EMIYA,Dreams To Legends,,436.0
+B1n,Dreams To Legends,,436.0
+Mikey,Dreams To Legends,,436.0
+NemuiZzZz,Dreams To Legends,,43.0
+saxx,Original Gaming,,805.0
+Hansia,Original Gaming,,805.0
+16Ch0ps,Original Gaming,,671.0
+bobae,Original Gaming,,714.0
+Makaveli,Orangutan,,449.0
+Saluat,TUMT Shark,,105.0
+popoman4Q,TUMT Shark,,105.0
+Croudy,TUMT Shark,,165.0
+Shu,TUMT Shark,,165.0
+wAvE,Asterisk,,599.0
+River,Asterisk,,330.0
+YasH,Asterisk,,752.0
+rinsat,Asterisk,,291.0
+Icarus,Asterisk,,774.0
+Juzo Suzuya,Veterans,,432.0
+Bumble,Veterans,,432.0
+Brinicle,Veterans,,373.0
+Maybe,Veterans,,398.0
+SinS,Veterans,,432.0
+weber,Team Heretics,,24.0
+Kohliii,Level 5,,178.0
+Yuvi,MiBH,,73.0
+Mihlog,Team Flash,,1039.0
+bucute,Team Flash,,1039.0
+Rudi,100 Thieves,,189.0
+Tuna,APAY Academy,,386.0
+Lightning,APAY Academy,,367.0
+Fin,APAY Academy,,540.0
+Jose1,APAY Academy,,503.0
+Dylan,APAY Academy,,440.0
+シガレット,APAY Academy,,47.0
+Yatoo,APAY Academy,,227.0
+LOVE,APAY Academy,,397.0
+OLDERGREG,BITEKI,,186.0
+ahk,BITEKI,,40.0
+karam1l,DUPG Esports,,833.0
+HyBr1D,DUPG Esports,,151.0
+AceStaRRRRR,DUPG Esports,,745.0
+Envy2K,DUPG Esports,,722.0
+Disease,DUPG Esports,,677.0
 punda,JiJieHao,,237.0
+FinestQueue,Blue Eyes White Dragon,,113.0
+Vuxqt,Blue Eyes White Dragon,,923.0
+Migod,Blue Eyes White Dragon,,889.0
+Storm,Blue Eyes White Dragon,,867.0
+KhoiBeo,Blue Eyes White Dragon,,861.0
+Pricckk,Blue Eyes White Dragon,,923.0
+Huntr,club penguin,,44.0
+Zetik,club penguin,,44.0
+gon,Nemesis,,149.0
+WisdomCats,Tiny Turtle Squad,,115.0
+Zeo,Tiny Turtle Squad,,75.0
 Vickyz,Team NKT Academy,,455.0
 D4rf,Team NKT Academy,,455.0
 LoRangeZ,Team NKT Academy,,455.0
+kibojn,Reckoning Esports,,572.0
+Garv,Reckoning Esports,,299.0
+ghostxD,Reckoning Esports,,753.0
+Marcai,True Rippers,,619.0
+BatmaN,True Rippers,,264.0
+R0meo,True Rippers,,355.0
 Jovi,FlyQuest RED,,240.0

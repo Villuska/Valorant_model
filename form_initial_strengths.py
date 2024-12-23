@@ -86,10 +86,8 @@ def team_strength_calculator(strength_90d, strength_all):
     team_data.to_csv("initial_strengths.csv", index=False)
     save_df_as_csv(team_data, 'firepowers', 'firepower_history')
 
-def main():
+def form_initial_strengths():
     df_90d = pd.read_csv("player_strengths_90d.csv")
     df_all = pd.read_csv("player_strengths_all.csv")
     team_strength_calculator(df_90d, df_all)
 
-if __name__ == "__main__":
-    main()

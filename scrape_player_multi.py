@@ -15,7 +15,7 @@ from selenium.webdriver.chrome.options import Options
 import re
 import datetime
 from constants import *
-
+import math
 
 teams_df = pd.read_csv("teams.csv")
 players_df = pd.read_csv("players.csv")
@@ -39,7 +39,6 @@ def get_opponents(url, row = None):
     #url = row['url']
     if not type(url) == float:
         url = url.replace("?timespan=all", "").replace("/player", "/player/matches")
-        print(url)
         response = requests.get(url)
         if response.status_code != 200:
             print(f"Failed to fetch page. Status code: {response.status_code}")
@@ -110,10 +109,17 @@ def get_tier_region_multi(tiers, regions):
 def scrape_player_multi():
     for index, row in players_df.iterrows():
         url = row['url']
-        tiers, regions = get_opponents_tier_and_region(url)
-        effective_tier_m, effective_reg_m = get_tier_region_multi(tiers, regions)
 
-        
+        if url and not (isinstance(url, float) and math.isnan(url)):
+            tiers, regions = get_opponents_tier_and_region(url)
+            tiers2, regions2 = get_opponents_tier_and_region(f"{url}/?page=2")
+        else:
+            tiers, regions = [], []
+            tiers2, regions2 = [], []
+
+        tiers = tiers + tiers2
+        regions = regions + regions2
+        effective_tier_m, effective_reg_m = get_tier_region_multi(tiers, regions)
 
         players_df.loc[index, 'tier_m'] = effective_tier_m
         players_df.loc[index, 'region_m'] = effective_reg_m
@@ -146,7 +152,8 @@ def scrape_player_multi():
         players_df.to_csv("players.csv", index=False)
         print(effective_tier_m, effective_reg_m)
         time.sleep(random.uniform(0.5, 1.2))
-
+        
+scrape_player_multi()
 
 
 
