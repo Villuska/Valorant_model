@@ -44,6 +44,8 @@ def team_strength_calculator(strength_90d, strength_all):
     team_data['players'] = team_data['players'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
 
     # Iterate over players to calculate strengths
+    team_data['Player_Count'] = team_data['players'].apply(len)
+
     for i in range(1, 7):
         player_col = f"Player_{i}"
         strength_col = f"{player_col}_Strength"
@@ -53,8 +55,6 @@ def team_strength_calculator(strength_90d, strength_all):
         
         # Extract the ith player from the players list (if it exists)
         team_data[player_col] = team_data['players'].apply(lambda players: players[i - 1] if len(players) >= i else None)
-        
-        # Debugging to ensure columns are correct
         
         # Apply strength calculation
         team_data[strength_col] = team_data.apply(
@@ -67,12 +67,12 @@ def team_strength_calculator(strength_90d, strength_all):
     team_data['Player_6_Strength'] = team_data['Player_6_Strength'].where(
         (team_data['Player_6_Strength'] >= 0) & (team_data['Player_6'] != "Lara"), None
     )
-
+    team_data = team_data[team_data['Player_Count'] >= 5]
     team_data.to_csv("teams_with_Player_Strengths.csv", index=False)
 
     # Calculate Team_Strength
     team_data['Team_Strength'] = team_data[[col for col in team_data.columns if col.endswith('_Strength')]].mean(axis=1, skipna=True)
-    team_data = team_data[['team', 'Team_Strength']]
+    team_data = team_data[['team', 'Team_Strength', 'Player_Count']]
 
     # Rename specific teams
     team_data['team'] = team_data['team'].replace({"KR?o Esports": "KRU Esports", "Leviatán": "Leviatan"})
@@ -91,3 +91,4 @@ def form_initial_strengths():
     df_all = pd.read_csv("player_strengths_all.csv")
     team_strength_calculator(df_90d, df_all)
 
+form_initial_strengths()

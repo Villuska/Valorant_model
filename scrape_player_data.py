@@ -127,5 +127,5 @@ def scrape_player_data():
     form_player_strengths()
     form_initial_strengths()
     
-#scrape_player_data()
+scrape_player_data()
 

@@ -123,8 +123,9 @@ def get_team_data_and_add_players(url):
 
 def main():
     urls = list(pd.read_csv("team_links.csv")['url'])
-    existing_urls = pd.read_csv("teams.csv")['url'].tolist()
-    urls = list(set(urls) - set(existing_urls))
+    #säädä sen perusteella haluuko kaikki uudellee vai ei
+    #existing_urls = pd.read_csv("teams.csv")['url'].tolist()
+    #urls = list(set(urls) - set(existing_urls))
     for url in urls:     
         get_team_data_and_add_players(url)
     print("")
