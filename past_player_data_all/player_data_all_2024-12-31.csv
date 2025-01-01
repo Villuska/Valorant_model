@@ -1,49 +1,23 @@
 Player,Team,Rating,ACS,KD,ADR,KAST,KPR,APR,FKPR,FDPR,Total_Rounds_Played,url,tier_m,region_m
 Nightmare,TUMT Orcinus,1.118,207.668,1.594,132.726,0.72,0.753,0.358,0.098,0.038,226.0,https://www.vlr.gg/player/42921/nightmare?timespan=all,0.0,0.0
 明日花,TWA,1.091,203.03,1.213,133.163,0.766,0.748,0.221,0.121,0.079,99.0,https://www.vlr.gg/player/49930/?timespan=all,0.0,0.0
-Liovin,Team Cece,0.57,157.0,0.41,118.7,0.63,0.37,0.21,0.05,0.16,19.0,https://www.vlr.gg/player/50049/liovin?timespan=all,0.0,0.0
-ray,Team Cece,1.28,320.0,1.4,202.8,0.68,1.11,0.05,0.26,0.16,19.0,https://www.vlr.gg/player/50051/ray?timespan=all,0.0,0.0
-maestr0,Orquestra Do Maestro,1.072,228.544,1.101,148.446,0.715,0.796,0.282,0.126,0.114,2863.0,https://www.vlr.gg/player/32717/maestr0?timespan=all,0.0,0.0
-woddy,Cumberland Phoenix,1.078,196.643,1.092,130.818,0.731,0.707,0.295,0.062,0.066,6837.0,https://www.vlr.gg/player/3450/woddy?timespan=all,0.0,0.0
-phonics,Stellae Gaming,0.41,108.0,0.33,75.8,0.45,0.3,0.35,0.0,0.0,20.0,https://www.vlr.gg/player/2210/phonics?timespan=all,0.0,0.0
-hvoya,Xi Lai Gaming,1.057,201.793,1.045,133.448,0.705,0.713,0.245,0.091,0.085,7871.0,https://www.vlr.gg/player/1348/hvoya?timespan=all,0.0,0.0
-GUGLi,Cloud9,0.65,168.0,0.82,108.5,0.54,0.61,0.14,0.13,0.08,87.0,https://www.vlr.gg/player/6042/gugli?timespan=all,,
-PatMen,ZOL Esports,1.115,239.76,1.147,158.279,0.738,0.843,0.285,0.134,0.111,4640.0,https://www.vlr.gg/player/13744/patmen?timespan=all,0.955,0.802
-jEEE,ZOL Esports,0.976,192.226,0.953,128.076,0.723,0.668,0.349,0.074,0.086,4130.0,https://www.vlr.gg/player/21677/jeee?timespan=all,0.979,0.897
 Sunshine,TYLOO,0.78,165.91,0.752,106.183,0.643,0.568,0.267,0.086,0.112,1173.0,https://www.vlr.gg/player/14453/sunshine?timespan=all,0.0,0.0
 AC,Chosen Clique Gaming,1.014,197.744,1.039,126.974,0.704,0.708,0.259,0.081,0.084,5180.0,https://www.vlr.gg/player/14445/ac?timespan=all,1.0,1.0
-Gais,FUT Esports,0.789,158.0,0.873,101.243,0.671,0.614,0.229,0.014,0.086,70.0,https://www.vlr.gg/player/8845/gais?timespan=all,0.0,0.0
-LohaN,Team Liquid,1.032,222.526,1.14,136.938,0.703,0.784,0.179,0.155,0.112,1675.0,https://www.vlr.gg/player/2881/lohan?timespan=all,0.0,0.0
-McJuankar,Gentle Mates,0.579,142.861,0.556,100.753,0.601,0.448,0.25,0.093,0.152,101.0,https://www.vlr.gg/player/2600/mcjuankar?timespan=all,1.0,1.0
-NaThanD,FunPlus Phoenix,0.971,185.768,0.964,122.63,0.714,0.641,0.278,0.061,0.059,2422.0,https://www.vlr.gg/player/3532/nathand?timespan=all,0.0,0.0
 free1ng,DRX,1.124,215.095,1.159,141.196,0.717,0.759,0.211,0.106,0.085,2542.0,https://www.vlr.gg/player/1916/freeing?timespan=all,0.0,0.0
 aco,ZETA DIVISION GC,0.937,181.932,0.908,116.031,0.73,0.631,0.417,0.074,0.084,2050.0,https://www.vlr.gg/player/29316/aco?timespan=all,0.3,1.0
-vapen,Moist x Shopify,0.716,149.465,0.662,102.072,0.647,0.48,0.374,0.03,0.076,185.0,https://www.vlr.gg/player/8754/vapen?timespan=all,0.0,0.0
 tdawgg,TSM,0.944,181.16,0.912,117.508,0.729,0.62,0.384,0.075,0.087,10576.0,https://www.vlr.gg/player/3007/tdawgg?timespan=all,0.943,0.93
 XXiF,TSM,1.162,224.898,1.253,146.602,0.746,0.791,0.248,0.118,0.081,12505.0,https://www.vlr.gg/player/1023/xxif?timespan=all,0.965,0.935
 rezy,Al-Qadsiah Esports,0.927,176.491,0.884,116.988,0.711,0.619,0.34,0.063,0.077,8717.0,https://www.vlr.gg/player/11914/rezy?timespan=all,0.955,0.814
 Psilence,DRAGONS,0.925,215.744,0.943,140.549,0.668,0.737,0.195,0.178,0.179,1979.0,https://www.vlr.gg/player/46250/sogeking?timespan=all,0.0,0.0
-stkJ,LOUD,0.708,147.44,0.714,94.88,0.588,0.54,0.128,0.06,0.142,80.0,https://www.vlr.gg/player/5709/stkj?timespan=all,0.0,0.0
-Gorilla,KOI,0.683,136.946,0.599,90.951,0.61,0.448,0.315,0.029,0.078,652.0,https://www.vlr.gg/player/8815/gorilla?timespan=all,0.0,0.0
-temoc,KOI,0.886,163.554,0.848,108.862,0.69,0.558,0.297,0.057,0.07,1547.0,https://www.vlr.gg/player/3738/temoc?timespan=all,,
-Rudi,100 Thieves,1.007,201.266,0.99,132.78,0.715,0.699,0.32,0.102,0.111,4148.0,https://www.vlr.gg/player/16045/rudi?timespan=all,,
-potter,Evil Geniuses,0.819,155.453,0.819,102.189,0.687,0.538,0.288,0.05,0.07,2438.0,https://www.vlr.gg/player/3104/potter?timespan=all,0.0,0.0
-pipsoN,GIANTX,0.872,172.651,0.927,111.923,0.728,0.598,0.369,0.045,0.072,1606.0,https://www.vlr.gg/player/319/pipson?timespan=all,0.0,0.0
-marqnue,BBL Esports,0.672,167.947,0.805,109.699,0.625,0.574,0.207,0.063,0.093,1231.0,https://www.vlr.gg/player/1400/marqnue?timespan=all,0.0,0.0
 JinNy,Ambitious Legend Gaming GC,1.102,179.805,1.012,116.453,0.768,0.641,0.366,0.051,0.053,8017.0,https://www.vlr.gg/player/1909/jinny?timespan=all,0.3,1.0
 Muffyn,Ambitious Legend Gaming GC,1.16,253.512,1.255,158.663,0.738,0.869,0.227,0.202,0.15,5467.0,https://www.vlr.gg/player/13232/muffyn?timespan=all,0.3,1.0
-JoshRT,G2 Esports,0.946,194.266,0.918,122.101,0.748,0.669,0.313,0.081,0.084,2351.0,https://www.vlr.gg/player/52/joshrt?timespan=all,0.0,0.0
 Pr1ck,Blue Eyes White Dragon,0.946,192.903,0.949,124.497,0.691,0.677,0.311,0.101,0.145,923.0,https://www.vlr.gg/player/48695/pricckk?timespan=all,0.0,0.0
-kaplan,Sentinels,1.131,166.865,0.878,110.622,0.845,0.57,0.301,0.067,0.047,1068.0,https://www.vlr.gg/player/757/kaplan?timespan=all,0.0,0.0
-bonkar,NRG Esports,0.902,159.455,0.861,104.859,0.731,0.547,0.369,0.053,0.06,6494.0,https://www.vlr.gg/player/7/bonkar?timespan=all,0.0,0.0
 aplycs,Reckoning Esports,0.972,183.144,0.926,124.308,0.721,0.645,0.324,0.062,0.054,1143.0,https://www.vlr.gg/player/44919/aplycs?timespan=all,0.955,0.825
 marin,NOEZ FOXX,1.107,221.247,1.12,139.478,0.723,0.765,0.256,0.13,0.13,4660.0,https://www.vlr.gg/player/1027/marin?timespan=all,0.96,0.84
-Biscoit1n,MIBR GC,0.973,213.695,0.994,130.539,0.66,0.74,0.208,0.163,0.159,3061.0,https://www.vlr.gg/player/3387/biscoit1n?timespan=all,0.0,0.0
-Aeric,Aspyre x Swarm,1.098,207.484,1.051,139.542,0.738,0.707,0.34,0.084,0.075,7891.0,https://www.vlr.gg/player/6576/aeric?timespan=all,0.0,0.0
-Liovin,Team Cece,0.906,201.502,0.834,130.0,0.716,0.654,0.362,0.142,0.146,145.0,https://www.vlr.gg/player/37077/liovin?timespan=all,0.0,0.0
-neill,Team Cece,0.754,194.386,0.714,132.486,0.663,0.615,0.229,0.109,0.172,140.0,https://www.vlr.gg/player/50052/neill?timespan=all,0.0,0.0
+Liovin,Team Cece,0.57,157.0,0.41,118.7,0.63,0.37,0.21,0.05,0.16,19.0,https://www.vlr.gg/player/50049/liovin?timespan=all,0.0,0.0
 kudin,Team Cece,1.09,197.0,0.92,141.9,0.63,0.63,0.11,0.05,0.05,19.0,https://www.vlr.gg/player/50050/kudin?timespan=all,0.0,0.0
-Rey,Team Cece,1.28,320.0,1.4,202.8,0.68,1.11,0.05,0.26,0.16,19.0,https://www.vlr.gg/player/50051/rey?timespan=all,0.0,0.0
+ray,Team Cece,1.28,320.0,1.4,202.8,0.68,1.11,0.05,0.26,0.16,19.0,https://www.vlr.gg/player/50051/ray?timespan=all,0.0,0.0
+neill,Team Cece,0.57,135.0,0.56,89.9,0.63,0.47,0.26,0.11,0.11,19.0,https://www.vlr.gg/player/50052/neill?timespan=all,0.0,0.0
 Cece,Lucia Zenith,0.681,148.906,0.645,99.998,0.623,0.496,0.2,0.063,0.103,357.0,https://www.vlr.gg/player/46830/cece?timespan=all,0.0,0.0
 yTao,LP33,1.003,196.357,1.001,126.538,0.719,0.673,0.34,0.075,0.082,4103.0,https://www.vlr.gg/player/2829/ytao?timespan=all,0.0,0.0
 maou,LP33,1.05,198.609,1.021,131.541,0.738,0.689,0.336,0.062,0.06,3074.0,https://www.vlr.gg/player/2373/maou?timespan=all,0.0,0.0
@@ -74,6 +48,7 @@ neT,Cloud9,0.992,200.992,1.054,130.54,0.712,0.713,0.199,0.096,0.092,9394.0,https
 OXY,Cloud9,1.13,256.814,1.199,162.252,0.713,0.907,0.173,0.192,0.151,7674.0,https://www.vlr.gg/player/18796/oxy?timespan=all,0.884,0.989
 moose,Cloud9,1.155,209.797,1.22,138.065,0.758,0.743,0.269,0.087,0.071,12808.0,https://www.vlr.gg/player/7458/moose?timespan=all,0.916,0.981
 Immi,Cloud9,0.499,107.656,0.448,65.162,0.607,0.331,0.356,0.143,0.172,64.0,https://www.vlr.gg/player/9815/immi?timespan=all,1.0,1.0
+GUGLi,Cloud9,0.65,168.0,0.82,108.5,0.54,0.61,0.14,0.13,0.08,87.0,https://www.vlr.gg/player/6042/gugli?timespan=all,,
 Yii,TUMT Orcinus,0.622,131.486,0.598,93.967,0.668,0.473,0.279,0.057,0.083,72.0,https://www.vlr.gg/player/49917/yii?timespan=all,0.0,0.0
 xiaoxia,TUMT Orcinus,0.881,191.25,0.927,131.614,0.558,0.697,0.071,0.097,0.182,72.0,https://www.vlr.gg/player/49982/xiaoxia?timespan=all,0.0,0.0
 MiuMiuKK,TUMT Orcinus,1.139,224.444,1.136,153.488,0.682,0.764,0.223,0.055,0.041,72.0,https://www.vlr.gg/player/49983/miumiukk?timespan=all,0.0,0.0
@@ -84,11 +59,11 @@ LoNe1y,Niflheimr,0.777,154.968,0.836,100.62,0.632,0.569,0.241,0.051,0.14,79.0,ht
 tungyao,Niflheimr,1.163,216.089,1.229,145.153,0.747,0.772,0.317,0.063,0.075,79.0,https://www.vlr.gg/player/49963/tungyao?timespan=all,0.0,0.0
 Sushi0421,Niflheimr,0.999,199.114,1.09,125.261,0.682,0.709,0.201,0.089,0.026,79.0,https://www.vlr.gg/player/49964/sushi0421?timespan=all,0.0,0.0
 斗鱼丶阿肆,Niflheimr,1.021,232.347,1.044,155.946,0.659,0.797,0.155,0.204,0.217,79.0,https://www.vlr.gg/player/49965/?timespan=all,0.0,0.0
-skz,Orquestra Do Maestro,1.086,204.905,1.102,134.139,0.755,0.731,0.371,0.075,0.079,4118.0,https://www.vlr.gg/player/36106/skz?timespan=all,0.0,0.0
 ntk,Orquestra Do Maestro,1.049,215.832,1.076,140.171,0.717,0.718,0.366,0.095,0.089,9745.0,https://www.vlr.gg/player/1607/ntk?timespan=all,0.0,0.0
 Kenkayyy,Orquestra Do Maestro,1.041,205.17,1.047,135.621,0.711,0.718,0.301,0.076,0.094,3221.0,https://www.vlr.gg/player/32718/kenkayyy?timespan=all,0.0,0.0
-cidZzZ,Legacy,1.091,196.842,1.104,129.534,0.747,0.697,0.343,0.066,0.064,3849.0,https://www.vlr.gg/player/26214/cidzzz?timespan=all,0.0,0.0
+maestr0,Orquestra Do Maestro,1.072,228.544,1.101,148.446,0.715,0.796,0.282,0.126,0.114,2863.0,https://www.vlr.gg/player/32717/maestr0?timespan=all,0.0,0.0
 forbanz,Orquestra Do Maestro,1.068,238.511,1.12,155.339,0.698,0.824,0.176,0.159,0.144,5017.0,https://www.vlr.gg/player/22964/forbanz?timespan=all,0.0,0.0
+woddy,Cumberland Phoenix,1.078,196.643,1.092,130.818,0.731,0.707,0.295,0.062,0.066,6837.0,https://www.vlr.gg/player/3450/woddy?timespan=all,0.0,0.0
 Makaveli,Orangutan,1.016,192.968,1.076,129.412,0.72,0.691,0.263,0.086,0.088,1316.0,https://www.vlr.gg/player/30693/makaveli?timespan=all,,
 Venka,Orangutan,1.049,238.534,1.112,154.258,0.687,0.846,0.15,0.182,0.154,3434.0,https://www.vlr.gg/player/27336/venka?timespan=all,0.978,0.912
 deecee,Orangutan,0.981,194.233,1.012,130.258,0.686,0.697,0.198,0.102,0.102,3003.0,https://www.vlr.gg/player/26376/deecee?timespan=all,0.978,0.912
@@ -107,6 +82,7 @@ jawgemo,G2 Esports,1.049,228.942,1.069,146.32,0.718,0.786,0.266,0.134,0.134,9542
 trent,G2 Esports,1.137,218.718,1.133,146.498,0.748,0.753,0.324,0.087,0.082,8184.0,https://www.vlr.gg/player/15500/trent?timespan=all,0.975,0.993
 JonahP,G2 Esports,1.065,209.497,1.101,134.648,0.751,0.732,0.348,0.099,0.096,10996.0,https://www.vlr.gg/player/4581/jonahp?timespan=all,0.986,0.992
 leaf,G2 Esports,1.104,242.192,1.14,154.378,0.714,0.829,0.247,0.178,0.161,8107.0,https://www.vlr.gg/player/7873/leaf?timespan=all,0.983,0.999
+JoshRT,G2 Esports,0.946,194.266,0.918,122.101,0.748,0.669,0.313,0.081,0.084,2351.0,https://www.vlr.gg/player/52/joshrt?timespan=all,0.0,0.0
 wAvE,Asterisk,0.997,196.46,0.992,126.302,0.721,0.701,0.299,0.096,0.11,841.0,https://www.vlr.gg/player/22054/wave?timespan=all,,
 River,Asterisk,0.945,183.161,0.892,121.039,0.69,0.64,0.302,0.055,0.066,538.0,https://www.vlr.gg/player/43398/river?timespan=all,,
 YasH,Asterisk,0.955,232.408,0.986,150.259,0.691,0.791,0.183,0.194,0.178,1029.0,https://www.vlr.gg/player/43389/yash?timespan=all,,
@@ -131,6 +107,7 @@ guuih,Stellae Gaming,1.062,194.169,1.096,130.832,0.73,0.686,0.223,0.072,0.065,68
 bezn1,Stellae Gaming,1.008,212.581,1.028,135.586,0.699,0.743,0.261,0.122,0.115,5685.0,https://www.vlr.gg/player/1567/bezn1?timespan=all,0.0,0.0
 Siduzord,Stellae Gaming,1.093,200.561,1.079,133.278,0.731,0.695,0.344,0.071,0.068,5491.0,https://www.vlr.gg/player/3424/siduzord?timespan=all,0.0,0.0
 phc,Stellae Gaming,1.112,218.341,1.141,143.083,0.743,0.771,0.304,0.125,0.097,3163.0,https://www.vlr.gg/player/36433/phc?timespan=all,0.0,0.0
+phonics,Stellae Gaming,0.41,108.0,0.33,75.8,0.45,0.3,0.35,0.0,0.0,20.0,https://www.vlr.gg/player/2210/phonics?timespan=all,0.0,0.0
 player,All Gamers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,https://www.vlr.gg/player/46749/player?timespan=all,1.0,1.0
 bunt,All Gamers,1.034,187.615,1.008,119.304,0.757,0.668,0.384,0.043,0.052,3875.0,https://www.vlr.gg/player/25949/bunt?timespan=all,1.0,1.0
 monk,All Gamers,0.951,191.394,0.946,121.981,0.702,0.664,0.333,0.077,0.08,5391.0,https://www.vlr.gg/player/14431/monk?timespan=all,1.0,1.0
@@ -169,6 +146,7 @@ Minny,Gentle Mates,1.118,216.789,1.18,141.743,0.725,0.78,0.264,0.105,0.092,6748.
 Zyppan,Gentle Mates,1.065,235.1,1.142,148.717,0.725,0.806,0.288,0.138,0.115,9094.0,https://www.vlr.gg/player/11/zyppan?timespan=all,0.99,1.0
 Click,Gentle Mates,1.135,264.265,1.197,168.752,0.692,0.934,0.164,0.237,0.17,3596.0,https://www.vlr.gg/player/7866/click?timespan=all,0.65,1.0
 goked,Gentle Mates,1.237,213.465,1.019,144.359,0.765,0.685,0.451,0.059,0.051,1616.0,https://www.vlr.gg/player/3055/goked?timespan=all,0.0,0.0
+McJuankar,Gentle Mates,0.579,142.861,0.556,100.753,0.601,0.448,0.25,0.093,0.152,101.0,https://www.vlr.gg/player/2600/mcjuankar?timespan=all,1.0,1.0
 Jway,RED Canids,1.003,210.002,1.026,143.996,0.712,0.759,0.174,0.1,0.126,318.0,https://www.vlr.gg/player/41851/jway?timespan=all,0.0,0.0
 glym,RED Canids,1.046,221.347,1.109,139.407,0.715,0.774,0.225,0.132,0.123,5366.0,https://www.vlr.gg/player/2006/glym?timespan=all,0.0,0.0
 Saalped,RED Canids,1.046,200.408,1.103,135.553,0.724,0.719,0.209,0.078,0.085,1674.0,https://www.vlr.gg/player/41445/saalped?timespan=all,0.0,0.0
@@ -179,6 +157,7 @@ happywei,Xi Lai Gaming,0.945,224.756,1.134,133.661,0.661,0.787,0.189,0.121,0.092
 YOU,Xi Lai Gaming,1.125,206.457,1.088,137.488,0.748,0.723,0.324,0.08,0.083,6466.0,https://www.vlr.gg/player/4710/you?timespan=all,1.0,1.0
 MarT1n,Xi Lai Gaming,1.093,198.683,1.032,140.488,0.71,0.697,0.194,0.089,0.086,2658.0,https://www.vlr.gg/player/36668/mart1n?timespan=all,0.999,0.994
 ZiXuan,Xi Lai Gaming,1.019,200.215,1.005,125.274,0.716,0.698,0.375,0.075,0.093,1131.0,https://www.vlr.gg/player/4763/zixuan?timespan=all,1.0,1.0
+hvoya,Xi Lai Gaming,1.057,201.793,1.045,133.448,0.705,0.713,0.245,0.091,0.085,7871.0,https://www.vlr.gg/player/1348/hvoya?timespan=all,0.0,0.0
 LeVi,RIVAL,1.034,196.639,1.021,130.674,0.735,0.688,0.354,0.085,0.081,3245.0,https://www.vlr.gg/player/18704/levi?timespan=all,,
 VictiM,RIVAL,0.941,184.575,0.857,124.412,0.656,0.616,0.29,0.079,0.151,127.0,https://www.vlr.gg/player/43426/victim?timespan=all,,
 Flashback,DRX,1.096,215.38,1.138,146.084,0.718,0.768,0.226,0.093,0.067,2405.0,https://www.vlr.gg/player/35013/flashback?timespan=all,0.978,0.994
@@ -207,6 +186,7 @@ sayuri,MIBR GC,1.098,199.678,1.088,128.088,0.776,0.69,0.466,0.068,0.07,7547.0,ht
 Jelly,MIBR GC,1.188,240.437,1.227,154.708,0.752,0.847,0.333,0.13,0.1,6104.0,https://www.vlr.gg/player/21435/jelly?timespan=all,0.36,0.99
 Mel,MIBR GC,1.077,191.345,1.125,126.586,0.75,0.68,0.348,0.065,0.065,6345.0,https://www.vlr.gg/player/19791/mel?timespan=all,0.3,1.0
 jubs,MIBR GC,1.016,191.403,1.074,128.239,0.725,0.676,0.235,0.081,0.063,2794.0,https://www.vlr.gg/player/14685/jubs?timespan=all,0.3,1.0
+Biscoit1n,MIBR GC,0.973,213.695,0.994,130.539,0.66,0.74,0.208,0.163,0.159,3061.0,https://www.vlr.gg/player/3387/biscoit1n?timespan=all,0.0,0.0
 Dep,ZETA DIVISION,1.08,239.368,1.188,147.753,0.705,0.848,0.2,0.142,0.122,6309.0,https://www.vlr.gg/player/424/dep?timespan=all,0.998,0.994
 SugarZ3ro,ZETA DIVISION,1.046,190.65,1.046,124.558,0.737,0.688,0.366,0.053,0.069,4921.0,https://www.vlr.gg/player/6668/sugarz3ro?timespan=all,0.997,0.994
 CLZ,ZETA DIVISION,1.095,209.527,1.12,134.826,0.739,0.738,0.298,0.111,0.101,5884.0,https://www.vlr.gg/player/2615/clz?timespan=all,0.98,0.924
@@ -263,6 +243,7 @@ zander,100 Thieves,1.088,209.352,1.128,132.109,0.758,0.735,0.352,0.09,0.083,1095
 Cryocells,100 Thieves,1.182,236.819,1.279,148.285,0.741,0.85,0.23,0.142,0.102,10300.0,https://www.vlr.gg/player/4147/cryocells?timespan=all,0.999,0.999
 eeiu,100 Thieves,1.141,214.04,1.212,141.935,0.765,0.756,0.34,0.066,0.05,8870.0,https://www.vlr.gg/player/796/eeiu?timespan=all,0.965,0.981
 Asuna,100 Thieves,1.091,237.25,1.077,151.633,0.741,0.79,0.305,0.154,0.15,10416.0,https://www.vlr.gg/player/601/asuna?timespan=all,0.996,0.995
+Rudi,100 Thieves,1.007,201.266,0.99,132.78,0.715,0.699,0.32,0.102,0.111,4148.0,https://www.vlr.gg/player/16045/rudi?timespan=all,,
 theia,FlyQuest RED,1.003,186.915,1.0,120.546,0.727,0.656,0.315,0.092,0.089,8853.0,https://www.vlr.gg/player/17/theia?timespan=all,0.3,1.0
 evv,FlyQuest RED,1.07,212.616,1.123,137.739,0.746,0.758,0.319,0.093,0.084,7612.0,https://www.vlr.gg/player/33694/evv?timespan=all,0.3,1.0
 sonder,FlyQuest RED,1.084,239.676,1.112,152.157,0.732,0.811,0.339,0.161,0.152,11963.0,https://www.vlr.gg/player/8849/sonder?timespan=all,0.3,1.0
@@ -318,6 +299,7 @@ yetujey,FUT Esports,1.088,202.802,1.167,134.575,0.729,0.732,0.202,0.092,0.078,53
 AtaKaptan,FUT Esports,1.096,208.204,1.069,134.236,0.734,0.73,0.399,0.083,0.091,7435.0,https://www.vlr.gg/player/6510/atakaptan?timespan=all,0.99,1.0
 cNed,FUT Esports,1.18,253.004,1.302,157.118,0.731,0.899,0.172,0.181,0.13,10159.0,https://www.vlr.gg/player/573/cned?timespan=all,0.991,1.0
 qRaxs,FUT Esports,1.021,200.164,1.048,130.081,0.73,0.722,0.32,0.074,0.071,8609.0,https://www.vlr.gg/player/1139/qraxs?timespan=all,0.99,1.0
+Gais,FUT Esports,0.789,158.0,0.873,101.243,0.671,0.614,0.229,0.014,0.086,70.0,https://www.vlr.gg/player/8845/gais?timespan=all,0.0,0.0
 sol8erry,Team sol8erry,0.968,136.636,0.904,88.487,0.787,0.505,0.605,0.019,0.022,166.0,https://www.vlr.gg/player/50053/sol8erry?timespan=all,0.0,0.0
 prettyprincess3,Future Greats,1.016,198.148,1.016,129.364,0.754,0.688,0.329,0.073,0.086,477.0,https://www.vlr.gg/player/27077/prettyprincess3?timespan=all,0.0,0.0
 tortis,Team sol8erry,1.12,212.928,1.233,141.095,0.76,0.763,0.298,0.1,0.075,166.0,https://www.vlr.gg/player/50054/tortis?timespan=all,0.0,0.0
@@ -339,6 +321,7 @@ v1nny,LOUD,0.983,184.417,0.979,120.804,0.733,0.646,0.34,0.065,0.075,9062.0,https
 pANcada,LOUD,1.096,203.204,1.198,133.786,0.755,0.732,0.309,0.076,0.063,6270.0,https://www.vlr.gg/player/683/pancada?timespan=all,0.993,0.986
 tuyz,LOUD,1.039,205.21,1.057,130.243,0.721,0.717,0.276,0.117,0.097,6895.0,https://www.vlr.gg/player/2408/tuyz?timespan=all,0.998,0.996
 cauanzin,LOUD,1.07,213.629,1.067,137.603,0.746,0.736,0.349,0.102,0.083,4808.0,https://www.vlr.gg/player/6193/cauanzin?timespan=all,0.999,0.995
+stkJ,LOUD,0.708,147.44,0.714,94.88,0.588,0.54,0.128,0.06,0.142,80.0,https://www.vlr.gg/player/5709/stkj?timespan=all,0.0,0.0
 Flex1n,Dragon Ranger Gaming,1.064,196.118,1.043,125.997,0.744,0.689,0.415,0.085,0.072,3911.0,https://www.vlr.gg/player/4705/flex1n?timespan=all,1.0,1.0
 nizhaoTZH,Dragon Ranger Gaming,0.914,184.527,0.947,119.232,0.697,0.657,0.31,0.073,0.074,4355.0,https://www.vlr.gg/player/4880/nizhaotzh?timespan=all,0.999,0.995
 vo0kashu,Dragon Ranger Gaming,1.192,237.338,1.273,151.251,0.757,0.84,0.24,0.114,0.088,8841.0,https://www.vlr.gg/player/3741/vo0kashu?timespan=all,1.0,1.0
@@ -355,6 +338,7 @@ Slandy,mesos millionaires,1.014,193.502,1.011,125.315,0.731,0.675,0.363,0.084,0.
 TeddyIsFluffy,mesos millionaires,1.027,206.61,1.016,130.219,0.726,0.722,0.373,0.088,0.104,4112.0,https://www.vlr.gg/player/25510/teddyisfluffy?timespan=all,0.397,0.989
 Aniemal,mesos millionaires,0.928,188.098,0.937,124.078,0.703,0.654,0.254,0.076,0.091,9245.0,https://www.vlr.gg/player/6575/aniemal?timespan=all,0.3,1.0
 habibti,mesos millionaires,0.958,198.677,0.947,132.201,0.701,0.691,0.313,0.095,0.101,5967.0,https://www.vlr.gg/player/28547/habibti?timespan=all,0.3,1.0
+Aeric,Aspyre x Swarm,1.098,207.484,1.051,139.542,0.738,0.707,0.34,0.084,0.075,7891.0,https://www.vlr.gg/player/6576/aeric?timespan=all,0.0,0.0
 CombatBaby,IRIS,0.852,181.103,0.847,120.471,0.672,0.613,0.233,0.083,0.112,1161.0,https://www.vlr.gg/player/36827/combatbaby?timespan=all,0.0,0.0
 Ruka,Team CombatBaby,0.666,163.92,0.669,109.588,0.601,0.559,0.22,0.18,0.16,50.0,https://www.vlr.gg/player/50060/ruka?timespan=all,0.0,0.0
 syazren,Team CombatBaby,1.023,215.94,1.03,141.805,0.704,0.8,0.254,0.101,0.087,247.0,https://www.vlr.gg/player/43582/syazren?timespan=all,0.0,0.0
@@ -389,6 +373,7 @@ kamyk,Team Liquid,1.13,221.306,1.173,144.058,0.738,0.788,0.296,0.087,0.087,6560.
 Keiko,Team Liquid,1.139,238.267,1.249,153.406,0.721,0.855,0.168,0.187,0.149,4213.0,https://www.vlr.gg/player/11494/keiko?timespan=all,0.998,0.992
 kamo,Team Liquid,1.136,254.302,1.207,166.231,0.701,0.89,0.178,0.185,0.162,3791.0,https://www.vlr.gg/player/14681/kamo?timespan=all,1.0,1.0
 Harmii,Team Liquid,1.049,238.557,1.118,153.81,0.692,0.835,0.186,0.158,0.118,351.0,https://www.vlr.gg/player/24803/harmii?timespan=all,1.0,1.0
+LohaN,Team Liquid,1.032,222.526,1.14,136.938,0.703,0.784,0.179,0.155,0.112,1675.0,https://www.vlr.gg/player/2881/lohan?timespan=all,0.0,0.0
 JoXJo,RIDDLE ORDER,0.979,187.994,0.948,122.077,0.73,0.636,0.426,0.078,0.082,5604.0,https://www.vlr.gg/player/4663/joxjo?timespan=all,0.984,0.942
 Minty,RIDDLE ORDER,1.074,221.98,1.139,142.472,0.724,0.772,0.235,0.125,0.102,4803.0,https://www.vlr.gg/player/5476/minty?timespan=all,0.978,0.902
 Caedye,RIDDLE ORDER,1.067,232.307,1.151,148.899,0.728,0.81,0.233,0.143,0.115,1445.0,https://www.vlr.gg/player/29841/caedye?timespan=all,0.978,0.916
@@ -520,6 +505,7 @@ Autumn,FunPlus Phoenix,1.132,232.821,1.24,145.983,0.725,0.826,0.188,0.167,0.117,
 Life,FunPlus Phoenix,1.136,243.029,1.175,155.609,0.724,0.848,0.179,0.187,0.159,8807.0,https://www.vlr.gg/player/3028/life?timespan=all,1.0,1.0
 AAAAY,FunPlus Phoenix,1.046,211.451,1.12,136.891,0.718,0.766,0.25,0.081,0.078,6562.0,https://www.vlr.gg/player/19530/aaaay?timespan=all,0.999,0.996
 yosemite,FunPlus Phoenix,1.04,216.271,1.073,140.06,0.719,0.744,0.238,0.105,0.096,7538.0,https://www.vlr.gg/player/6022/yosemite?timespan=all,1.0,1.0
+NaThanD,FunPlus Phoenix,0.971,185.768,0.964,122.63,0.714,0.641,0.278,0.061,0.059,2422.0,https://www.vlr.gg/player/3532/nathand?timespan=all,0.0,0.0
 Melser,KRÜ Esports,1.029,190.485,1.068,122.434,0.74,0.674,0.32,0.084,0.072,6526.0,https://www.vlr.gg/player/1311/melser?timespan=all,0.999,0.997
 keznit,KRÜ Esports,1.13,259.308,1.229,166.097,0.716,0.889,0.238,0.188,0.143,6291.0,https://www.vlr.gg/player/2462/keznit?timespan=all,0.999,0.995
 Mazino,KRÜ Esports,1.059,215.418,1.095,137.457,0.741,0.754,0.369,0.092,0.089,7158.0,https://www.vlr.gg/player/7603/mazino?timespan=all,0.999,0.996
@@ -536,11 +522,13 @@ sociablEE,BBL Esports,1.195,258.864,1.267,165.197,0.744,0.894,0.22,0.181,0.123,9
 chiwa,BBL Esports,1.101,225.642,1.204,145.076,0.714,0.797,0.233,0.103,0.083,9181.0,https://www.vlr.gg/player/321/chiwa?timespan=all,0.956,0.945
 PROFEK,BBL Esports,1.141,215.092,1.215,140.432,0.745,0.78,0.316,0.102,0.075,5228.0,https://www.vlr.gg/player/5554/profek?timespan=all,0.825,0.968
 LewN,BBL Esports,1.064,237.421,1.113,153.675,0.689,0.822,0.176,0.205,0.166,4210.0,https://www.vlr.gg/player/20144/lewn?timespan=all,0.65,1.0
+marqnue,BBL Esports,0.672,167.947,0.805,109.699,0.625,0.574,0.207,0.063,0.093,1231.0,https://www.vlr.gg/player/1400/marqnue?timespan=all,0.0,0.0
 FiNESSE,NRG Esports,0.861,178.281,0.894,115.98,0.691,0.611,0.266,0.066,0.076,9798.0,https://www.vlr.gg/player/817/finesse?timespan=all,0.997,0.99
 s0m,NRG Esports,1.079,218.05,1.159,137.578,0.736,0.776,0.263,0.122,0.101,8146.0,https://www.vlr.gg/player/4164/s0m?timespan=all,0.997,0.989
 Verno,NRG Esports,1.228,216.44,1.355,142.565,0.772,0.783,0.316,0.069,0.047,11526.0,https://www.vlr.gg/player/21668/verno?timespan=all,0.927,0.948
 mada,NRG Esports,1.09,236.325,1.146,151.371,0.733,0.814,0.259,0.164,0.145,11833.0,https://www.vlr.gg/player/5132/mada?timespan=all,0.975,0.949
 Ethan,NRG Esports,1.062,205.454,1.053,131.45,0.75,0.709,0.383,0.083,0.085,6474.0,https://www.vlr.gg/player/11225/ethan?timespan=all,0.997,0.991
+bonkar,NRG Esports,0.902,159.455,0.861,104.859,0.731,0.547,0.369,0.053,0.06,6494.0,https://www.vlr.gg/player/7/bonkar?timespan=all,0.0,0.0
 dip,SaD Esports,1.09,212.97,1.109,138.843,0.741,0.734,0.329,0.098,0.085,19911.0,https://www.vlr.gg/player/8397/dip?timespan=all,0.947,0.93
 Dark3st,SaD Esports,1.13,217.685,1.126,140.747,0.752,0.752,0.43,0.103,0.098,24222.0,https://www.vlr.gg/player/6437/dark3st?timespan=all,0.949,0.93
 benjii,SaD Esports,1.053,198.041,1.094,131.218,0.722,0.706,0.212,0.084,0.076,16140.0,https://www.vlr.gg/player/8758/benjii?timespan=all,0.882,0.939
@@ -574,9 +562,9 @@ Mythical,Randoms,0.904,210.047,0.913,135.973,0.655,0.723,0.199,0.125,0.156,1864.
 Monokuma,Randoms,1.164,246.291,1.2,157.606,0.698,0.86,0.183,0.141,0.115,1347.0,https://www.vlr.gg/player/34217/monokuma?timespan=all,0.955,0.76
 Astin,Randoms,0.915,177.116,0.894,115.637,0.711,0.636,0.31,0.049,0.057,1387.0,https://www.vlr.gg/player/43143/astin?timespan=all,0.955,0.76
 Nikuu,Randoms,0.773,147.407,0.733,97.355,0.698,0.515,0.29,0.063,0.065,321.0,https://www.vlr.gg/player/34243/nikuu?timespan=all,,
-Hotsauz,ZOL Esports,1.039,209.677,1.07,139.02,0.704,0.735,0.24,0.094,0.082,3321.0,https://www.vlr.gg/player/11578/hotsauz?timespan=all,0.0,0.0
-Emman,ZOL Esports,0.997,196.821,1.005,128.849,0.725,0.703,0.314,0.072,0.075,5638.0,https://www.vlr.gg/player/9747/emman?timespan=all,0.0,0.0
+PatMen,ZOL Esports,1.115,239.76,1.147,158.279,0.738,0.843,0.285,0.134,0.111,4640.0,https://www.vlr.gg/player/13744/patmen?timespan=all,0.955,0.802
 ZYND,ZOL Esports,1.088,232.743,1.135,150.585,0.712,0.822,0.187,0.177,0.136,4772.0,https://www.vlr.gg/player/16953/zynd?timespan=all,0.955,0.802
+jEEE,ZOL Esports,0.976,192.226,0.953,128.076,0.723,0.668,0.349,0.074,0.086,4130.0,https://www.vlr.gg/player/21677/jeee?timespan=all,0.979,0.897
 Kakarot,ZOL Esports,1.012,208.352,1.005,136.347,0.713,0.721,0.333,0.094,0.089,5670.0,https://www.vlr.gg/player/9737/kakarot?timespan=all,0.979,0.896
 Kevzii,ZOL Esports,1.108,205.77,1.092,140.187,0.73,0.722,0.345,0.071,0.064,5716.0,https://www.vlr.gg/player/7746/kevzii?timespan=all,0.975,0.87
 JCL,ZOL Esports,0.835,154.604,0.709,95.5,0.78,0.498,0.706,0.027,0.067,72.0,https://www.vlr.gg/player/42331/jcl?timespan=all,0.955,0.73
@@ -588,7 +576,6 @@ Zetik,club penguin,0.949,198.154,0.977,127.525,0.708,0.693,0.251,0.085,0.092,750
 oj,club penguin,0.902,180.998,0.85,124.118,0.69,0.607,0.287,0.077,0.082,1153.0,https://www.vlr.gg/player/1775/oj?timespan=all,0.955,0.76
 Mundy,club penguin,1.054,229.954,1.104,148.275,0.701,0.815,0.263,0.14,0.117,868.0,https://www.vlr.gg/player/2597/mundy?timespan=all,0.955,0.76
 wodz,club penguin,1.071,217.688,1.063,144.905,0.711,0.751,0.311,0.095,0.097,1674.0,https://www.vlr.gg/player/33920/wodz?timespan=all,0.955,0.76
-KADIRI,Next Gen,1.211,253.229,1.289,166.092,0.738,0.905,0.187,0.159,0.103,2183.0,https://www.vlr.gg/player/43125/kadiri?timespan=all,0.0,0.0
 Zauqk,Next Gen,1.098,212.764,1.086,140.89,0.751,0.732,0.345,0.077,0.065,4159.0,https://www.vlr.gg/player/29790/zauqk?timespan=all,0.955,0.78
 Sinaway,Next Gen,1.077,215.06,1.147,142.203,0.712,0.772,0.234,0.085,0.08,4270.0,https://www.vlr.gg/player/29821/sinaway?timespan=all,0.955,0.76
 FETA,Next Gen,1.143,251.006,1.211,161.328,0.723,0.871,0.197,0.199,0.158,4348.0,https://www.vlr.gg/player/31254/feta?timespan=all,0.955,0.76
@@ -619,6 +606,8 @@ sheydos,KOI,1.181,228.003,1.341,146.813,0.755,0.822,0.24,0.097,0.061,7487.0,http
 Filu,KOI,1.127,240.638,1.192,153.036,0.716,0.849,0.215,0.179,0.143,6363.0,https://www.vlr.gg/player/4544/filu?timespan=all,1.0,0.984
 soulcas,KOI,1.05,204.95,1.095,134.133,0.738,0.714,0.316,0.085,0.09,9718.0,https://www.vlr.gg/player/101/soulcas?timespan=all,0.999,0.996
 Noizeeh,KOI,0.855,167.286,0.801,116.045,0.664,0.525,0.238,0.072,0.099,42.0,https://www.vlr.gg/player/231/noizeeh?timespan=all,,
+Gorilla,KOI,0.683,136.946,0.599,90.951,0.61,0.448,0.315,0.029,0.078,652.0,https://www.vlr.gg/player/8815/gorilla?timespan=all,0.0,0.0
+temoc,KOI,0.886,163.554,0.848,108.862,0.69,0.558,0.297,0.057,0.07,1547.0,https://www.vlr.gg/player/3738/temoc?timespan=all,,
 KaneKizz,Young Warriors,0.785,184.916,0.747,126.871,0.676,0.603,0.387,0.158,0.134,83.0,https://www.vlr.gg/player/34203/kanekizz?timespan=all,0.0,0.0
 Ord1nary,Young Warriors,0.8,191.0,0.85,139.1,0.56,0.72,0.1,0.03,0.08,39.0,https://www.vlr.gg/player/49926/ord1nary?timespan=all,0.0,0.0
 LoNglOnG,Young Warriors,0.769,146.128,0.586,106.385,0.743,0.439,0.409,0.077,0.13,39.0,https://www.vlr.gg/player/49927/longlong?timespan=all,0.0,0.0
@@ -680,7 +669,7 @@ Asteriskk,Alter Ego,1.002,187.081,1.032,115.588,0.734,0.668,0.332,0.075,0.072,56
 SpYzera,The Ultimates,1.113,210.899,1.177,137.474,0.763,0.751,0.323,0.086,0.079,11787.0,https://www.vlr.gg/player/1618/spyzera?timespan=all,0.961,0.83
 Fighter,The Ultimates,1.015,217.24,1.043,140.368,0.704,0.767,0.266,0.136,0.129,5732.0,https://www.vlr.gg/player/37847/fighter?timespan=all,0.957,0.815
 KHaaLiD,The Ultimates,1.065,201.966,1.089,132.92,0.739,0.708,0.359,0.084,0.091,10233.0,https://www.vlr.gg/player/5599/khaalid?timespan=all,0.961,0.83
-Moh,The Ultimates,1.186,229.165,1.269,147.862,0.753,0.814,0.305,0.113,0.083,12742.0,https://www.vlr.gg/player/5600/moh?timespan=all,0.961,0.83
+Moh,The Ultimates,1.186,229.165,1.269,147.862,0.753,0.814,0.305,0.113,0.083,12742.0,https://www.vlr.gg/player/5600/moh?timespan=all,0.962,0.83
 Sand,The Ultimates,1.109,212.656,1.198,140.924,0.731,0.766,0.21,0.09,0.078,9885.0,https://www.vlr.gg/player/6503/sand?timespan=all,0.959,0.814
 XiaoFeng,ROA Esport,0.931,219.797,0.941,144.309,0.651,0.742,0.2,0.156,0.185,974.0,https://www.vlr.gg/player/44128/xiaofeng?timespan=all,0.0,0.0
 QueYa,ROA Esport,0.882,178.302,0.842,120.19,0.694,0.607,0.343,0.066,0.095,1535.0,https://www.vlr.gg/player/34178/queya?timespan=all,0.0,0.0
@@ -748,6 +737,7 @@ purp0,GIANTX,1.241,247.493,1.341,158.092,0.748,0.882,0.19,0.175,0.114,6368.0,htt
 runneR,GIANTX,1.143,238.358,1.193,154.587,0.733,0.825,0.255,0.161,0.12,5883.0,https://www.vlr.gg/player/21610/runner?timespan=all,0.975,1.0
 westside,GIANTX,1.09,210.584,1.148,140.707,0.712,0.766,0.19,0.095,0.081,3478.0,https://www.vlr.gg/player/34684/westside?timespan=all,0.767,1.0
 tomaszy,GIANTX,1.111,248.773,1.188,161.709,0.732,0.861,0.24,0.164,0.122,4622.0,https://www.vlr.gg/player/19691/tomaszy?timespan=all,1.0,0.996
+pipsoN,GIANTX,0.872,172.651,0.927,111.923,0.728,0.598,0.369,0.045,0.072,1606.0,https://www.vlr.gg/player/319/pipson?timespan=all,0.0,0.0
 Hakanss,Team Poupi,0.9,190.5,0.96,116.5,0.69,0.71,0.17,0.06,0.06,35.0,https://www.vlr.gg/player/50048/hakanss?timespan=all,0.0,0.0
 zui,Made in Bandung Widyatama x Binus,1.057,217.332,1.147,141.723,0.752,0.777,0.361,0.096,0.099,350.0,https://www.vlr.gg/player/37080/zui?timespan=all,0.0,0.0
 OnigiRi,La Familia,0.966,206.09,0.993,133.307,0.703,0.731,0.204,0.114,0.099,5935.0,https://www.vlr.gg/player/4867/onigiri?timespan=all,0.0,0.0
@@ -829,6 +819,7 @@ Zellsis,Sentinels,1.091,217.002,1.137,139.023,0.746,0.753,0.373,0.102,0.101,1026
 zekken,Sentinels,1.198,249.052,1.261,160.478,0.747,0.861,0.288,0.144,0.113,12266.0,https://www.vlr.gg/player/4004/zekken?timespan=all,0.993,0.994
 Reduxx,Cubert Academy,1.172,254.722,1.25,162.475,0.731,0.899,0.192,0.188,0.141,15750.0,https://www.vlr.gg/player/8419/reduxx?timespan=all,0.943,0.95
 SicK,Sentinels,1.122,226.667,1.218,142.604,0.744,0.802,0.302,0.115,0.093,7377.0,https://www.vlr.gg/player/45/sick?timespan=all,0.994,0.997
+kaplan,Sentinels,1.131,166.865,0.878,110.622,0.845,0.57,0.301,0.067,0.047,1068.0,https://www.vlr.gg/player/757/kaplan?timespan=all,0.0,0.0
 mili,Refrag,1.092,224.008,1.128,147.291,0.736,0.79,0.243,0.122,0.106,7284.0,https://www.vlr.gg/player/28187/mili?timespan=all,0.324,1.0
 maryna,Fisher Fruit,1.048,199.579,1.054,130.436,0.73,0.705,0.32,0.086,0.082,8486.0,https://www.vlr.gg/player/11964/maryna?timespan=all,0.464,0.983
 Kazler,Refrag,1.079,217.111,1.109,140.314,0.732,0.759,0.314,0.116,0.107,6908.0,https://www.vlr.gg/player/25167/kazler?timespan=all,0.327,1.0
@@ -955,6 +946,7 @@ Derrek,Evil Geniuses,1.098,203.048,1.1,135.187,0.749,0.704,0.337,0.07,0.054,9235
 supamen,Evil Geniuses,1.044,198.44,1.054,126.737,0.732,0.707,0.309,0.075,0.087,7317.0,https://www.vlr.gg/player/826/supamen?timespan=all,0.982,0.993
 icy,Evil Geniuses,1.04,210.936,1.056,138.67,0.717,0.733,0.245,0.118,0.106,15276.0,https://www.vlr.gg/player/8402/icy?timespan=all,0.0,0.0
 yay,Evil Geniuses,1.164,244.836,1.284,151.307,0.709,0.866,0.148,0.188,0.127,7112.0,https://www.vlr.gg/player/881/yay?timespan=all,0.0,0.0
+potter,Evil Geniuses,0.819,155.453,0.819,102.189,0.687,0.538,0.288,0.05,0.07,2438.0,https://www.vlr.gg/player/3104/potter?timespan=all,0.0,0.0
 Ri0,True Rippers,0.925,173.694,0.867,116.529,0.697,0.59,0.321,0.056,0.067,8096.0,https://www.vlr.gg/player/3502/ri0?timespan=all,1.0,1.0
 Marcai,True Rippers,0.979,223.812,0.999,146.345,0.694,0.783,0.177,0.182,0.179,806.0,https://www.vlr.gg/player/46121/marcai?timespan=all,,
 BatmaN,True Rippers,0.891,193.028,0.941,125.525,0.68,0.69,0.233,0.091,0.138,642.0,https://www.vlr.gg/player/40057/batman?timespan=all,,
@@ -1021,7 +1013,7 @@ Meracle,Lucia Zenith,0.886,187.085,0.788,131.011,0.695,0.602,0.406,0.078,0.084,1
 choosie,Velocity Gaming,0.988,216.878,0.974,143.016,0.673,0.721,0.248,0.119,0.171,400.0,https://www.vlr.gg/player/11565/choosie?timespan=all,0.0,0.0
 krys,Team JoshF,0.51,122.0,0.58,77.4,0.58,0.46,0.13,0.08,0.13,24.0,https://www.vlr.gg/player/50059/krys?timespan=all,0.0,0.0
 yehren,Lucia Zenith,0.928,218.79,0.938,139.637,0.728,0.75,0.354,0.13,0.145,124.0,https://www.vlr.gg/player/49317/yehren?timespan=all,0.0,0.0
-JoshF,Lucia Zenith,0.979,176.991,0.943,117.683,0.724,0.639,0.35,0.049,0.063,1783.0,https://www.vlr.gg/player/17729/joshf?timespan=all,0.0,0.0
+JoshF,Team JoshF,0.979,176.991,0.943,117.683,0.724,0.639,0.35,0.049,0.063,1783.0,https://www.vlr.gg/player/17729/joshf?timespan=all,0.0,0.0
 turkish,SAGAZ,1.115,215.302,1.181,147.086,0.739,0.763,0.186,0.099,0.08,3341.0,https://www.vlr.gg/player/32801/turkish?timespan=all,0.0,0.0
 str0nda,SAGAZ,0.983,219.028,0.986,145.882,0.677,0.755,0.195,0.162,0.145,1789.0,https://www.vlr.gg/player/23855/str0nda?timespan=all,0.0,0.0
 HiiiK,SAGAZ,0.965,195.781,0.931,126.827,0.721,0.673,0.402,0.086,0.105,3165.0,https://www.vlr.gg/player/22914/hiiik?timespan=all,0.0,0.0
@@ -1063,9 +1055,10 @@ Pa1nt,Moist x Shopify,1.144,261.828,1.217,167.549,0.724,0.905,0.21,0.217,0.177,1
 Spaz,Moist x Shopify,1.187,210.406,1.197,136.071,0.777,0.734,0.432,0.077,0.067,16101.0,https://www.vlr.gg/player/8422/spaz?timespan=all,0.943,0.93
 Paincakes,Moist x Shopify,1.109,215.17,1.14,136.959,0.748,0.762,0.314,0.096,0.088,15632.0,https://www.vlr.gg/player/2164/paincakes?timespan=all,0.917,0.932
 brawk,Moist x Shopify,1.155,210.924,1.191,140.025,0.773,0.728,0.383,0.059,0.044,12569.0,https://www.vlr.gg/player/2172/brawk?timespan=all,0.952,0.956
+vapen,Moist x Shopify,0.716,149.465,0.662,102.072,0.647,0.48,0.374,0.03,0.076,185.0,https://www.vlr.gg/player/8754/vapen?timespan=all,0.0,0.0
 kiNgg,LEVIATÁN,1.16,225.993,1.239,144.445,0.76,0.787,0.334,0.117,0.091,7225.0,https://www.vlr.gg/player/8549/kingg?timespan=all,1.0,1.0
 Demon1,LEVIATÁN,1.183,240.602,1.306,158.07,0.728,0.87,0.144,0.164,0.11,6013.0,https://www.vlr.gg/player/26171/demon1?timespan=all,0.934,0.997
 tex,LEVIATÁN,1.051,225.013,1.131,144.505,0.719,0.791,0.211,0.159,0.132,8949.0,https://www.vlr.gg/player/1818/tex?timespan=all,0.961,0.993
 C0M,LEVIATÁN,1.051,200.729,1.078,131.983,0.738,0.693,0.3,0.085,0.081,10198.0,https://www.vlr.gg/player/619/c0m?timespan=all,0.97,1.0
 nataNk,LEVIATÁN,1.021,203.69,0.991,132.707,0.732,0.695,0.356,0.101,0.114,4999.0,https://www.vlr.gg/player/5004/natank?timespan=all,1.0,0.988
-Daykiry,LEVIATÁN,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+Itopata,LEVIATÁN,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0

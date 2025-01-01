@@ -40,7 +40,7 @@ def get_players_from_soup(soup, team):
     for element in elements:
         e_text = element.text.replace("\n", "")
         for i in e_text.split("\t"):
-            if not "analyst" in e_text.split("\t") and not "head coach" in e_text.split("\t"):
+            if not "analyst" in e_text.split("\t") and not "head coach" in e_text.split("\t") and not "assistant coach" in e_text.split("\t"):
                 if i != "":
                     players.append(i)
                     break

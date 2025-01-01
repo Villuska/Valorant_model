@@ -22,6 +22,9 @@ players_df = pd.read_csv("players.csv")
 
 
 def get_match_opponent(div):
+    """ Input: div element from soup
+        Output: opponents name in div element
+    """
     lista = div.text.strip().replace("\t", "").split("\n")
     lista2 = []
     for item in lista:
@@ -36,6 +39,9 @@ def get_match_opponent(div):
     return opponent_name
 
 def get_opponents(url, row = None):
+    """ Input: player url in timespan=all mode
+        Output: List of opponents in a players match history
+    """
     #url = row['url']
     if not type(url) == float:
         url = url.replace("?timespan=all", "").replace("/player", "/player/matches")
@@ -67,9 +73,12 @@ def get_opponents(url, row = None):
     
 
 def get_opponents_tier_and_region(url):
+    """
+    Input: Player url in timespan=all format
+    Output: list of tiers and regions of players opponents in match history
+    """
     opponents = get_opponents(url)
     team_names = list(teams_df['team'])
-    print(opponents)
     tiers = []
     regions = []
     if opponents:
@@ -87,6 +96,11 @@ def get_opponents_tier_and_region(url):
         return [], []
 
 def get_tier_region_multi(tiers, regions):
+    """
+    Input: list of tiers and regions
+    Output: Average of multipliers
+    _ADJUSTMENTS: dictionary of tier and region adjusments(multipliers)
+    """
     tier_ms = []
     region_ms = []
     for tier in tiers:
@@ -95,15 +109,28 @@ def get_tier_region_multi(tiers, regions):
     for reg in regions:
         reg_m = REGION_ADJUSTMENTS[reg]
         region_ms.append(reg_m)
+
     if not len(tier_ms) == 0:
         effective_tier_m = sum(tier_ms) / len(tier_ms)
-        effective_reg_m = sum(region_ms) / len(region_ms)
     else:
         effective_tier_m = None
-        effective_reg_m = None
-        return effective_tier_m, effective_reg_m
 
-    return round(effective_tier_m,3), round(effective_reg_m,3)
+    if not len(region_ms) == 0:
+        effective_reg_m = sum(region_ms) / len(region_ms)
+    else:
+        effective_reg_m = None
+        
+    if effective_reg_m == None and effective_tier_m != None:
+        return effective_reg_m, round(effective_tier_m,3)
+    
+    elif effective_tier_m == None and effective_reg_m != None:
+        return effective_tier_m, round(effective_reg_m,3)
+
+    elif  effective_tier_m == None and effective_reg_m == None:
+        return effective_tier_m, effective_reg_m
+    
+    else:
+        return round(effective_tier_m,3), round(effective_reg_m,3)
 
 
 def scrape_player_multi():
@@ -113,11 +140,13 @@ def scrape_player_multi():
         if url and not (isinstance(url, float) and math.isnan(url)):
             tiers, regions = get_opponents_tier_and_region(url)
             tiers2, regions2 = get_opponents_tier_and_region(f"{url}/?page=2")
+            tiers3, regions3 = get_opponents_tier_and_region(f"{url}/?page=3")
         else:
             tiers, regions = [], []
             tiers2, regions2 = [], []
+            tiers3, regions3 = [], []
 
-        tiers = tiers + tiers2
+        tiers = tiers + tiers2 + tiers3
         regions = regions + regions2
         effective_tier_m, effective_reg_m = get_tier_region_multi(tiers, regions)
 
