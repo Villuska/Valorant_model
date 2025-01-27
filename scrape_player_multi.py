@@ -113,24 +113,14 @@ def get_tier_region_multi(tiers, regions):
     if not len(tier_ms) == 0:
         effective_tier_m = sum(tier_ms) / len(tier_ms)
     else:
-        effective_tier_m = None
+        effective_tier_m = 0.82
 
     if not len(region_ms) == 0:
         effective_reg_m = sum(region_ms) / len(region_ms)
     else:
-        effective_reg_m = None
-        
-    if effective_reg_m == None and effective_tier_m != None:
-        return effective_reg_m, round(effective_tier_m,3)
-    
-    elif effective_tier_m == None and effective_reg_m != None:
-        return effective_tier_m, round(effective_reg_m,3)
+        effective_reg_m = 0.82
 
-    elif  effective_tier_m == None and effective_reg_m == None:
-        return effective_tier_m, effective_reg_m
-    
-    else:
-        return round(effective_tier_m,3), round(effective_reg_m,3)
+    return round(effective_tier_m,3), round(effective_reg_m,3)
 
 
 def scrape_player_multi():
@@ -182,7 +172,7 @@ def scrape_player_multi():
         print(effective_tier_m, effective_reg_m)
         time.sleep(random.uniform(0.5, 1.2))
         
-scrape_player_multi()
+
 
 
 

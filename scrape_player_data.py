@@ -36,14 +36,23 @@ def find_player_data(url, timeframe):
         if last_occurrence != -1 and url.count("?timespan=90d") > 1:
             url = url[:last_occurrence] + url[last_occurrence + len("?timespan=90d"):]
     print(f"Scraping: {url}")
-
-    player_stats_scraper_page = requests.get(url)
-    player_stats_scraper_page = BeautifulSoup(player_stats_scraper_page.content, 'html.parser')
     
-    player_stats = [elem.text for elem in player_stats_scraper_page.select("td+.mod-right, td.mod-center")]
-    
-    player_name = [elem.text for elem in player_stats_scraper_page.select(".wf-title")][0].strip()
-
+    tries = 0
+    max_tries = 100
+    while tries < max_tries:
+        try:
+            player_stats_scraper_page = requests.get(url)
+            player_stats_scraper_page = BeautifulSoup(player_stats_scraper_page.content, 'html.parser')
+            player_stats = [elem.text for elem in player_stats_scraper_page.select("td+.mod-right, td.mod-center")]
+            
+            player_name = [elem.text for elem in player_stats_scraper_page.select(".wf-title")][0].strip()
+            break
+        except Exception as e:
+            tries += 1
+            if tries == max_tries:
+                player_name = None
+            time.sleep(random.uniform(tries+1,tries+3))
+            
    
     
     team_name = requests.get(url)
@@ -97,8 +106,8 @@ def find_player_data(url, timeframe):
         columns = ["Player", "Team", "Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", "FKPR", "FDPR", "Total_Rounds_Played"]
         df = pd.DataFrame([[player_name, team_name] + [0] * (len(columns) - 2)], columns=columns)
 
-    df['tier_m'] = 0
-    df['region_m'] = 0
+    df['tier_m'] = 0.85
+    df['region_m'] = 0.85
     
     print(df)
     if os.path.exists(f"player_data_{timeframe}.csv"):
@@ -127,5 +136,5 @@ def scrape_player_data():
     form_player_strengths()
     form_initial_strengths()
     
-scrape_player_data()
+
 
