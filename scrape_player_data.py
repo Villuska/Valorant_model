@@ -51,7 +51,7 @@ def find_player_data(url, timeframe):
             tries += 1
             if tries == max_tries:
                 player_name = None
-            time.sleep(random.uniform(tries+1,tries+3))
+            time.sleep(random.uniform(tries+0.5,tries+1))
             
    
     
@@ -121,18 +121,22 @@ def find_player_data(url, timeframe):
         print("")
     
 def scrape_player_data():
-    base_urls_all = list(pd.read_csv("players.csv")['url'].dropna())
-    for url in base_urls_all:
-        find_player_data(url, 'all')
     base_urls_90 = list(pd.read_csv("players.csv")['url_90d'].dropna())
     for url in base_urls_90:
         find_player_data(url, '90d')
-    scrape_player_multi()
-    players_df_90 = pd.read_csv("player_data_90d.csv")
-    players_df_all = pd.read_csv("player_data_all.csv")
+        players_df_90 = pd.read_csv("player_data_90d.csv")
+        save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
+    base_urls_all = list(pd.read_csv("players.csv")['url'].dropna())
+    for url in base_urls_all:
+        find_player_data(url, 'all')
+        players_df_all = pd.read_csv("player_data_all.csv")
+        save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
 
-    save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
-    save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
+        
+    scrape_player_multi()
+    
+    
+
     form_player_strengths()
     form_initial_strengths()
     
