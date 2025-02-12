@@ -198,6 +198,8 @@ def scrape_match_data(url):
     df_combined.insert(0, 'Maps_Played', maps_played)
     df_combined.insert(0, 'Team_2', team_2)
     df_combined.insert(0, 'Team_1', team_1)
-    df_combined.to_csv("test.csv", index=False)
+    print(df_combined)
+  
+    return df_combined
 
-scrape_match_data("https://www.vlr.gg/433489/mandatory-vs-joblife-challengers-league-2025-france-revolution-split-1-w3/?game=all&tab=overview")
+scrape_match_data("https://www.vlr.gg/444979/joblife-vs-siko-challengers-league-2025-france-revolution-split-1-qf")
