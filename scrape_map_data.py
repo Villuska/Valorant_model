@@ -5,72 +5,35 @@ import numpy as np
 import re
 from datetime import datetime
 
+
+def score_difference(score):
+    team1, team2 = map(int, score.split('-'))
+    return (team1 - team2)
+
 def clean_team_name(name):
     return re.sub(r"\s*\[.*?\]\s*", "", name).strip()
 
-def handle_bo_5(game_stats, team_1, team_2, date, maps_played):
-    team_1 = clean_team_name(team_1)
-    team_2 = clean_team_name(team_2)
-    table = game_stats[0].select("table")[0]  
-    team_1_map_1 = hande_team_stats_table(table, "team_1_")
-    table = game_stats[0].select("table")[1]
-    team_2_map_1 = hande_team_stats_table(table, "team_2_")
-    map_1_df = combine_and_clean_team_stats(team_1_map_1, team_2_map_1, team_1, team_2, date)
-    table = game_stats[2].select("table")[0]  
-    team_1_map_2 = hande_team_stats_table(table, "team_1_")
-    table = game_stats[2].select("table")[1]
-    team_2_map_2 = hande_team_stats_table(table, "team_2_")
-    map_2_df = combine_and_clean_team_stats(team_1_map_2, team_2_map_2, team_1, team_2, date)
-    table = game_stats[3].select("table")[0]  
-    team_1_map_3 = hande_team_stats_table(table, "team_1_")
-    table = game_stats[3].select("table")[1]
-    team_2_map_3 = hande_team_stats_table(table, "team_2_")
-    map_3_df = combine_and_clean_team_stats(team_1_map_3, team_2_map_3, team_1, team_2, date)
-    table = game_stats[4].select("table")[0]  
-    match_df = pd.concat([map_1_df, map_2_df, map_3_df], ignore_index=True)
-    team_1_map_4 = hande_team_stats_table(table, "team_1_")
-    if not team_1_map_4.empty:
-        table = game_stats[4].select("table")[1]
-        team_2_map_4 = hande_team_stats_table(table, "team_2_")
-        map_4_df = combine_and_clean_team_stats(team_1_map_4, team_2_map_4, team_1, team_2, date)
-        match_df = pd.concat([match_df, map_4_df], ignore_index=True)
-        table = game_stats[5].select("table")[0]  
-        team_1_map_5 = hande_team_stats_table(table, "team_1_")
-        if not team_1_map_5.empty:
-            table = game_stats[5].select("table")[1]
-            team_2_map_5 = hande_team_stats_table(table, "team_2_")
-            map_5_df = combine_and_clean_team_stats(team_1_map_5, team_2_map_5, team_1, team_2, date)
-            match_df = pd.concat([match_df, map_5_df], ignore_index=True)
-    match_df['map'] = maps_played
-    return match_df
+def get_pistols_and_rounds(game_stats):
 
-def handle_bo_3(game_stats, team_1, team_2, date, maps_played):
-    team_1 = clean_team_name(team_1)
-    team_2 = clean_team_name(team_2)
-    table = game_stats[0].select("table")[0]  
-    team_1_map_1 = hande_team_stats_table(table, "team_1_")
-    table = game_stats[0].select("table")[1]
-    team_2_map_1 = hande_team_stats_table(table, "team_2_")
-    map_1_df = combine_and_clean_team_stats(team_1_map_1, team_2_map_1, team_1, team_2, date)
-    table = game_stats[2].select("table")[0]  
-    team_1_map_2 = hande_team_stats_table(table, "team_1_")
-    table = game_stats[2].select("table")[1]
-    team_2_map_2 = hande_team_stats_table(table, "team_2_")
-    map_2_df = combine_and_clean_team_stats(team_1_map_2, team_2_map_2, team_1, team_2, date)
-    match_df = pd.concat([map_1_df, map_2_df], ignore_index=True)
-    if len(maps_played) > 3:
-        table = game_stats[3].select("table")[0]  
-        team_1_map_3 = hande_team_stats_table(table, "team_1_")
-        if not team_1_map_3.empty:
-            table = game_stats[3].select("table")[1]
-            team_2_map_3 = hande_team_stats_table(table, "team_2_")
-            map_3_df = combine_and_clean_team_stats(team_1_map_3, team_2_map_3, team_1, team_2, date)
-            match_df = pd.concat([match_df, map_3_df], ignore_index=True)
-        match_df['map'] = maps_played
-        return match_df
-    
-    match_df['map'] = maps_played[:len(match_df)]
-    return match_df
+    titles = [
+        div.get('title') for div in game_stats.find('div', class_='vlr-rounds-row').find_all('div', class_='vlr-rounds-row-col')
+        if div.get('title')  # Ensuring it has a title attribute
+    ]
+    pistols_1 = 0
+    pistols_2 = 0
+    pistol_1 = titles[0].split("-")[0]
+    if pistol_1 == "0":
+        pistols_2 += 1
+    else:
+        pistols_1 += 1
+    diff_12 = score_difference(titles[12])
+    diff_13 = score_difference(titles[13])
+    if diff_13 > diff_12:
+        pistols_1 += 1
+    else:
+        pistols_2 += 1
+    return titles, pistols_1, pistols_2
+
 
 def handle_bo_x(game_stats, team_1, team_2, date, maps_played):
     team_1 = clean_team_name(team_1)
@@ -78,15 +41,20 @@ def handle_bo_x(game_stats, team_1, team_2, date, maps_played):
     match_df = pd.DataFrame()
     for i in range(len(game_stats)):
         if i != 1:
+            
             table = game_stats[i].select("table")[0]  
             team_1_map_1 = hande_team_stats_table(table, "team_1_")
             table = game_stats[i].select("table")[1]
             team_2_map_1 = hande_team_stats_table(table, "team_2_")
+            rounds, pistols_1, pistols_2 = get_pistols_and_rounds(game_stats[i])
             map_df = combine_and_clean_team_stats(team_1_map_1, team_2_map_1, team_1, team_2, date)
+            map_df['team_1_pistols'] = pistols_1
+            map_df['team_2_pistols'] = pistols_2
+            map_df['rounds_prog'] = [rounds]
             match_df = pd.concat([match_df, map_df], ignore_index=True)
 
-    
-    match_df['map'] = maps_played[:len(match_df)]
+
+    match_df['map'] = maps_played
     return match_df
 
 def combine_and_clean_team_stats(team_1_stats, team_2_stats, team_1, team_2, date):
@@ -243,9 +211,15 @@ def game_stats_scraping_function(url):
 
 
     match_df = handle_bo_x(game_stats, team_1, team_2, date, maps_played)
+    cols = match_df.columns.tolist()  # Get the current column order
+    cols.remove("map")  # Remove "map" from its current position
+    cols.insert(2, "map")  # Insert "map" at the third position
+
+    # Reorder the DataFrame
+    match_df = match_df[cols]
 
     print(match_df)
-    print(match_df['map'])
+
 
 game_stats_scraping_function("https://www.vlr.gg/429390/team-vitality-vs-team-liquid-champions-tour-2025-emea-kickoff-gf")
 
