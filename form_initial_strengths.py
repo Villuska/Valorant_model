@@ -82,6 +82,7 @@ def team_strength_calculator(strength_90d, strength_all):
 
 
     # Save final team strengths
+    team_data = team_data[team_data['region'].notna()]
     team_data = team_data.sort_values(by='team_strength', ascending=False)
     team_data = team_data.drop_duplicates(subset=['team'], keep='last')
     team_data = team_data.round(2)

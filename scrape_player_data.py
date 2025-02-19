@@ -106,8 +106,8 @@ def find_player_data(url, timeframe):
         columns = ["Player", "Team", "Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", "FKPR", "FDPR", "Total_Rounds_Played"]
         df = pd.DataFrame([[player_name, team_name] + [0] * (len(columns) - 2)], columns=columns)
 
-    df['tier_m'] = 0.85
-    df['region_m'] = 0.85
+    df['tier_m'] = 0.7
+    df['region_m'] = 0.7
     
     print(df)
     if os.path.exists(f"player_data_{timeframe}.csv"):
@@ -121,6 +121,9 @@ def find_player_data(url, timeframe):
         print("")
     
 def scrape_player_data():
+    scrape_player_multi()
+    form_player_strengths()
+    form_initial_strengths()
     base_urls_90 = list(pd.read_csv("players.csv")['url_90d'].dropna())
     for url in base_urls_90:
         find_player_data(url, '90d')
@@ -131,14 +134,10 @@ def scrape_player_data():
         find_player_data(url, 'all')
         players_df_all = pd.read_csv("player_data_all.csv")
         save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
-
-        
-    scrape_player_multi()
-    
-    
-
     form_player_strengths()
     form_initial_strengths()
-    
+        
+
+scrape_player_data()
 
 

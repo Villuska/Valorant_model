@@ -127,7 +127,7 @@ def main():
     #existing_urls = pd.read_csv("teams.csv")['url'].tolist()
     #urls = list(set(urls) - set(existing_urls))
     #for url in urls:     
-     #   get_team_data_and_add_players(url)
+    #   get_team_data_and_add_players(url)
     print("")
     print("Scraping done!")
     print("")

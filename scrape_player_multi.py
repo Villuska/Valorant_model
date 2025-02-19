@@ -48,7 +48,7 @@ def get_opponents(url, row = None):
         response = requests.get(url)
         if response.status_code != 200:
             print(f"Failed to fetch page. Status code: {response.status_code}")
-            return
+            return []
 
         soup = BeautifulSoup(response.content, 'html.parser')
         try:    
@@ -56,7 +56,7 @@ def get_opponents(url, row = None):
 
             if not divs:
                 print("No elements with class 'mod-dark' found.")
-                return
+                return []
 
             # Proceed with the first div
             parent_div = divs[0]
@@ -67,9 +67,9 @@ def get_opponents(url, row = None):
 
             return opponents
         except TypeError:
-            return None
+            return []
     else:
-        return None
+        return []
     
 
 def get_opponents_tier_and_region(url):
@@ -77,6 +77,7 @@ def get_opponents_tier_and_region(url):
     Input: Player url in timespan=all format
     Output: list of tiers and regions of players opponents in match history
     """
+    print(url)
     opponents = get_opponents(url)
     team_names = list(teams_df['team'])
     tiers = []
@@ -91,9 +92,9 @@ def get_opponents_tier_and_region(url):
                     regions.append(opp_region)
                 if opp_tier and pd.notna(opp_tier):
                     tiers.append(opp_tier)
-        return tiers, regions
+        return tiers, regions, opponents
     else:
-        return [], []
+        return [], [], opponents
 
 def get_tier_region_multi(tiers, regions):
     """
@@ -104,10 +105,11 @@ def get_tier_region_multi(tiers, regions):
     tier_ms = []
     region_ms = []
     for tier in tiers:
-        tier_m = TIER_ADJUSTMENTS[tier]
+        tier_m = TIER_ADJUSTMENTS.get(tier, 0.7)  # Default to 0.7 if tier not found
         tier_ms.append(tier_m)
+
     for reg in regions:
-        reg_m = REGION_ADJUSTMENTS[reg]
+        reg_m = REGION_ADJUSTMENTS.get(reg, 0.7)  # Default to 0.7 if region not found
         region_ms.append(reg_m)
 
     if not len(tier_ms) == 0:
@@ -124,18 +126,22 @@ def get_tier_region_multi(tiers, regions):
 
 
 def scrape_player_multi():
+
     for index, row in players_df.iterrows():
+        print(f"Scraping player {row['name']}")
         url = row['url']
+        print(url)
 
         if url and not (isinstance(url, float) and math.isnan(url)):
-            tiers, regions = get_opponents_tier_and_region(url)
-            tiers2, regions2 = get_opponents_tier_and_region(f"{url}/?page=2")
-            tiers3, regions3 = get_opponents_tier_and_region(f"{url}/?page=3")
+            tiers, regions, opponents1 = get_opponents_tier_and_region(url)
+            tiers2, regions2, opponents2 = get_opponents_tier_and_region(f"{url}/?page=2")
+            tiers3, regions3, opponents3 = get_opponents_tier_and_region(f"{url}/?page=3")
         else:
             tiers, regions = [], []
             tiers2, regions2 = [], []
             tiers3, regions3 = [], []
 
+        opponents = opponents1 + opponents2 + opponents3
         tiers = tiers + tiers2 + tiers3
         regions = regions + regions2
         effective_tier_m, effective_reg_m = get_tier_region_multi(tiers, regions)
@@ -162,6 +168,11 @@ def scrape_player_multi():
         if player_name in player_data_all['Player'].values:
             player_data_all.loc[player_data_all['Player'] == player_name, 'tier_m'] = effective_tier_m
             player_data_all.loc[player_data_all['Player'] == player_name, 'region_m'] = effective_reg_m
+            if "opponents" not in player_data_all.columns:
+                player_data_all['opponents'] = None
+            player_data_all.loc[player_data_all['Player'] == player_name, 'opponents'] = player_data_all.loc[
+                player_data_all['Player'] == player_name, 'opponents'
+            ].apply(lambda x: opponents)
         else:
             print(f"Player {player_name} not found in player_data_all.")
         player_data_all.to_csv("player_data_all.csv", index=False)

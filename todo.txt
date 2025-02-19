@@ -1,0 +1,2 @@
+KORJAA NOI INITIAL STR FUNKTIOT -> tier jutut kusee eniten
+ALAA SCRAPEE MAPPEJA
