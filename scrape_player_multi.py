@@ -170,9 +170,10 @@ def scrape_player_multi():
             player_data_all.loc[player_data_all['Player'] == player_name, 'region_m'] = effective_reg_m
             if "opponents" not in player_data_all.columns:
                 player_data_all['opponents'] = None
-            player_data_all.loc[player_data_all['Player'] == player_name, 'opponents'] = player_data_all.loc[
-                player_data_all['Player'] == player_name, 'opponents'
-            ].apply(lambda x: opponents)
+            player_data_all.at[player_data_all[player_data_all['Player'] == player_name].index[0], 'opponents'] = opponents
+
+
+            
         else:
             print(f"Player {player_name} not found in player_data_all.")
         player_data_all.to_csv("player_data_all.csv", index=False)
@@ -181,7 +182,7 @@ def scrape_player_multi():
 
         players_df.to_csv("players.csv", index=False)
         print(effective_tier_m, effective_reg_m)
-        time.sleep(random.uniform(0.5, 1.2))
+        time.sleep(random.uniform(0.2, 9.7))
         
 
 

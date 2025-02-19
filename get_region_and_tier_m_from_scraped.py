@@ -1,11 +1,8 @@
 import pandas as pd
 from constants import *
 
-teams_df = pd.read_csv("teams.csv")
-players_all_df = pd.read_csv("player_data_all.csv")
-players_90_df = pd.read_csv("player_data_90d.csv")
 
-def get_opponents_tier_and_region(row):
+def get_opponents_tier_and_region(row, teams_df):
     opponents = row['opponents']
     team_names = list(teams_df['team'])
     tiers = []
@@ -42,12 +39,15 @@ def get_tier_region_multi(tiers, regions):
 
 
 def apply_region_and_tier_m():
+    teams_df = pd.read_csv("teams.csv")
+    players_all_df = pd.read_csv("player_data_all.csv")
+    players_90_df = pd.read_csv("player_data_90d.csv")
     for index, row in players_all_df.iterrows():
         name = row['Player']
         team = row['Team']
         
         # Get updated tier and region values
-        tier_m, region_m = get_opponents_tier_and_region(row)
+        tier_m, region_m = get_opponents_tier_and_region(row, teams_df)
         
         # Update players_all_df using index
         players_all_df.loc[index, "region_m"] = region_m 
