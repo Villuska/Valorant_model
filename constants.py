@@ -1,11 +1,11 @@
 REGION_ADJUSTMENTS = {
-    "Americas": 1,
-    "Pacific": 1,
+    "Americas": 0.98,
+    "Pacific": 0.99,
     "EMEA": 1,
-    "China": 1,
+    "China": 0.97,
     "North America GC": 1,
-    "North America": 0.93,
-    "Turkey": 0.925,
+    "North America": 0.9,
+    "Turkey": 0.915,
     "France": 0.9,
     "East Surge": 0.9,
     "Brazil": 0.9,
@@ -18,7 +18,7 @@ REGION_ADJUSTMENTS = {
     "Spain": 0.84,
     "Portugal": 0.835,
     "Thailand": 0.825,
-    "MA/Sing": 0.825,
+    "MA/Sing": 0.8,
     "Indonesia": 0.825,
     "Italy": 0.82,
     "GCC": 0.82,
@@ -31,5 +31,5 @@ REGION_ADJUSTMENTS = {
     "Hong Kong": 0.73
 }
 TIER_ADJUSTMENTS = {
-    "Tier 1": 1, "Tier 2": 0.955, "Tier 2/CVal": 0.905, "Tier 3": 0.87, "Game Changers": 0.3
+    "Tier 1": 1, "Tier 2": 0.92, "Tier 2/CVal": 0.88, "Tier 3": 0.75, "Game Changers": 0.5
 }

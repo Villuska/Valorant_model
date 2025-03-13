@@ -2,6 +2,7 @@ import pandas as pd
 from file_helpers import *
 import numpy as np
 import ast
+from form_player_strengths import *
 
 def scale_value(x, in_min=100, in_max=300, out_min=0.01, out_max=0.35):
     return (x - in_min) / (in_max - in_min) * (out_max - out_min) + out_min
@@ -15,10 +16,10 @@ def all_recent_scaler(row):
     if all_rounds <= 300:
         strength = np.nan
     elif recent_rounds < 100:
-        strength = strength_all
+        strength = strength_all * 0.95
     else:
         recent_m = scale_value(row['Total_Rounds_Played_90d'])
-        strength = recent_m * strength_recent + (1-recent_m) * strength_all
+        strength = recent_m * strength_recent + (1-recent_m) * strength_all * 0.95
     return strength
 
 def team_strength_calculator(strength_90d, strength_all):
@@ -90,8 +91,11 @@ def team_strength_calculator(strength_90d, strength_all):
     save_df_as_csv(team_data, 'firepowers', 'firepower_history')
 
 def form_initial_strengths():
+    form_player_strengths()
     df_90d = pd.read_csv("player_strengths_90d.csv")
     df_all = pd.read_csv("player_strengths_all.csv")
     team_strength_calculator(df_90d, df_all)
+
+
 
 form_initial_strengths()

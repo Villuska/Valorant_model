@@ -86,12 +86,22 @@ def get_opponents_tier_and_region(url):
         for opp in opponents:
             if opp in team_names:
                 opp_row = teams_df[teams_df["team"] == opp]
-                opp_region = opp_row['region'].values[0]
-                opp_tier = opp_row['tier'].values[0]
-                if opp_region and pd.notna(opp_region):
-                    regions.append(opp_region)
-                if opp_tier and pd.notna(opp_tier):
-                    tiers.append(opp_tier)
+                if not opp_row.empty:
+                    opp_region = opp_row['region'].values[0]
+                    opp_tier = opp_row['tier'].values[0]
+                    if opp_region and pd.notna(opp_region):
+                        regions.append(opp_region)
+                    else:
+                        region = "Indonesia"
+                        regions.append(region)
+
+                    if opp_tier and pd.notna(opp_tier):
+                        tiers.append(opp_tier)
+                    else:
+                        tiers.append("Tier 3")
+                else:
+                    tiers.append("Tier 3")
+                    regions.append("Indonesia")
         return tiers, regions, opponents
     else:
         return [], [], opponents
@@ -115,12 +125,12 @@ def get_tier_region_multi(tiers, regions):
     if not len(tier_ms) == 0:
         effective_tier_m = sum(tier_ms) / len(tier_ms)
     else:
-        effective_tier_m = 0.82
+        effective_tier_m = 0.65
 
     if not len(region_ms) == 0:
         effective_reg_m = sum(region_ms) / len(region_ms)
     else:
-        effective_reg_m = 0.82
+        effective_reg_m = 0.65
 
     return round(effective_tier_m,3), round(effective_reg_m,3)
 
@@ -141,9 +151,9 @@ def scrape_player_multi():
             tiers2, regions2 = [], []
             tiers3, regions3 = [], []
 
-        opponents = opponents1 + opponents2 + opponents3
+        opponents = opponents1 + opponents2 + opponents3 
         tiers = tiers + tiers2 + tiers3
-        regions = regions + regions2
+        regions = regions + regions2 + regions3
         effective_tier_m, effective_reg_m = get_tier_region_multi(tiers, regions)
 
         players_df.loc[index, 'tier_m'] = effective_tier_m

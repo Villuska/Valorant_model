@@ -40,7 +40,7 @@ def get_players_from_soup(soup, team):
     for element in elements:
         e_text = element.text.replace("\n", "")
         for i in e_text.split("\t"):
-            if not "analyst" in e_text.split("\t") and not "head coach" in e_text.split("\t") and not "assistant coach" in e_text.split("\t"):
+            if not "analyst" in e_text.split("\t") and not "head coach" in e_text.split("\t") and not "assistant coach" in e_text.split("\t") and not "Sub" in e_text.split("\t") and not "manager" in e_text.split("\t") and not "coach" in e_text.split("\t") and not "performance coach" in e_text.split("\t"):
                 if i != "":
                     players.append(i)
                     break
@@ -98,36 +98,58 @@ def get_last_change(url):
     
 
 def get_team_data_and_add_players(url):
+    eli_df = pd.read_csv("valorant_team_strengths.csv")
     print(url)
+    eli_teams = list(eli_df['Team'])
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         name, abbrevation = get_team_data_from_soup(soup)
-        players = get_players_from_soup(soup, name)
-        last_change, changes = get_last_change(url)
-        region = None
-        tier = None
-        columns = ['team', 'abbrevation', 'region', 'tier','players', 'last_change', 'changes', 'url']
-        if os.path.exists("teams.csv"):
-            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
-            print("")
-            df.to_csv("teams.csv", header=False, mode='a', index=False)
-            print(df)
-            print("")
-        else:
-            df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
-            df.to_csv("teams.csv", index=False)
-            print("")
-            print(df)
-            print("")
+        if name in eli_teams:
+            players = get_players_from_soup(soup, name)
+            last_change, changes = get_last_change(url)
+            region = None
+            tier = None
+            columns = ['team', 'abbrevation', 'region', 'tier','players', 'last_change', 'changes', 'url']
+            if os.path.exists("teams.csv"):
+                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
+                print("")
+                df.to_csv("teams.csv", header=False, mode='a', index=False)
+                df = pd.read_csv("teams.csv")
+                df = df.drop_duplicates(subset=['team', 'abbrevation'], keep="last")
+                df.to_csv("teams.csv", index=False)
+                print(df)
+                print("")
+            else:
+                df = pd.DataFrame(columns=columns, data=[[name, abbrevation, region, tier, players, last_change, changes, url]])
+                df.to_csv("teams.csv", index=False)
+                print("")
+                print(df)
+                print("")
 
 def main():
     urls = list(pd.read_csv("team_links.csv")['url'])
     #säädä sen perusteella haluuko kaikki uudellee vai ei
     #existing_urls = pd.read_csv("teams.csv")['url'].tolist()
     #urls = list(set(urls) - set(existing_urls))
-    #for url in urls:     
-    #   get_team_data_and_add_players(url)
+    x = 0
+    for url in urls:    
+       print(f"Scraping teams {x+1} / {len(urls)}") 
+       print("")
+       get_team_data_and_add_players(url)
+       x+=1
+
+    teams_df = pd.read_csv("teams.csv")
+    teams_eli = pd.read_csv("valorant_team_strengths.csv")
+    teams_eli = teams_eli.rename(columns={"Team": "team"})
+    filtered_teams_df = teams_df[teams_df['team'].isin(teams_eli['team'])]
+    filtered_teams_df.to_csv("teams.csv", index=False)
+    save_df_as_csv(filtered_teams_df, "teams", "teams_history")
+
+    players_df = pd.read_csv("players.csv")
+    players_df = players_df.drop_duplicates(subset=['name', 'team'], keep='last')
+    players_df.to_csv("players.csv", index='false')
+
     print("")
     print("Scraping done!")
     print("")
@@ -136,3 +158,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

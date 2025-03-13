@@ -10,9 +10,9 @@ def open_most_recent_csv(df_name: str, folder_name: str = "teams_elo_history") -
     if not matching_files:
         raise FileNotFoundError(f"No files found matching the pattern: {file_pattern}")
 
-    most_recent_file = max(matching_files, key=lambda x: datetime.strptime(x[len(folder_name)+len(df_name)+2:-4], '%Y-%m-%d'))
+    most_recent_file = max(matching_files, key=lambda x: datetime.datetime.strptime(x[len(folder_name)+len(df_name)+2:-4], '%Y-%m-%d'))
     most_recent_date = most_recent_file[len(folder_name)+len(df_name)+2:-4]
-    most_recent_date = datetime.strptime(most_recent_date, '%Y-%m-%d')
+    most_recent_date = datetime.datetime.strptime(most_recent_date, '%Y-%m-%d')
     # Load the most recent file into a DataFrame
     df = pd.read_csv(most_recent_file)
 

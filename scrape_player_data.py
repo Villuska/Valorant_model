@@ -29,6 +29,7 @@ from form_initial_strengths import *
 from form_player_strengths import *
 from get_region_and_tier_m_from_scraped import *
 
+pd.set_option('mode.chained_assignment', None)
 
 def find_player_data(url, timeframe):
     df_all = pd.read_csv("player_data_all.csv")
@@ -40,7 +41,7 @@ def find_player_data(url, timeframe):
     print(f"Scraping: {url}")
     
     tries = 0
-    max_tries = 100
+    max_tries = 5
     while tries < max_tries:
         try:
             player_stats_scraper_page = requests.get(url)
@@ -50,10 +51,11 @@ def find_player_data(url, timeframe):
             player_name = [elem.text for elem in player_stats_scraper_page.select(".wf-title")][0].strip()
             break
         except Exception as e:
+            print(f"Data scrape failed, attempt number {tries+1}")
             tries += 1
             if tries == max_tries:
-                player_name = None
-            time.sleep(random.uniform(tries+0.2,tries+0.5))
+                return
+            time.sleep(random.uniform(tries*8+0.2,tries*10+0.5))
             
    
     
@@ -134,29 +136,40 @@ def find_player_data(url, timeframe):
         print("")
     
 def scrape_player_data():
-    base_urls_90 = list(pd.read_csv("players.csv")['url_90d'].dropna())
+    players_all_df, players_90_df = apply_region_and_tier_m()
+    save_df_as_csv(players_90_df, "player_data_90d", "past_player_data_90d")
+    save_df_as_csv(players_all_df, "player_data_all", "past_player_data_all")
+    df1 = open_most_recent_csv("player_data_90d", "past_player_data_90d")
+    df2 = open_most_recent_csv("player_data_all", "past_player_data_all")
+    players_all_df = players_all_df.drop(columns=["Unnamed: 0"], errors="ignore")
+    players_90_df = players_90_df.drop(columns=["Unnamed: 0"], errors="ignore")
+    df1.to_csv("player_data_90d.csv", index=False)
+    df2.to_csv("player_data_all.csv", index=False)
+    form_initial_strengths()
+
+    
+    base_urls_all = list(set(list(pd.read_csv("players.csv")['url'].dropna())))
+
     x = 0
-    for url in base_urls_90:
-        print(f"{x+1} / {len(base_urls_90)}")
+    for url in base_urls_all:
+        print(f"Scraping Players 90d {x+1} / {len(base_urls_all)}")
         x += 1
         find_player_data(url, '90d')
         players_df_90 = pd.read_csv("player_data_90d.csv")
         save_df_as_csv(players_df_90, "player_data_90d", "past_player_data_90d")
-    base_urls_all = list(pd.read_csv("players.csv")['url'].dropna())
+
     x = 0
     for url in base_urls_all:
-        print(f"{x+1} / {len(base_urls_all)}")
+        print(f" Scraping Players All {x+1} / {len(base_urls_all)}")
         x += 1
         find_player_data(url, 'all')
         players_df_all = pd.read_csv("player_data_all.csv")
         save_df_as_csv(players_df_all, "player_data_all", "past_player_data_all")
-    players_all_df, players_90_df = apply_region_and_tier_m()
-    save_df_as_csv(players_90_df, "player_data_90d", "past_player_data_90d")
-    save_df_as_csv(players_all_df, "player_data_all", "past_player_data_all")
-    form_player_strengths()
-    form_initial_strengths()
-        
 
-scrape_player_data()
+    scrape_player_multi()
+
+
+
+
 
 

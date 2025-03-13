@@ -6,33 +6,33 @@ import re
 from datetime import datetime
 
 
+def get_table_player_ids(table):
+    links = table.find_all('a', href=True)
+    player_ids = []
+    for link in links:
+        url = link['href']
+        # Check if the URL contains 'player' to filter out player URLs
+        if 'player' in url:
+            # Use regex to capture the player ID from the URL
+            match = re.search(r'/player/(\d+)/', url)
+            if match:
+                player_id = match.group(1)
+                player_ids.append(player_id)
+
+    # Print or use the list of player IDs
+    return player_ids
+
+def extract_team_name(team_string):
+    return team_string.split("[")[0].strip()
+
+
+
 def score_difference(score):
     team1, team2 = map(int, score.split('-'))
     return (team1 - team2)
 
 def clean_team_name(name):
     return re.sub(r"\s*\[.*?\]\s*", "", name).strip()
-
-def get_pistols_and_rounds(game_stats):
-
-    titles = [
-        div.get('title') for div in game_stats.find('div', class_='vlr-rounds-row').find_all('div', class_='vlr-rounds-row-col')
-        if div.get('title')  # Ensuring it has a title attribute
-    ]
-    pistols_1 = 0
-    pistols_2 = 0
-    pistol_1 = titles[0].split("-")[0]
-    if pistol_1 == "0":
-        pistols_2 += 1
-    else:
-        pistols_1 += 1
-    diff_12 = score_difference(titles[12])
-    diff_13 = score_difference(titles[13])
-    if diff_13 > diff_12:
-        pistols_1 += 1
-    else:
-        pistols_2 += 1
-    return titles, pistols_1, pistols_2
 
 
 def handle_bo_x(game_stats, team_1, team_2, date, maps_played):
@@ -43,18 +43,13 @@ def handle_bo_x(game_stats, team_1, team_2, date, maps_played):
         if i != 1:
             
             table = game_stats[i].select("table")[0]  
-            team_1_map_1 = hande_team_stats_table(table, "team_1_")
+            team_1_map_i = hande_team_stats_table(table, "team_1_", team_2)
             table = game_stats[i].select("table")[1]
-            team_2_map_1 = hande_team_stats_table(table, "team_2_")
-            rounds, pistols_1, pistols_2 = get_pistols_and_rounds(game_stats[i])
-            map_df = combine_and_clean_team_stats(team_1_map_1, team_2_map_1, team_1, team_2, date)
-            map_df['team_1_pistols'] = pistols_1
-            map_df['team_2_pistols'] = pistols_2
-            map_df['rounds_prog'] = [rounds]
-            match_df = pd.concat([match_df, map_df], ignore_index=True)
+            team_2_map_i = hande_team_stats_table(table, "team_2_", team_1)
 
-
-    match_df['map'] = maps_played
+            match_df = pd.concat([match_df, team_1_map_i], ignore_index=True)
+            match_df = pd.concat([match_df, team_2_map_i], ignore_index=True)
+    match_df['date'] = date
     return match_df
 
 def combine_and_clean_team_stats(team_1_stats, team_2_stats, team_1, team_2, date):
@@ -65,10 +60,12 @@ def combine_and_clean_team_stats(team_1_stats, team_2_stats, team_1, team_2, dat
     df_combined.insert(0, 'team_1', team_1)
     return df_combined
 
-def hande_team_stats_table(table, team):
+def hande_team_stats_table(table, team, opponent):
     # Extract table headers (if present), cleaning unwanted characters
+    player_ids = get_table_player_ids(table)
     try:
         headers = [re.sub(r'\n\d+', '', th.text.replace('\t', '').replace('\n', '').strip()) for th in table.find_all('th')]
+        
 
         # Extract table rows, cleaning unwanted characters
         rows = []
@@ -135,6 +132,7 @@ def hande_team_stats_table(table, team):
         # HS%: Keep the first 3 digits
         df['HS%'] = df['HS%'].apply(lambda x: re.match(r'\d{1,3}', x).group() if re.match(r'\d{1,3}', x) else x)
         #print(df)
+        
         def keep_first_plus_or_minus(value):
             # Match the first '+' or '-' followed by the number
             match = re.match(r"([+-]\d+)", value)
@@ -156,14 +154,13 @@ def hande_team_stats_table(table, team):
             '+/–_0': 'KD_diff',
             '+/–_1': 'op_diff'
         })
-        df = df.drop(columns=['rating', 'HS%'])
-        df = df.apply(pd.to_numeric, errors='coerce')
-        average_row = df.mean()
-        average_row = average_row.dropna()
-        df_averages = pd.DataFrame([average_row], columns=average_row.index)
-        df_averages.columns = [team + col for col in df_averages.columns]
+        #df = df.drop(columns=['rating', 'HS%'])
+        df = df.drop(columns=['HS%'])
+        df['opponent'] = opponent
+                
+        df['id'] = player_ids
 
-        return df_averages
+        return df
     except Exception as e:
         return pd.DataFrame()
 
@@ -201,28 +198,33 @@ def game_stats_scraping_function(url):
         date = "2025-01-01"
    
 
-
+    team_1 = extract_team_name(team_1)
+    team_2 = extract_team_name(team_2)
     game_stats = soup.select(".vm-stats-game")
     maps_played = soup.find('div', class_='vm-stats-gamesnav-container').text.replace("\t", "").replace("\n", "")
     maps_played = maps_played.replace("All Maps", "")
     split_list = re.split(r'\d+', maps_played)  # Split by one or more digits
     # Step 3: Remove any empty strings from the list (if any)
     maps_played = [item for item in split_list if item]
-
-
+    maps_played = soup.find('div', class_='vm-stats-gamesnav-container').text.replace("\t", "").replace("\n", "")
+    maps_played = maps_played.replace("All Maps", "")
+    split_list = re.split(r'\d+', maps_played)  # Split by one or more digits
+    # Step 3: Remove any empty strings from the list (if any)
+    maps_played = [item for item in split_list if item]
+    print(maps_played)
+    
     match_df = handle_bo_x(game_stats, team_1, team_2, date, maps_played)
-    cols = match_df.columns.tolist()  # Get the current column order
-    cols.remove("map")  # Remove "map" from its current position
-    cols.insert(2, "map")  # Insert "map" at the third position
-
-    # Reorder the DataFrame
-    match_df = match_df[cols]
-
+    match_df.columns.values[0] = 'name'
+    print(match_df.columns)
+    desired_order = ['name', 'id', 'rating', 'ACS', 'K', 'D', 'A', 'KD_diff', 'KAST', 'ADR', 'FK', 'FD', 'op_diff', 'opponent', 'date']
+    match_df = match_df[desired_order]
     print(match_df)
+    print(team_1, team_2)
+    print(match_df.columns)
     return match_df
 
 
 df = game_stats_scraping_function("https://www.vlr.gg/429390/team-vitality-vs-team-liquid-champions-tour-2025-emea-kickoff-gf")
-df.to_csv("example_match_data.csv", index=False)
 
+df.to_csv("example_match_data.csv", index=False)
 """ota mapin rundit silleen et numbers = rundit ja sit tee loppuun"""
